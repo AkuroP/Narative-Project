@@ -9,8 +9,11 @@ public class DialogueTalkZone : MonoBehaviour
     [SerializeField] private KeyCode talkKey = KeyCode.E;
     [SerializeField] private Text keyInputText;
 
+    private DialogueTalk _dialogueTalk;
+
     private void Awake()
     {
+        _dialogueTalk = GetComponent<DialogueTalk>();
         speechBubble.SetActive(false);
         keyInputText.text = talkKey.ToString();
     }
@@ -20,11 +23,11 @@ public class DialogueTalkZone : MonoBehaviour
         if(Input.GetKeyDown(talkKey) && speechBubble.activeSelf)
         {
             // TODO: Start Dialogue.
-            Debug.Log("Start Dialouge");
+            _dialogueTalk.StartDialogue();
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Player"))
         {
@@ -32,7 +35,7 @@ public class DialogueTalkZone : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
         {
