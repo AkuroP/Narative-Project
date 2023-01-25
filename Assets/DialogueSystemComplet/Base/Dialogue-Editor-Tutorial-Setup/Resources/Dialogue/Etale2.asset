@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
+  m_Name: Etale2
+  m_EditorClassIdentifier: 
+  nodeLinkDatas:
+  - baseNodeGuid: 7c24676e-804f-4963-ae0a-9dda58fc988e
+    basePortName: Output
+    targetNodeGuid: 19e88801-41a8-4d7d-b28e-a203350a4bfa
+    targetPortName: Input
+  - baseNodeGuid: 19e88801-41a8-4d7d-b28e-a203350a4bfa
+    basePortName: Continue
+    targetNodeGuid: 2dff5016-810a-4761-af5e-9306b9739a17
+    targetPortName: Input
+  startDatas:
+  - nodeGuid: 7c24676e-804f-4963-ae0a-9dda58fc988e
+    position: {x: 298.4, y: 400}
+  dialogueDatas:
+  - nodeGuid: 19e88801-41a8-4d7d-b28e-a203350a4bfa
+    position: {x: 375.2, y: 400}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 1
+      guidID:
+        value: ca046e06-d6be-40bd-b99c-6132b53ca4f4
+      text:
+      - languageType: 1
+        languageGenericType: "D\u2019un seul coup Cl\xE9mence est de retour et sa
+          m\xE8re est maintenant en train de faire la queue pour acheter des fruits,
+          mais il se passe quoi l\xE0 ?!"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 2
+      guidID:
+        value: 529e540b-26f1-43b6-955b-f66e6b1d9cb0
+      text:
+      - languageType: 1
+        languageGenericType: "Tout le monde fait comme d\u2019habitude et ne semble
+          pas choqu\xE9 ! \xC7a n'est quand m\xEAme pas le village tout entier qui
+          me fait une blague ?!\r"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 3
+      guidID:
+        value: bc5aec44-c268-40cb-8364-d08cb51aae17
+      text:
+      - languageType: 1
+        languageGenericType: "Je devrai mener ma petite enqu\xEAte.\r"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages: []
+    dialogueDataPorts: []
+  eventDatas: []
+  branchDatas: []
+  choiceDatas: []
+  endDatas:
+  - nodeGuid: 2dff5016-810a-4761-af5e-9306b9739a17
+    position: {x: 652.8, y: 400}
+    endNodeType:
+      value: 1

@@ -13,10 +13,6 @@ MonoBehaviour:
   m_Name: YankeeBurger
   m_EditorClassIdentifier: 
   nodeLinkDatas:
-  - baseNodeGuid: fea421d2-772b-4beb-aced-f2345583b5ed
-    basePortName: Output
-    targetNodeGuid: 273c1bbd-7867-4f54-983d-732e85253411
-    targetPortName: Input
   - baseNodeGuid: 0b0143f6-c0c5-4281-899d-5eb1cb49b013
     basePortName: Output
     targetNodeGuid: 3edee6fa-3fc5-42b2-9901-ff00656aff8e
@@ -45,10 +41,6 @@ MonoBehaviour:
     basePortName: Continue
     targetNodeGuid: 0b0143f6-c0c5-4281-899d-5eb1cb49b013
     targetPortName: Input
-  - baseNodeGuid: fb59f474-54b4-4c74-945e-eda81ca9890f
-    basePortName: Continue
-    targetNodeGuid: ef6e40f6-ec45-40bb-9418-50845f3217de
-    targetPortName: Input
   - baseNodeGuid: 273c1bbd-7867-4f54-983d-732e85253411
     basePortName: 619ca739-38eb-4ec3-b7a4-34e5848e86eb
     targetNodeGuid: 988f9dd7-de6c-4a05-bf15-63bac0d81c12
@@ -56,6 +48,18 @@ MonoBehaviour:
   - baseNodeGuid: 273c1bbd-7867-4f54-983d-732e85253411
     basePortName: 6e686170-f098-4d1e-8f2a-c1aa6f93e90b
     targetNodeGuid: a915b06a-6903-400f-8d01-ca385b66f178
+    targetPortName: Input
+  - baseNodeGuid: fea421d2-772b-4beb-aced-f2345583b5ed
+    basePortName: Output
+    targetNodeGuid: 9cd067d7-7229-4d0c-a86c-65233c9007b9
+    targetPortName: Input
+  - baseNodeGuid: 9cd067d7-7229-4d0c-a86c-65233c9007b9
+    basePortName: False
+    targetNodeGuid: 273c1bbd-7867-4f54-983d-732e85253411
+    targetPortName: Input
+  - baseNodeGuid: 9cd067d7-7229-4d0c-a86c-65233c9007b9
+    basePortName: True
+    targetNodeGuid: ef6e40f6-ec45-40bb-9418-50845f3217de
     targetPortName: Input
   startDatas:
   - nodeGuid: fea421d2-772b-4beb-aced-f2345583b5ed
@@ -96,7 +100,7 @@ MonoBehaviour:
         value: {fileID: 21300000, guid: a5dfd3f8b4691c24fa39247230984895, type: 3}
     dialogueDataPorts: []
   - nodeGuid: d91f344c-4409-49df-b9c1-a022729ce02d
-    position: {x: 1232, y: 410.40002}
+    position: {x: 1232, y: 410.4}
     dialogueDataNames:
     - id:
         value: 1
@@ -112,40 +116,6 @@ MonoBehaviour:
         languageGenericType: nique ses mort
       - languageType: 2
         languageGenericType: fuck you
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    dialogueDataImages:
-    - id:
-        value: 0
-      spriteLeft:
-        value: {fileID: 21300000, guid: c4cc9d48f5f731247b80624d04ea9a2c, type: 3}
-      spriteRight:
-        value: {fileID: 21300000, guid: a5dfd3f8b4691c24fa39247230984895, type: 3}
-    dialogueDataPorts: []
-  - nodeGuid: fb59f474-54b4-4c74-945e-eda81ca9890f
-    position: {x: 843.2, y: -262.4}
-    dialogueDataNames:
-    - id:
-        value: 1
-      characterName:
-        value: Jiselle
-    dialogueDataTexts:
-    - id:
-        value: 2
-      guidID:
-        value: 4cc9fee5-adb0-49df-ac96-2217a2e4c169
-      text:
-      - languageType: 1
-        languageGenericType: "\xE7a va genshin"
-      - languageType: 2
-        languageGenericType: genshin
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -241,7 +211,7 @@ MonoBehaviour:
       outputGuid: 273c1bbd-7867-4f54-983d-732e85253411
   eventDatas:
   - nodeGuid: 0b0143f6-c0c5-4281-899d-5eb1cb49b013
-    position: {x: 1530.4, y: 401.6}
+    position: {x: 1530.4, y: 401.59998}
     stringModifiers:
     - stringEventText:
         value: money
@@ -267,7 +237,7 @@ MonoBehaviour:
         value: 3
     dialogueEventSos: []
   - nodeGuid: 2ba8eabd-2444-4687-90ce-dd80bd25cff3
-    position: {x: 908.8, y: 213.59999}
+    position: {x: 908.8, y: 213.6}
     stringModifiers:
     - stringEventText:
         value: didaskforfood
@@ -276,10 +246,21 @@ MonoBehaviour:
       stringEventModifierType:
         value: 1
     dialogueEventSos: []
-  branchDatas: []
+  branchDatas:
+  - nodeGuid: 9cd067d7-7229-4d0c-a86c-65233c9007b9
+    position: {x: 622, y: -140.4}
+    trueGuidNode: ef6e40f6-ec45-40bb-9418-50845f3217de
+    falseGuidNode: 273c1bbd-7867-4f54-983d-732e85253411
+    stringConditions:
+    - stringEventText:
+        value: didaskforfood
+      number:
+        value: 0
+      stringEventConditionType:
+        value: 1
   choiceDatas:
   - nodeGuid: 988f9dd7-de6c-4a05-bf15-63bac0d81c12
-    position: {x: 592.8, y: 213.59999}
+    position: {x: 592.8, y: 213.6}
     choiceStateTypes:
       value: 1
     text:
@@ -318,7 +299,7 @@ MonoBehaviour:
     stringConditions: []
   endDatas:
   - nodeGuid: 3edee6fa-3fc5-42b2-9901-ff00656aff8e
-    position: {x: 1974.4, y: 401.6}
+    position: {x: 1974.4, y: 401.59998}
     endNodeType:
       value: 3
   - nodeGuid: ef6e40f6-ec45-40bb-9418-50845f3217de

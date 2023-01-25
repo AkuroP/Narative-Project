@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
+  m_Name: DialogueClemenceMother
+  m_EditorClassIdentifier: 
+  nodeLinkDatas: []
+  startDatas:
+  - nodeGuid: 50cc9442-d6af-4fae-996c-abfa7ea9352e
+    position: {x: 242, y: 219.6}
+  dialogueDatas:
+  - nodeGuid: b1d12b8e-4137-42c7-9c3d-29dc1d269c8d
+    position: {x: 557.6, y: 291.59998}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    - id:
+        value: 2
+      characterName:
+        value: Madame L'Angelier
+    dialogueDataTexts:
+    - id:
+        value: 1
+      guidID:
+        value: 9aa5fb28-6866-4e66-9f99-39fb6c614762
+      text:
+      - languageType: 1
+        languageGenericType: "Mais\u2026 Elle est pass\xE9e o\xF9 Cl\xE9mence ?"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 3
+      guidID:
+        value: 7945904d-cd27-4aae-9330-28eddb6365b2
+      text:
+      - languageType: 1
+        languageGenericType: "Oulah tu viens de te r\xE9veiller Ambre ?! \xC7a fait
+          quatre mois qu'elle est partie Cl\xE9mence !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 4
+      guidID:
+        value: bc3f4971-6c47-46ad-80ce-b4846d5ce572
+      text:
+      - languageType: 1
+        languageGenericType: "Je sais bien que c\u2019est un peu plus difficile sans
+          elle et qu\u2019elle ne communique pas beaucoup mais tu sais c\u2019est
+          tr\xE8s important pour elle. Ne t\u2019inqui\xE8tes pas, elle reviendra
+          de temps en temps au village, probablement pour les vacances."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 5
+      guidID:
+        value: aa7da14f-09c8-4679-8301-5ada6b510024
+      text:
+      - languageType: 1
+        languageGenericType: "Bon sinon tu comptes m\u2019acheter quelque chose ou
+          non ?"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages: []
+    dialogueDataPorts: []
+  - nodeGuid: f256eed1-b843-48fe-80f5-4f0fb87572ad
+    position: {x: 557.6, y: -22}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Madame L'Angelier
+    dialogueDataTexts:
+    - id:
+        value: 1
+      guidID:
+        value: edf06376-e560-4db3-a789-504f8563eb14
+      text:
+      - languageType: 1
+        languageGenericType: Tu veux m'acheter quelque chose ?
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages: []
+    dialogueDataPorts: []
+  - nodeGuid: d29b15dd-168d-44c6-8eaf-53886d15152d
+    position: {x: 835.2, y: 291.59998}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 1
+      guidID:
+        value: 9212ada9-290c-4368-a838-b02a12b6eac9
+      text:
+      - languageType: 1
+        languageGenericType: "Mais qu\u2019est-ce qu\u2019il se passe ? Un instant
+          Cl\xE9mence est de retour et n\u2019est jamais partie, l\u2019autre elle
+          est toujours en train de faire ses \xE9tudes.\nJe ne comprends pas ce qu\u2019il
+          se passe\u2026 Ils me font tous une blague ?"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages: []
+    dialogueDataPorts: []
+  eventDatas: []
+  branchDatas:
+  - nodeGuid: fbd85edd-7820-4b05-a15a-585943bdc870
+    position: {x: 318.8, y: 219.6}
+    trueGuidNode: 
+    falseGuidNode: 
+    stringConditions: []
+  choiceDatas: []
+  endDatas:
+  - nodeGuid: 8e6b273b-e622-4a68-be47-7016237dd287
+    position: {x: 1112.8, y: 291.59998}
+    endNodeType:
+      value: 1
