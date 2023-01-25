@@ -76,7 +76,7 @@ namespace Team06
             //reset settings for moving
             playerIsMoving = false;
 
-            StopCoroutine(moveCoroutine);
+            if(moveCoroutine != null)StopCoroutine(moveCoroutine);
         }
 
         private IEnumerator Move(Vector2 dir)

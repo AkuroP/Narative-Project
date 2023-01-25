@@ -21,20 +21,20 @@ MonoBehaviour:
     basePortName: Continue
     targetNodeGuid: 1757f5b1-43e5-4248-b7d6-6abe853a40b0
     targetPortName: Input
-  - baseNodeGuid: 84796f8e-6787-4bcb-8eaf-6d6b0bb7cafd
-    basePortName: Continue
-    targetNodeGuid: e66f1c6e-2584-4dc9-81ef-ea81a17c1c06
-    targetPortName: Input
   - baseNodeGuid: 1757f5b1-43e5-4248-b7d6-6abe853a40b0
     basePortName: Continue
     targetNodeGuid: 84796f8e-6787-4bcb-8eaf-6d6b0bb7cafd
     targetPortName: Input
+  - baseNodeGuid: 84796f8e-6787-4bcb-8eaf-6d6b0bb7cafd
+    basePortName: Continue
+    targetNodeGuid: e66f1c6e-2584-4dc9-81ef-ea81a17c1c06
+    targetPortName: Input
   startDatas:
   - nodeGuid: 94a3d9ca-3106-4117-bbde-0dd0421c4c36
-    position: {x: -205.6, y: -697.6}
+    position: {x: -206, y: -698}
   dialogueDatas:
   - nodeGuid: 27c7943b-916e-45e9-9563-95b0f9b5be31
-    position: {x: -131.2, y: -697.6}
+    position: {x: -131, y: -698}
     dialogueDataNames:
     - id:
         value: 0
@@ -81,7 +81,7 @@ MonoBehaviour:
     dialogueDataImages: []
     dialogueDataPorts: []
   - nodeGuid: 1757f5b1-43e5-4248-b7d6-6abe853a40b0
-    position: {x: 146.4, y: -697.6}
+    position: {x: 146, y: -698}
     dialogueDataNames:
     - id:
         value: 0
@@ -246,12 +246,9 @@ MonoBehaviour:
       - languageType: 3
         languageGenericType: {fileID: 0}
     dialogueDataImages: []
-    dialogueDataPorts:
-    - portGuid: e7e2d8e9-89e9-4603-bcf0-a251583cb269
-      inputGuid: 
-      outputGuid: 
+    dialogueDataPorts: []
   - nodeGuid: 84796f8e-6787-4bcb-8eaf-6d6b0bb7cafd
-    position: {x: 424, y: -697.6}
+    position: {x: 424, y: -698}
     dialogueDataNames:
     - id:
         value: 0
@@ -285,6 +282,6 @@ MonoBehaviour:
   choiceDatas: []
   endDatas:
   - nodeGuid: e66f1c6e-2584-4dc9-81ef-ea81a17c1c06
-    position: {x: 701.6, y: -697.6}
+    position: {x: 702, y: -698}
     endNodeType:
       value: 1
