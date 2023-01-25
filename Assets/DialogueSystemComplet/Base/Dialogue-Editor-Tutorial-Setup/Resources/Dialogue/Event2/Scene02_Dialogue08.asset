@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
+  m_Name: Scene02_Dialogue08
+  m_EditorClassIdentifier: 
+  nodeLinkDatas:
+  - baseNodeGuid: 25b637a3-92f0-433e-9427-4aa23cd0d525
+    basePortName: Output
+    targetNodeGuid: 2f376aea-2520-4ebe-8707-43cba1c34c80
+    targetPortName: Input
+  startDatas:
+  - nodeGuid: 25b637a3-92f0-433e-9427-4aa23cd0d525
+    position: {x: 400, y: 300.80002}
+  dialogueDatas:
+  - nodeGuid: 2f376aea-2520-4ebe-8707-43cba1c34c80
+    position: {x: 497.6, y: 300.80002}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 42f127c0-b44a-4d18-8ba5-8847243b7178
+      text:
+      - languageType: 1
+        languageGenericType: "Ironiquement, je ressens encore moins la pr\xE9sence
+          de Clem ici."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  eventDatas: []
+  branchDatas: []
+  choiceDatas: []
+  endDatas: []
