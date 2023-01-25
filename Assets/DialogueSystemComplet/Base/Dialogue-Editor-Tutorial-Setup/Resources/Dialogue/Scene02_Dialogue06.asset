@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
+  m_Name: Scene02_Dialogue06
+  m_EditorClassIdentifier: 
+  nodeLinkDatas:
+  - baseNodeGuid: 58ce9a10-83b3-4428-8f17-0200b08f1d28
+    basePortName: Output
+    targetNodeGuid: e5517730-a715-4157-8d3e-42392d184b0b
+    targetPortName: Input
+  - baseNodeGuid: e5517730-a715-4157-8d3e-42392d184b0b
+    basePortName: Continue
+    targetNodeGuid: 5495ebff-1745-480e-9cb0-0b3338d03e28
+    targetPortName: Input
+  - baseNodeGuid: 5495ebff-1745-480e-9cb0-0b3338d03e28
+    basePortName: Continue
+    targetNodeGuid: 8869da22-650c-4799-a183-2c911c8630a9
+    targetPortName: Input
+  startDatas:
+  - nodeGuid: 58ce9a10-83b3-4428-8f17-0200b08f1d28
+    position: {x: 300, y: 201.59999}
+  dialogueDatas:
+  - nodeGuid: e5517730-a715-4157-8d3e-42392d184b0b
+    position: {x: 400.8, y: 201.59999}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 01ce90b6-d051-4b98-9fd6-e0fe499d6bd2
+      text:
+      - languageType: 1
+        languageGenericType: "L\xE0 voil\xE0 ! Je savais bien que j\u2019avais bosser
+          chez ce bon vieux Ren\xE9 ! Mais \xE7a fait aucun sens, pourquoi j\u2019aurais
+          perdu la lettre dans l\u2019autre monde ?"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: 5495ebff-1745-480e-9cb0-0b3338d03e28
+    position: {x: 700, y: 201.59999}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: ac962474-f2ab-4cf5-91de-114f6ed6f111
+      text:
+      - languageType: 1
+        languageGenericType: "Je n\u2019aurais jamais perdu un papier aussi important,
+          mais j\u2019aurais pu m\u2019en d\xE9barrasser. Pour une fiche de paie
+          banale c\u2019est normal, mais si c\u2019\xE9tait pour un autre boulot,
+          plus incriminant\u2026"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 3
+      guidID:
+        value: 9cfd221a-5a86-415c-8036-a7c5161c7b2e
+      text:
+      - languageType: 1
+        languageGenericType: "Non non ! Pour qui je me prends ?! Une criminelle qui
+          d\xE9truit ses preuves ? N\u2019importe quoi, et puis c\u2019est pas la
+          seule fa\xE7on de prouver que j\u2019\xE9tais l\xE0-bas, ma m\xE8re aurait
+          pu cracher le morceau."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 4
+      guidID:
+        value: bb2b2a87-1741-4426-a40b-3f167efa2228
+      text:
+      - languageType: 1
+        languageGenericType: "A moins que je lui demande de garder le secret parce
+          que \u201Cc\u2019est embarrassant\u201D ? Elle le ferait, et apr\xE8s j\u2019aurais
+          juste \xE0 garder la lettre\u2026 et la garder ? Pourquoi ?"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 5
+      guidID:
+        value: 3f2e07cd-ba44-4d9c-9aef-7a49038c4e2b
+      text:
+      - languageType: 1
+        languageGenericType: "Peut-\xEAtre pour falsifier d\u2019autres lettres dans
+          le futur ? \xC7a serait facile avec l\u2019\xE9quipement de la Poste\u2026"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 6
+      guidID:
+        value: cb2ff79a-f17c-46ac-a274-3ba8e5aa93b4
+      text:
+      - languageType: 1
+        languageGenericType: "Non ! NON ! Pourquoi je pense \xE0 tout \xE7a d\u2019un
+          coup ?! Les id\xE9es me viennent si naturellement\u2026 c\u2019est moi
+          qui a fait \xE7a\u2026 j\u2019ai vraiment fait un truc horrible\u2026"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: 8869da22-650c-4799-a183-2c911c8630a9
+    position: {x: 1002.4, y: 202.4}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: 
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: c1a5b742-322f-4b6f-9f6f-b2d55e6180fa
+      text:
+      - languageType: 1
+        languageGenericType: AH !
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 3
+      guidID:
+        value: 8a547b44-f59a-4a95-85ce-b4f24a418735
+      text:
+      - languageType: 1
+        languageGenericType: "S\xE9rieux, avoir peur d\u2019un t\xE9l\xE9phone \xE0
+          mon \xE2ge\u2026"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  eventDatas: []
+  branchDatas: []
+  choiceDatas: []
+  endDatas: []
