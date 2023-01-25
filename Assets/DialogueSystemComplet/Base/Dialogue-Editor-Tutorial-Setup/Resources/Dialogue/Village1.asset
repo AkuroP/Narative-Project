@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: Village1
   m_EditorClassIdentifier: 
   nodeLinkDatas:
+  - baseNodeGuid: 33f34225-b83c-41f6-bc13-56a5198b64a2
+    basePortName: Output
+    targetNodeGuid: 467e52e7-ef4d-490d-86e7-0bffd612e40f
+    targetPortName: Input
   - baseNodeGuid: 467e52e7-ef4d-490d-86e7-0bffd612e40f
     basePortName: Continue
     targetNodeGuid: 7f18e392-2f91-45a5-a4d9-f36f32fa6804
@@ -25,16 +29,12 @@ MonoBehaviour:
     basePortName: Continue
     targetNodeGuid: 5c58c5e9-5b4e-4343-a944-676ce8024488
     targetPortName: Input
-  - baseNodeGuid: 33f34225-b83c-41f6-bc13-56a5198b64a2
-    basePortName: Output
-    targetNodeGuid: 467e52e7-ef4d-490d-86e7-0bffd612e40f
-    targetPortName: Input
   startDatas:
   - nodeGuid: 33f34225-b83c-41f6-bc13-56a5198b64a2
-    position: {x: -599.6, y: 345.59998}
+    position: {x: -599.2, y: 345.6}
   dialogueDatas:
   - nodeGuid: 467e52e7-ef4d-490d-86e7-0bffd612e40f
-    position: {x: -432, y: 354.8}
+    position: {x: -432, y: 355.2}
     dialogueDataNames:
     - id:
         value: 0
@@ -48,7 +48,7 @@ MonoBehaviour:
       text:
       - languageType: 1
         languageGenericType: "Je n\u2019arrive pas \xE0 croire que \xE7a fait quatre
-          mois que Cl\xE9mence est partie."
+          mois que Clem est partie."
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -66,8 +66,8 @@ MonoBehaviour:
         value: dec23e91-ebbf-4c37-8d03-b4d59b528f11
       text:
       - languageType: 1
-        languageGenericType: "Tout \xE9tait si peu compliqu\xE9 quand elle \xE9tait
-          encore l\xE0\u2026 Et qu\u2019est-ce qu\u2019on s\u2019amusait !"
+        languageGenericType: "Tout \xE9tait si facile quand elle \xE9tait encore
+          l\xE0\u2026 Et qu\u2019est-ce qu\u2019on s\u2019amusait !"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -103,7 +103,7 @@ MonoBehaviour:
     dialogueDataImages: []
     dialogueDataPorts: []
   - nodeGuid: 7f18e392-2f91-45a5-a4d9-f36f32fa6804
-    position: {x: -154.4, y: 354.8}
+    position: {x: -154.4, y: 355.2}
     dialogueDataNames:
     - id:
         value: 0
@@ -189,7 +189,7 @@ MonoBehaviour:
     dialogueDataImages: []
     dialogueDataPorts: []
   - nodeGuid: 59695603-b1d5-436a-8354-10414682e391
-    position: {x: 123.2, y: 354.8}
+    position: {x: 123.2, y: 355.2}
     dialogueDataNames:
     - id:
         value: 0
@@ -241,7 +241,7 @@ MonoBehaviour:
         value: e2c281df-d32b-4011-871b-37d39e920c1f
       text:
       - languageType: 1
-        languageGenericType: "Mais elle ne m\u2019a m\xEAme pas demand\xE9 mon avis\u2026
+        languageGenericType: "Est-ce qu'elle a vraiment pris mon avis en compte ?
           On dirait presque qu\u2019elle s\u2019est enfuie \xE0 cause de moi\u2026
           Qu\u2019est-ce que je suis suppos\xE9e faire maintenant ?!"
       - languageType: 2
@@ -281,6 +281,6 @@ MonoBehaviour:
   choiceDatas: []
   endDatas:
   - nodeGuid: 5c58c5e9-5b4e-4343-a944-676ce8024488
-    position: {x: 482.8, y: 354.8}
+    position: {x: 483.2, y: 355.2}
     endNodeType:
       value: 1

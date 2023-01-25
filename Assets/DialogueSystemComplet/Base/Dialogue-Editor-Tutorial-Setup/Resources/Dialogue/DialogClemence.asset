@@ -15,10 +15,10 @@ MonoBehaviour:
   nodeLinkDatas: []
   startDatas:
   - nodeGuid: fd9c97fb-7d10-4aaf-a52f-a66260a051e9
-    position: {x: 126, y: 224.8}
+    position: {x: 126.4, y: 224.8}
   dialogueDatas:
   - nodeGuid: 5fe24b2a-aabf-4e06-a4e2-c1096255b508
-    position: {x: 482, y: 284.8}
+    position: {x: 482.4, y: 284.80002}
     dialogueDataNames:
     - id:
         value: 0
@@ -43,7 +43,7 @@ MonoBehaviour:
         value: 22f4764f-0395-48c2-9a2d-95754d0ef528
       text:
       - languageType: 1
-        languageGenericType: "Et l\xE0 tu es de retour !"
+        languageGenericType: "Et l\xE0 t'es de retour !"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -81,7 +81,7 @@ MonoBehaviour:
         value: 9d2ea674-3b5e-4840-8983-b3bfbdcbd493
       text:
       - languageType: 1
-        languageGenericType: "Je n\u2019y comprends rien\u2026"
+        languageGenericType: "J\u2019y comprends rien\u2026"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -114,7 +114,7 @@ MonoBehaviour:
     dialogueDataImages: []
     dialogueDataPorts: []
   - nodeGuid: 3f824a88-aa29-4b93-a02b-af7e65578358
-    position: {x: 482, y: -250}
+    position: {x: 482.4, y: -249.6}
     dialogueDataNames:
     - id:
         value: 0
@@ -147,7 +147,7 @@ MonoBehaviour:
       text:
       - languageType: 1
         languageGenericType: "Celui que je connais et celui-ci, o\xF9 j\u2019ai l\u2019impression
-          que Cl\xE9mence est rest\xE9e et ce pour je ne sais quelle raison."
+          que Clem est rest\xE9e et ce pour je ne sais quelle raison."
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -184,7 +184,7 @@ MonoBehaviour:
       text:
       - languageType: 1
         languageGenericType: "C\u2019est g\xE9nial ! Je peux \xE0 nouveau vivre avec
-          Cl\xE9mence ! Tout va mieux !"
+          Clem ! Tout va mieux !"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -199,7 +199,7 @@ MonoBehaviour:
     dialogueDataImages: []
     dialogueDataPorts: []
   - nodeGuid: f1b6665b-64d1-42cb-99a7-ca1cb0ff438f
-    position: {x: 759.6, y: -250}
+    position: {x: 760, y: -249.6}
     dialogueDataNames:
     - id:
         value: 0
@@ -333,14 +333,14 @@ MonoBehaviour:
     dialogueDataPorts: []
   eventDatas: []
   branchDatas:
-  - nodeGuid: a6657eb1-ed8d-43cb-b35c-014560fe8962
-    position: {x: 202.8, y: 224.8}
+  - nodeGuid: 5c52d012-aae2-42ef-a929-e9b57f2e2716
+    position: {x: 202.4, y: 224.8}
     trueGuidNode: 
     falseGuidNode: 
     stringConditions: []
   choiceDatas: []
   endDatas:
   - nodeGuid: 6dfad6a8-8f59-4710-9440-a93e84edb66a
-    position: {x: 1062.8, y: 250.40001}
+    position: {x: 1063.2, y: 250.40001}
     endNodeType:
       value: 1

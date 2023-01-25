@@ -23,10 +23,10 @@ MonoBehaviour:
     targetPortName: Input
   startDatas:
   - nodeGuid: 4f7a6a58-91f1-4a68-8e04-449959056130
-    position: {x: 101.2, y: 98.8}
+    position: {x: 101.6, y: 99.2}
   dialogueDatas:
   - nodeGuid: 69c8a7bc-28b3-48b3-8202-a8878ed88b26
-    position: {x: 178, y: 98.8}
+    position: {x: 178.4, y: 99.2}
     dialogueDataNames:
     - id:
         value: 0
@@ -39,7 +39,7 @@ MonoBehaviour:
         value: cad26738-a31a-43ac-ac41-6afa093e62ab
       text:
       - languageType: 1
-        languageGenericType: "J\u2019ai vraiment r\xEAv\xE9 de tout \xE7a ?"
+        languageGenericType: "J\u2019ai vraiment r\xEAv\xE9 tout \xE7a ?"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -77,6 +77,6 @@ MonoBehaviour:
   choiceDatas: []
   endDatas:
   - nodeGuid: bde1fac6-8cc8-4ef3-9270-9c7be9265c35
-    position: {x: 455.6, y: 98.8}
+    position: {x: 456, y: 99.2}
     endNodeType:
       value: 1
