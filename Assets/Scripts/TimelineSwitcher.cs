@@ -33,10 +33,15 @@ namespace TeamSix {
 
                     if (direction.y >= 0 && direction.y >= Vector3.up.y - offset) {
                         Debug.Log("UUUPPPP");
-                        _timelineIndex = _timelineIndex == 0 ? 1 : 0;
 
-                        _timelines[_timelineIndex].SetActive(true);
-                        _timelines[_timelineIndex == 1 ? 0 : 1].SetActive(false);
+                        if (_timelineIndex == 0)
+                        {
+                            _timelineIndex = 1;
+                            _timelines[_timelineIndex].SetActive(true);
+                            _timelines[_timelineIndex == 1 ? 0 : 1].SetActive(false);
+
+                        }
+
                     }
 
                     if (direction.y <= 0 && direction.y <= (Vector3.up.y - offset) * -1) {
