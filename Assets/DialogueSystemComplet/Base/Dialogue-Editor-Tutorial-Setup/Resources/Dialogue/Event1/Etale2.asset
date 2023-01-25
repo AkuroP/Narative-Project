@@ -39,9 +39,9 @@ MonoBehaviour:
         value: ca046e06-d6be-40bd-b99c-6132b53ca4f4
       text:
       - languageType: 1
-        languageGenericType: "D\u2019un seul coup Cl\xE9mence est de retour et sa
-          m\xE8re est maintenant en train de faire la queue pour acheter des fruits,
-          mais il se passe quoi l\xE0 ?!"
+        languageGenericType: "D\u2019un seul coup Clem est de retour et sa m\xE8re
+          est maintenant en train de faire la queue pour acheter des fruits ! Il
+          se passe quoi l\xE0 ?!"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -60,8 +60,8 @@ MonoBehaviour:
       text:
       - languageType: 1
         languageGenericType: "Tout le monde fait comme d\u2019habitude et ne semble
-          pas choqu\xE9 ! \xC7a n'est quand m\xEAme pas le village tout entier qui
-          me fait une blague ?!\r"
+          pas choqu\xE9. C'est quand m\xEAme pas le village tout entier qui me fait
+          une blague ?!\r"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -79,7 +79,7 @@ MonoBehaviour:
         value: bc5aec44-c268-40cb-8364-d08cb51aae17
       text:
       - languageType: 1
-        languageGenericType: "Je devrai mener ma petite enqu\xEAte.\r"
+        languageGenericType: "J'devrai mener ma petite enqu\xEAte.\r"
       - languageType: 2
         languageGenericType: 
       - languageType: 3

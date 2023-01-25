@@ -25,12 +25,16 @@ MonoBehaviour:
     basePortName: Continue
     targetNodeGuid: e66f1c6e-2584-4dc9-81ef-ea81a17c1c06
     targetPortName: Input
+  - baseNodeGuid: 1757f5b1-43e5-4248-b7d6-6abe853a40b0
+    basePortName: Continue
+    targetNodeGuid: 84796f8e-6787-4bcb-8eaf-6d6b0bb7cafd
+    targetPortName: Input
   startDatas:
   - nodeGuid: 94a3d9ca-3106-4117-bbde-0dd0421c4c36
-    position: {x: -205.6, y: -697.60004}
+    position: {x: -205.6, y: -697.6}
   dialogueDatas:
   - nodeGuid: 27c7943b-916e-45e9-9563-95b0f9b5be31
-    position: {x: -131.2, y: -697.60004}
+    position: {x: -131.2, y: -697.6}
     dialogueDataNames:
     - id:
         value: 0
@@ -77,7 +81,7 @@ MonoBehaviour:
     dialogueDataImages: []
     dialogueDataPorts: []
   - nodeGuid: 1757f5b1-43e5-4248-b7d6-6abe853a40b0
-    position: {x: 146.4, y: -697.60004}
+    position: {x: 146.4, y: -697.6}
     dialogueDataNames:
     - id:
         value: 0
@@ -110,7 +114,7 @@ MonoBehaviour:
         value: ed422567-4982-4516-af2a-59acf36e5e37
       text:
       - languageType: 1
-        languageGenericType: "Hein ?! Mais\u2026 Mais qu\u2019est-ce que tu fais
+        languageGenericType: "Clem ?! Mais\u2026 Mais qu\u2019est-ce que tu fais
           l\xE0 ?!"
       - languageType: 2
         languageGenericType: 
@@ -148,8 +152,8 @@ MonoBehaviour:
         value: c954898d-a259-4f87-a4c7-e53d536c71f1
       text:
       - languageType: 1
-        languageGenericType: "Nan mais quand es-tu revenue ?! Et tes cours de m\xE9decine
-          ?!"
+        languageGenericType: "Nan mais quand est-ce que t'es revenue ?! Et tes cours
+          de m\xE9decine ?!"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -187,8 +191,8 @@ MonoBehaviour:
         value: a914a5ee-bd20-4388-b89d-14a6fd8b8e61
       text:
       - languageType: 1
-        languageGenericType: "Leur refus ? Mais je ne comprends plus rien\u2026 Tu
-          as \xE9t\xE9 refus\xE9e ? Mais tu es partie o\xF9 ces 4 derniers mois alors
+        languageGenericType: "Leur refus ? Mais je ne comprends plus rien\u2026 T'as
+          \xE9t\xE9 refus\xE9e ? Mais t'es partie o\xF9 ces 4 derniers mois alors
           ?"
       - languageType: 2
         languageGenericType: 
@@ -247,7 +251,7 @@ MonoBehaviour:
       inputGuid: 
       outputGuid: 
   - nodeGuid: 84796f8e-6787-4bcb-8eaf-6d6b0bb7cafd
-    position: {x: 424, y: -697.60004}
+    position: {x: 424, y: -697.6}
     dialogueDataNames:
     - id:
         value: 0
@@ -260,9 +264,9 @@ MonoBehaviour:
         value: 3d1cb1c7-9313-4790-8d72-e7db79d8c5f4
       text:
       - languageType: 1
-        languageGenericType: "Mais\u2026 \xC7a n'a plus aucun sens ! Cl\xE9mence
-          toujours l\xE0, qui n\u2019a jamais \xE9t\xE9 accept\xE9e dans son \xE9cole
-          et personne ne trouve \xE7a bizarre ?"
+        languageGenericType: "Mais\u2026 \xC7a n'a plus aucun sens ! Clem est toujours
+          l\xE0, elle n\u2019a jamais \xE9t\xE9 accept\xE9e dans son \xE9cole et
+          personne ne trouve \xE7a bizarre ?"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -281,6 +285,6 @@ MonoBehaviour:
   choiceDatas: []
   endDatas:
   - nodeGuid: e66f1c6e-2584-4dc9-81ef-ea81a17c1c06
-    position: {x: 701.6, y: -697.60004}
+    position: {x: 701.6, y: -697.6}
     endNodeType:
       value: 1

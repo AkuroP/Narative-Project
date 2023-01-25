@@ -15,10 +15,10 @@ MonoBehaviour:
   nodeLinkDatas: []
   startDatas:
   - nodeGuid: 50cc9442-d6af-4fae-996c-abfa7ea9352e
-    position: {x: 242, y: 219.6}
+    position: {x: 242.4, y: 220}
   dialogueDatas:
   - nodeGuid: b1d12b8e-4137-42c7-9c3d-29dc1d269c8d
-    position: {x: 557.6, y: 291.59998}
+    position: {x: 557.6, y: 292}
     dialogueDataNames:
     - id:
         value: 0
@@ -35,7 +35,7 @@ MonoBehaviour:
         value: 9aa5fb28-6866-4e66-9f99-39fb6c614762
       text:
       - languageType: 1
-        languageGenericType: "Mais\u2026 Elle est pass\xE9e o\xF9 Cl\xE9mence ?"
+        languageGenericType: "Mais\u2026 Elle est pass\xE9e o\xF9 Clem ?"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -93,8 +93,7 @@ MonoBehaviour:
         value: aa7da14f-09c8-4679-8301-5ada6b510024
       text:
       - languageType: 1
-        languageGenericType: "Bon sinon tu comptes m\u2019acheter quelque chose ou
-          non ?"
+        languageGenericType: "Bon sinon tu comptes m\u2019acheter quelque chose ?"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -109,7 +108,7 @@ MonoBehaviour:
     dialogueDataImages: []
     dialogueDataPorts: []
   - nodeGuid: f256eed1-b843-48fe-80f5-4f0fb87572ad
-    position: {x: 557.6, y: -22}
+    position: {x: 557.6, y: -21.599998}
     dialogueDataNames:
     - id:
         value: 0
@@ -137,7 +136,7 @@ MonoBehaviour:
     dialogueDataImages: []
     dialogueDataPorts: []
   - nodeGuid: d29b15dd-168d-44c6-8eaf-53886d15152d
-    position: {x: 835.2, y: 291.59998}
+    position: {x: 835.2, y: 292}
     dialogueDataNames:
     - id:
         value: 0
@@ -151,9 +150,9 @@ MonoBehaviour:
       text:
       - languageType: 1
         languageGenericType: "Mais qu\u2019est-ce qu\u2019il se passe ? Un instant
-          Cl\xE9mence est de retour et n\u2019est jamais partie, l\u2019autre elle
-          est toujours en train de faire ses \xE9tudes.\nJe ne comprends pas ce qu\u2019il
-          se passe\u2026 Ils me font tous une blague ?"
+          Cl\xE9m est de retour et n\u2019est jamais partie, l\u2019autre elle est
+          toujours en train de faire ses \xE9tudes.\nJe comprends pas ce qu'y se
+          passe\u2026 Ils me font tous une blague ?"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -170,13 +169,13 @@ MonoBehaviour:
   eventDatas: []
   branchDatas:
   - nodeGuid: fbd85edd-7820-4b05-a15a-585943bdc870
-    position: {x: 318.8, y: 219.6}
+    position: {x: 319.2, y: 220}
     trueGuidNode: 
     falseGuidNode: 
     stringConditions: []
   choiceDatas: []
   endDatas:
   - nodeGuid: 8e6b273b-e622-4a68-be47-7016237dd287
-    position: {x: 1112.8, y: 291.59998}
+    position: {x: 1112.8, y: 292}
     endNodeType:
       value: 1
