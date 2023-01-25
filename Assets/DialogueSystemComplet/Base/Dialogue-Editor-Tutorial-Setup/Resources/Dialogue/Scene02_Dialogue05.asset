@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
+  m_Name: Scene02_Dialogue05
+  m_EditorClassIdentifier: 
+  nodeLinkDatas:
+  - baseNodeGuid: 58ce9a10-83b3-4428-8f17-0200b08f1d28
+    basePortName: Output
+    targetNodeGuid: e5517730-a715-4157-8d3e-42392d184b0b
+    targetPortName: Input
+  startDatas:
+  - nodeGuid: 58ce9a10-83b3-4428-8f17-0200b08f1d28
+    position: {x: 300, y: 201.59999}
+  dialogueDatas:
+  - nodeGuid: e5517730-a715-4157-8d3e-42392d184b0b
+    position: {x: 400.8, y: 201.59999}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 01ce90b6-d051-4b98-9fd6-e0fe499d6bd2
+      text:
+      - languageType: 1
+        languageGenericType: "Je devrais v\xE9rifier dans mon monde, je suis quasi
+          s\xFBr que j\u2019ai gard\xE9 ma fiche de paie."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  eventDatas: []
+  branchDatas: []
+  choiceDatas: []
+  endDatas: []
