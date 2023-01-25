@@ -7,67 +7,75 @@ using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class DialogueNode : BaseNode
+namespace Team06
 {
-    private DialogueData dialogueData = new DialogueData();
-    public DialogueData DialogueData { get => dialogueData; set => dialogueData = value; }
-    
-    private List<Box> boxs = new List<Box>();
-    public DialogueNode(){}
-    
-    public DialogueNode(Vector2 _position, DialogueEditorWindow editorWindow, DialogueGraphView graphView)
+
+    public class DialogueNode : BaseNode
     {
-        base.editorWindow = editorWindow;
-        base.graphView = graphView;
-        
-        StyleSheet styleSheet = Resources.Load<StyleSheet>("USS/Nodes/DialogueNodeStyle");
-        styleSheets.Add(styleSheet);
-        
-        title = "Dialogue";
-        SetPosition(new Rect(_position, defaultNodeSize));
-        nodeGuid = Guid.NewGuid().ToString();
-        
-        AddInputPort("Input", Port.Capacity.Multi);
-        AddOutputPort("Continue", Port.Capacity.Single);
-        
-        TopContainer();
-    }
-    
-    private void TopContainer()
-    {
-        AddPortButton();
-        AddDropdownMenu();
-    }
-    
-    private void AddPortButton()
-    {
-        Button btn = new Button()
+        private DialogueData dialogueData = new DialogueData();
+
+        public DialogueData DialogueData
         {
-            text = "Add Choice",
-        };
-        btn.AddToClassList("TopBtn");
+            get => dialogueData;
+            set => dialogueData = value;
+        }
 
-        btn.clicked += () =>
+        private List<Box> boxs = new List<Box>();
+
+        public DialogueNode()
         {
-            AddChoicePort(this);
-        };
+        }
 
-        titleButtonContainer.Add(btn);
-    }
-    
-    private void AddDropdownMenu()
-    {
-        ToolbarMenu Menu = new ToolbarMenu();
-        Menu.text = "Add Content";
+        public DialogueNode(Vector2 _position, DialogueEditorWindow editorWindow, DialogueGraphView graphView)
+        {
+            base.editorWindow = editorWindow;
+            base.graphView = graphView;
 
-        Menu.menu.AppendAction("Text", new Action<DropdownMenuAction>(x => TextLine()));
-        Menu.menu.AppendAction("Image", new Action<DropdownMenuAction>(x => ImagePic()));
-        Menu.menu.AppendAction("Name", new Action<DropdownMenuAction>(x => CharacterName()));
+            StyleSheet styleSheet = Resources.Load<StyleSheet>("USS/Nodes/DialogueNodeStyle");
+            styleSheets.Add(styleSheet);
 
-        titleButtonContainer.Add(Menu);
-    }
-    
-     // Port ---------------------------------------------------------------------------------------
+            title = "Dialogue";
+            SetPosition(new Rect(_position, defaultNodeSize));
+            nodeGuid = Guid.NewGuid().ToString();
+
+            AddInputPort("Input", Port.Capacity.Multi);
+            AddOutputPort("Continue", Port.Capacity.Single);
+
+            TopContainer();
+        }
+
+        private void TopContainer()
+        {
+            AddPortButton();
+            AddDropdownMenu();
+        }
+
+        private void AddPortButton()
+        {
+            Button btn = new Button()
+            {
+                text = "Add Choice",
+            };
+            btn.AddToClassList("TopBtn");
+
+            btn.clicked += () => { AddChoicePort(this); };
+
+            titleButtonContainer.Add(btn);
+        }
+
+        private void AddDropdownMenu()
+        {
+            ToolbarMenu Menu = new ToolbarMenu();
+            Menu.text = "Add Content";
+
+            Menu.menu.AppendAction("Text", new Action<DropdownMenuAction>(x => TextLine()));
+            Menu.menu.AppendAction("Image", new Action<DropdownMenuAction>(x => ImagePic()));
+            Menu.menu.AppendAction("Name", new Action<DropdownMenuAction>(x => CharacterName()));
+
+            titleButtonContainer.Add(Menu);
+        }
+
+        // Port ---------------------------------------------------------------------------------------
 
         public Port AddChoicePort(BaseNode baseNode, DialogueDataPort dialogueDataPort = null)
         {
@@ -95,9 +103,11 @@ public class DialogueNode : BaseNode
                 port.contentContainer.Add(deleteButton);
             }
 
-            port.portName = newDialoguePort.portGuid;                      // We use portName as port ID
-            Label portNameLabel = port.contentContainer.Q<Label>("type");   // Get Labal in port that is used to contain the port name.
-            portNameLabel.AddToClassList("PortName");                       // Here we add a uss class to it so we can hide it in the editor window.
+            port.portName = newDialoguePort.portGuid; // We use portName as port ID
+            Label portNameLabel =
+                port.contentContainer.Q<Label>("type"); // Get Labal in port that is used to contain the port name.
+            portNameLabel
+                .AddToClassList("PortName"); // Here we add a uss class to it so we can hide it in the editor window.
 
             // Set color of the port.
             port.portColor = Color.yellow;
@@ -134,8 +144,8 @@ public class DialogueNode : BaseNode
             node.RefreshPorts();
             node.RefreshExpandedState();
         }
-        
-         // Menu dropdown --------------------------------------------------------------------------------------
+
+        // Menu dropdown --------------------------------------------------------------------------------------
 
         public void TextLine(DialogueDataText dataText = null)
         {
@@ -201,6 +211,7 @@ public class DialogueNode : BaseNode
                 dialogueImages.spriteLeft.value = dataImages.spriteLeft.value;
                 dialogueImages.spriteRight.value = dataImages.spriteRight.value;
             }
+
             DialogueData.dialogueBaseContainers.Add(dialogueImages);
 
             Box boxContainer = new Box();
@@ -219,6 +230,7 @@ public class DialogueNode : BaseNode
             {
                 dialogueName.characterName.value = dataName.characterName.value;
             }
+
             DialogueData.dialogueBaseContainers.Add(dialogueName);
 
             Box boxContainer = new Box();
@@ -229,10 +241,11 @@ public class DialogueNode : BaseNode
 
             mainContainer.Add(boxContainer);
         }
-        
-         // Fields --------------------------------------------------------------------------------------
 
-        private void AddLabelAndButton(DialogueDataBaseContainer container, Box boxContainer, string labelName, string uniqueUSS = "")
+        // Fields --------------------------------------------------------------------------------------
+
+        private void AddLabelAndButton(DialogueDataBaseContainer container, Box boxContainer, string labelName,
+            string uniqueUSS = "")
         {
             Box topBoxContainer = new Box();
             topBoxContainer.AddToClassList("TopBox");
@@ -245,17 +258,11 @@ public class DialogueNode : BaseNode
 
             // Move Up button.
             Button btnMoveUpBtn = GetNewButton("", "MoveUpBtn");
-            btnMoveUpBtn.clicked += () =>
-            {
-                MoveBox(container, true);
-            };
+            btnMoveUpBtn.clicked += () => { MoveBox(container, true); };
 
             // Move Down button.
             Button btnMoveDownBtn = GetNewButton("", "MoveDownBtn");
-            btnMoveDownBtn.clicked += () =>
-            {
-                MoveBox(container, false);
-            };
+            btnMoveDownBtn.clicked += () => { MoveBox(container, false); };
 
             // Remove button.
             Button btnRemove = GetNewButton("X", "TextRemoveBtn");
@@ -328,7 +335,7 @@ public class DialogueNode : BaseNode
             boxContainer.Add(imagePreviewBox);
             boxContainer.Add(imagesBox);
         }
-        
+
         // ------------------------------------------------------------------------------------------
 
         private void MoveBox(DialogueDataBaseContainer container, bool moveUp)
@@ -390,4 +397,5 @@ public class DialogueNode : BaseNode
         {
 
         }
+    }
 }

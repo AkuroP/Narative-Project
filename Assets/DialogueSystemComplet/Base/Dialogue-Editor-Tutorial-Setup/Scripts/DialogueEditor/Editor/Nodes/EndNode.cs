@@ -6,38 +6,51 @@ using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class EndNode : BaseNode
+namespace Team06
 {
-    private EndData _endData = new EndData();
-    public EndData EndData { get => _endData; set => _endData = value; }
-    public EndNode(){}
 
-    public EndNode(Vector2 position, DialogueEditorWindow editorWindow, DialogueGraphView graphView)
+
+    public class EndNode : BaseNode
     {
-        base.editorWindow = editorWindow;
-        base.graphView = graphView;
+        private EndData _endData = new EndData();
 
-        StyleSheet styleSheet = Resources.Load<StyleSheet>("USS/Nodes/EndNodeStyle");
-        styleSheets.Add(styleSheet);
-        
-        title = "End";
-        SetPosition(new Rect(position, defaultNodeSize));
-        nodeGuid = Guid.NewGuid().ToString();
+        public EndData EndData
+        {
+            get => _endData;
+            set => _endData = value;
+        }
 
-        AddInputPort("Input", Port.Capacity.Multi);
+        public EndNode()
+        {
+        }
 
-        MakeMainContainer();
-    }
-    
-    private void MakeMainContainer()
-    {
-        EnumField enumField = GetNewEnumFieldEndNodeType(_endData.endNodeType);
+        public EndNode(Vector2 position, DialogueEditorWindow editorWindow, DialogueGraphView graphView)
+        {
+            base.editorWindow = editorWindow;
+            base.graphView = graphView;
 
-        mainContainer.Add(enumField);
-    }
+            StyleSheet styleSheet = Resources.Load<StyleSheet>("USS/Nodes/EndNodeStyle");
+            styleSheets.Add(styleSheet);
 
-    public override void LoadValueInToField()
-    {
-        EndData.endNodeType.EnumField?.SetValueWithoutNotify(_endData.endNodeType.value);
+            title = "End";
+            SetPosition(new Rect(position, defaultNodeSize));
+            nodeGuid = Guid.NewGuid().ToString();
+
+            AddInputPort("Input", Port.Capacity.Multi);
+
+            MakeMainContainer();
+        }
+
+        private void MakeMainContainer()
+        {
+            EnumField enumField = GetNewEnumFieldEndNodeType(_endData.endNodeType);
+
+            mainContainer.Add(enumField);
+        }
+
+        public override void LoadValueInToField()
+        {
+            EndData.endNodeType.EnumField?.SetValueWithoutNotify(_endData.endNodeType.value);
+        }
     }
 }

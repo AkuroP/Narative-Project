@@ -6,7 +6,9 @@ using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class BaseNode : Node
+namespace Team06
+{
+    public class BaseNode : Node
 {
    protected string nodeGuid;
    protected DialogueGraphView graphView;
@@ -225,6 +227,7 @@ public class BaseNode : Node
 
             return objectField;
         }
+        
 
         // Enum's --------------------------------------------------------------------------
 
@@ -781,4 +784,5 @@ public class BaseNode : Node
    }
 
    #endregion
+} 
 }

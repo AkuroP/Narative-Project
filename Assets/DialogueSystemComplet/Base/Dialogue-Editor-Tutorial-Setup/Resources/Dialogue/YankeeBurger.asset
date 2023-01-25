@@ -13,25 +13,21 @@ MonoBehaviour:
   m_Name: YankeeBurger
   m_EditorClassIdentifier: 
   nodeLinkDatas:
-  - baseNodeGuid: fea421d2-772b-4beb-aced-f2345583b5ed
+  - baseNodeGuid: b578b26e-175b-4d38-8afa-9450eec1ac7f
     basePortName: Output
-    targetNodeGuid: 273c1bbd-7867-4f54-983d-732e85253411
+    targetNodeGuid: ef6e40f6-ec45-40bb-9418-50845f3217de
     targetPortName: Input
   - baseNodeGuid: 0b0143f6-c0c5-4281-899d-5eb1cb49b013
     basePortName: Output
     targetNodeGuid: 3edee6fa-3fc5-42b2-9901-ff00656aff8e
     targetPortName: Input
-  - baseNodeGuid: b578b26e-175b-4d38-8afa-9450eec1ac7f
-    basePortName: Output
-    targetNodeGuid: ef6e40f6-ec45-40bb-9418-50845f3217de
-    targetPortName: Input
-  - baseNodeGuid: 2ba8eabd-2444-4687-90ce-dd80bd25cff3
+  - baseNodeGuid: 165fa2f0-067b-46e1-b91f-e275c6abcdb2
     basePortName: Output
     targetNodeGuid: 686023d2-b1a1-4628-8bd6-e99e66b0dc6b
     targetPortName: Input
   - baseNodeGuid: 988f9dd7-de6c-4a05-bf15-63bac0d81c12
     basePortName: Output
-    targetNodeGuid: 2ba8eabd-2444-4687-90ce-dd80bd25cff3
+    targetNodeGuid: 165fa2f0-067b-46e1-b91f-e275c6abcdb2
     targetPortName: Input
   - baseNodeGuid: a915b06a-6903-400f-8d01-ca385b66f178
     basePortName: Output
@@ -45,21 +41,21 @@ MonoBehaviour:
     basePortName: Continue
     targetNodeGuid: 0b0143f6-c0c5-4281-899d-5eb1cb49b013
     targetPortName: Input
-  - baseNodeGuid: fb59f474-54b4-4c74-945e-eda81ca9890f
-    basePortName: Continue
-    targetNodeGuid: ef6e40f6-ec45-40bb-9418-50845f3217de
-    targetPortName: Input
-  - baseNodeGuid: 273c1bbd-7867-4f54-983d-732e85253411
-    basePortName: 619ca739-38eb-4ec3-b7a4-34e5848e86eb
+  - baseNodeGuid: 7b226549-64f9-4ce3-b239-f0de2ff43b56
+    basePortName: 32f24452-9d06-485f-886a-ef6b577bc2e0
     targetNodeGuid: 988f9dd7-de6c-4a05-bf15-63bac0d81c12
     targetPortName: Input
-  - baseNodeGuid: 273c1bbd-7867-4f54-983d-732e85253411
-    basePortName: 6e686170-f098-4d1e-8f2a-c1aa6f93e90b
+  - baseNodeGuid: 7b226549-64f9-4ce3-b239-f0de2ff43b56
+    basePortName: c37a81fb-be17-4e60-8481-009121fe7a6e
     targetNodeGuid: a915b06a-6903-400f-8d01-ca385b66f178
+    targetPortName: Input
+  - baseNodeGuid: fea421d2-772b-4beb-aced-f2345583b5ed
+    basePortName: Output
+    targetNodeGuid: 7b226549-64f9-4ce3-b239-f0de2ff43b56
     targetPortName: Input
   startDatas:
   - nodeGuid: fea421d2-772b-4beb-aced-f2345583b5ed
-    position: {x: -128, y: 195.2}
+    position: {x: -391.2, y: 195.2}
   dialogueDatas:
   - nodeGuid: 686023d2-b1a1-4628-8bd6-e99e66b0dc6b
     position: {x: 1254.4, y: 31.2}
@@ -129,73 +125,17 @@ MonoBehaviour:
       spriteRight:
         value: {fileID: 21300000, guid: a5dfd3f8b4691c24fa39247230984895, type: 3}
     dialogueDataPorts: []
-  - nodeGuid: fb59f474-54b4-4c74-945e-eda81ca9890f
-    position: {x: 843.2, y: -262.4}
-    dialogueDataNames:
-    - id:
-        value: 1
-      characterName:
-        value: Jiselle
+  - nodeGuid: 7b226549-64f9-4ce3-b239-f0de2ff43b56
+    position: {x: 72.8, y: 221.59999}
+    dialogueDataNames: []
     dialogueDataTexts:
     - id:
-        value: 2
-      guidID:
-        value: 4cc9fee5-adb0-49df-ac96-2217a2e4c169
-      text:
-      - languageType: 1
-        languageGenericType: "\xE7a va genshin"
-      - languageType: 2
-        languageGenericType: genshin
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    dialogueDataImages:
-    - id:
         value: 0
-      spriteLeft:
-        value: {fileID: 21300000, guid: c4cc9d48f5f731247b80624d04ea9a2c, type: 3}
-      spriteRight:
-        value: {fileID: 21300000, guid: a5dfd3f8b4691c24fa39247230984895, type: 3}
-    dialogueDataPorts: []
-  - nodeGuid: 273c1bbd-7867-4f54-983d-732e85253411
-    position: {x: 276, y: 195.2}
-    dialogueDataNames:
-    - id:
-        value: 1
-      characterName:
-        value: Jiselle
-    dialogueDataTexts:
-    - id:
-        value: 2
       guidID:
-        value: 4527a234-04b5-4464-870f-0b16d7d7b290
+        value: 61f00906-30df-47db-b382-a1867e2b9fde
       text:
       - languageType: 1
-        languageGenericType: J'ai faim
-      - languageType: 2
-        languageGenericType: I'm hungry
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    - id:
-        value: 3
-      guidID:
-        value: 4a15e5a7-74eb-4418-91d1-dab93f9c9d92
-      text:
-      - languageType: 1
-        languageGenericType: on se fait qqch ?
+        languageGenericType: nike
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -207,49 +147,15 @@ MonoBehaviour:
         languageGenericType: {fileID: 0}
       - languageType: 3
         languageGenericType: {fileID: 0}
-    - id:
-        value: 4
-      guidID:
-        value: 659f7a2d-ba64-4f3c-b9bd-dc5921ce5f7e
-      text:
-      - languageType: 1
-        languageGenericType: stp
-      - languageType: 2
-        languageGenericType: please
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    dialogueDataImages:
-    - id:
-        value: 0
-      spriteLeft:
-        value: {fileID: 21300000, guid: c4cc9d48f5f731247b80624d04ea9a2c, type: 3}
-      spriteRight:
-        value: {fileID: 21300000, guid: a5dfd3f8b4691c24fa39247230984895, type: 3}
+    dialogueDataImages: []
     dialogueDataPorts:
-    - portGuid: 619ca739-38eb-4ec3-b7a4-34e5848e86eb
+    - portGuid: 32f24452-9d06-485f-886a-ef6b577bc2e0
       inputGuid: 988f9dd7-de6c-4a05-bf15-63bac0d81c12
-      outputGuid: 273c1bbd-7867-4f54-983d-732e85253411
-    - portGuid: 6e686170-f098-4d1e-8f2a-c1aa6f93e90b
+      outputGuid: 7b226549-64f9-4ce3-b239-f0de2ff43b56
+    - portGuid: c37a81fb-be17-4e60-8481-009121fe7a6e
       inputGuid: a915b06a-6903-400f-8d01-ca385b66f178
-      outputGuid: 273c1bbd-7867-4f54-983d-732e85253411
+      outputGuid: 7b226549-64f9-4ce3-b239-f0de2ff43b56
   eventDatas:
-  - nodeGuid: 0b0143f6-c0c5-4281-899d-5eb1cb49b013
-    position: {x: 1530.4, y: 401.6}
-    stringModifiers:
-    - stringEventText:
-        value: money
-      number:
-        value: 100
-      stringEventModifierType:
-        value: 3
-    dialogueEventSos: []
   - nodeGuid: b578b26e-175b-4d38-8afa-9450eec1ac7f
     position: {x: 1563.2, y: 203.2}
     stringModifiers:
@@ -266,11 +172,21 @@ MonoBehaviour:
       stringEventModifierType:
         value: 3
     dialogueEventSos: []
-  - nodeGuid: 2ba8eabd-2444-4687-90ce-dd80bd25cff3
-    position: {x: 908.8, y: 213.59999}
+  - nodeGuid: 0b0143f6-c0c5-4281-899d-5eb1cb49b013
+    position: {x: 1563.2, y: 410.40002}
     stringModifiers:
     - stringEventText:
-        value: didaskforfood
+        value: money
+      number:
+        value: 100
+      stringEventModifierType:
+        value: 3
+    dialogueEventSos: []
+  - nodeGuid: 165fa2f0-067b-46e1-b91f-e275c6abcdb2
+    position: {x: 886.4, y: 213.59999}
+    stringModifiers:
+    - stringEventText:
+        value: thought
       number:
         value: 0
       stringEventModifierType:
@@ -317,11 +233,11 @@ MonoBehaviour:
       languageGenericType: {fileID: 0}
     stringConditions: []
   endDatas:
-  - nodeGuid: 3edee6fa-3fc5-42b2-9901-ff00656aff8e
-    position: {x: 1974.4, y: 401.6}
-    endNodeType:
-      value: 3
   - nodeGuid: ef6e40f6-ec45-40bb-9418-50845f3217de
     position: {x: 2116, y: 78.399994}
     endNodeType:
       value: 1
+  - nodeGuid: 3edee6fa-3fc5-42b2-9901-ff00656aff8e
+    position: {x: 1988, y: 410.40002}
+    endNodeType:
+      value: 3

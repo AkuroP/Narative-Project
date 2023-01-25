@@ -2,53 +2,56 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TeamSixObjectInteract : MonoBehaviour
+namespace Team06
 {
-    public GameObject interactPopup;
-    public SpriteRenderer renderer;
-    
-    public Sprite switchSprite;
-    public Sprite baseSprite;
-    public Sprite actualSprite;
-
-
-    private void Start()
+    public class TeamSixObjectInteract : MonoBehaviour
     {
-        actualSprite = baseSprite;
-    }
+        public GameObject interactPopup;
+        public SpriteRenderer renderer;
 
-    private void OnTriggerEnter2D(Collider2D collider)
-    {
-        if(collider.CompareTag("Player"))
+        public Sprite switchSprite;
+        public Sprite baseSprite;
+        public Sprite actualSprite;
+
+
+        private void Start()
         {
-            interactPopup.SetActive(true);
-
-            renderer.sprite = baseSprite;
+            actualSprite = baseSprite;
         }
-    }
 
-    private void OnTriggerExit2D(Collider2D collider)
-    {
-        if(collider.CompareTag("Player"))
+        private void OnTriggerEnter2D(Collider2D collider)
         {
-            interactPopup.SetActive(false);
+            if (collider.CompareTag("Player"))
+            {
+                interactPopup.SetActive(true);
+
+                renderer.sprite = baseSprite;
+            }
         }
-    }
+
+        private void OnTriggerExit2D(Collider2D collider)
+        {
+            if (collider.CompareTag("Player"))
+            {
+                interactPopup.SetActive(false);
+            }
+        }
 
 
-    public void Interact()
-    {
-        Debug.Log(("INTERACTION"));
+        public void Interact()
+        {
+            Debug.Log(("INTERACTION"));
 
-        //switch sprite (placeholder)
-        SwitchSprite();
+            //switch sprite (placeholder)
+            SwitchSprite();
 
-    }
+        }
 
-    private void SwitchSprite()
-    {
-        SpriteRenderer playerSr = interactPopup.GetComponent<SpriteRenderer>();
-        renderer.sprite = playerSr.sprite;
-        playerSr.sprite = switchSprite;
+        private void SwitchSprite()
+        {
+            SpriteRenderer playerSr = interactPopup.GetComponent<SpriteRenderer>();
+            renderer.sprite = playerSr.sprite;
+            playerSr.sprite = switchSprite;
+        }
     }
 }

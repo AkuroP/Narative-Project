@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-public class BranchData : BaseData
+namespace Team06
 {
-    public string trueGuidNode;
-    public string falseGuidNode;
-    public List<EventDataStringCondition> stringConditions = new List<EventDataStringCondition>();
+    [System.Serializable]
+    public class BranchData : BaseData
+    {
+        public string trueGuidNode;
+        public string falseGuidNode;
+        public List<EventDataStringCondition> stringConditions = new List<EventDataStringCondition>();
+    }
 }

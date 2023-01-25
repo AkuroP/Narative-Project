@@ -4,9 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class DialogueTalk : DialogueGetData
+namespace Team06
 {
-    private DialogueController _dialogueController;
+    public class DialogueTalk : DialogueGetData
+    {
+        private DialogueController _dialogueController;
         private AudioSource _audioSource;
 
         private DialogueData _currentDialogueNodeData;
@@ -63,7 +65,8 @@ public class DialogueTalk : DialogueGetData
             bool checkBranch = true;
             foreach (EventDataStringCondition item in nodeData.stringConditions)
             {
-                if (!GameEvents.Instance.DialogueConditionEvents(item.stringEventText.value, item.stringEventConditionType.value, item.number.value))
+                if (!GameEvents.Instance.DialogueConditionEvents(item.stringEventText.value,
+                    item.stringEventConditionType.value, item.number.value))
                 {
                     checkBranch = false;
                     break;
@@ -84,10 +87,13 @@ public class DialogueTalk : DialogueGetData
                     item.dialogueEventSo.RunEvent();
                 }
             }
+
             foreach (EventDataStringModifier item in nodeData.stringModifiers)
             {
-                GameEvents.Instance.DialogueModifierEvents(item.stringEventText.value, item.stringEventModifierType.value, item.number.value);
+                GameEvents.Instance.DialogueModifierEvents(item.stringEventText.value,
+                    item.stringEventModifierType.value, item.number.value);
             }
+
             CheckNodeType(GetNextNode(nodeData));
         }
 
@@ -109,7 +115,7 @@ public class DialogueTalk : DialogueGetData
                     break;
             }
         }
-        
+
         //Run Dialogue Node
         private void RunNode(DialogueData nodeData)
         {
@@ -122,7 +128,7 @@ public class DialogueTalk : DialogueGetData
 
             _currentIndex = 0;
 
-            _baseContainers.Sort(delegate (DialogueDataBaseContainer x, DialogueDataBaseContainer y)
+            _baseContainers.Sort(delegate(DialogueDataBaseContainer x, DialogueDataBaseContainer y)
             {
                 return x.id.value.CompareTo(y.id.value);
             });
@@ -142,17 +148,23 @@ public class DialogueTalk : DialogueGetData
                     DialogueDataName tmp = _baseContainers[i] as DialogueDataName;
                     _dialogueController.SetName(tmp?.characterName.value);
                 }
+
                 if (_baseContainers[i] is DialogueDataImages)
                 {
                     DialogueDataImages tmp = _baseContainers[i] as DialogueDataImages;
                     _dialogueController.SetImage(tmp?.spriteLeft.value, tmp?.spriteRight.value);
                 }
+
                 if (_baseContainers[i] is DialogueDataText)
                 {
                     DialogueDataText tmp = _baseContainers[i] as DialogueDataText;
                     print("");
-                    _dialogueController.SetText(tmp.text.Find(text => text.languageType == LanguageController.Instance.LanguageType).languageGenericType);
-                    PlayAudio(tmp?.audioClips.Find(text => text.languageType == LanguageController.Instance.LanguageType).languageGenericType);
+                    _dialogueController.SetText(tmp.text
+                        .Find(text => text.languageType == LanguageController.Instance.LanguageType)
+                        .languageGenericType);
+                    PlayAudio(tmp?.audioClips
+                        .Find(text => text.languageType == LanguageController.Instance.LanguageType)
+                        .languageGenericType);
                     Buttons();
                     break;
                 }
@@ -182,6 +194,7 @@ public class DialogueTalk : DialogueGetData
                 {
                     ChoiceCheck(port.inputGuid, dialogueButtonContainers);
                 }
+
                 _dialogueController.SetButtons(dialogueButtonContainers);
             }
             else
@@ -201,7 +214,8 @@ public class DialogueTalk : DialogueGetData
             bool checkBranch = true;
             foreach (EventDataStringCondition item in choiceNode.stringConditions)
             {
-                if (!GameEvents.Instance.DialogueConditionEvents(item.stringEventText.value, item.stringEventConditionType.value, item.number.value))
+                if (!GameEvents.Instance.DialogueConditionEvents(item.stringEventText.value,
+                    item.stringEventConditionType.value, item.number.value))
                 {
                     checkBranch = false;
                     break;
@@ -212,11 +226,13 @@ public class DialogueTalk : DialogueGetData
             unityAction += () => CheckNodeType(GetNextNode(choiceNode));
 
             dialogueButtonContainer.choiceState = choiceNode.choiceStateTypes.value;
-            dialogueButtonContainer.text = choiceNode.text.Find(text => text.languageType == LanguageController.Instance.LanguageType).languageGenericType;
+            dialogueButtonContainer.text = choiceNode.text
+                .Find(text => text.languageType == LanguageController.Instance.LanguageType).languageGenericType;
             dialogueButtonContainer.unityAction = unityAction;
             dialogueButtonContainer.conditionCheck = checkBranch;
 
             dialogueButtonContainers.Add(dialogueButtonContainer);
         }
     }
+}
 

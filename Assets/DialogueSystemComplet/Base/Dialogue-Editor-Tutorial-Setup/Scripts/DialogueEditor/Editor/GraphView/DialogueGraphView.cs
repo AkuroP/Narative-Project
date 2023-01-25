@@ -5,75 +5,79 @@ using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class DialogueGraphView : GraphView
+namespace Team06
 {
-    private string _graphViewStyleSheet = "USS/GraphView/GraphViewStyle";
-    private DialogueEditorWindow editorWindow;
-    private NodeSearchWindow _searchWindow;
 
-    /// <summary>
-    /// Add a search window to graph view.
-    /// </summary>
-    public DialogueGraphView(DialogueEditorWindow editorWindow)
+    public class DialogueGraphView : GraphView
     {
-        this.editorWindow = editorWindow;
-        StyleSheet tmpStyleSheet = Resources.Load<StyleSheet>(_graphViewStyleSheet);
-        styleSheets.Add(tmpStyleSheet);
-        
-        SetupZoom(ContentZoomer.DefaultMinScale, ContentZoomer.DefaultMaxScale);
-        
-        this.AddManipulator(new ContentDragger());
-        this.AddManipulator(new SelectionDragger());
-        this.AddManipulator(new RectangleSelector());
-        this.AddManipulator(new FreehandSelector());
+        private string _graphViewStyleSheet = "USS/GraphView/GraphViewStyle";
+        private DialogueEditorWindow editorWindow;
+        private NodeSearchWindow _searchWindow;
 
-        GridBackground grid = new GridBackground();
-        Insert(0,grid);
-        grid.StretchToParentSize();
-
-        AddSearchWindow();
-    }
-
-    private void AddSearchWindow()
-    {
-        _searchWindow = ScriptableObject.CreateInstance<NodeSearchWindow>();
-        _searchWindow.Configure(editorWindow, this);
-        nodeCreationRequest = context =>
-            SearchWindow.Open(new SearchWindowContext(context.screenMousePosition), _searchWindow);
-    }
-
-    public override List<Port> GetCompatiblePorts(Port startPort, NodeAdapter nodeAdapter)
-    {
-        List<Port> compatiblePorts = new List<Port>();
-        Port startPortView = startPort;
-        
-        ports.ForEach((port) =>
+        /// <summary>
+        /// Add a search window to graph view.
+        /// </summary>
+        public DialogueGraphView(DialogueEditorWindow editorWindow)
         {
-            Port portView = port;
+            this.editorWindow = editorWindow;
+            StyleSheet tmpStyleSheet = Resources.Load<StyleSheet>(_graphViewStyleSheet);
+            styleSheets.Add(tmpStyleSheet);
 
-            if (startPortView != portView && startPortView.node != portView.node && startPortView.direction != port.direction)
-            {
-                compatiblePorts.Add(port);
-            }
-        });
+            SetupZoom(ContentZoomer.DefaultMinScale, ContentZoomer.DefaultMaxScale);
 
-        return compatiblePorts;
-    }
+            this.AddManipulator(new ContentDragger());
+            this.AddManipulator(new SelectionDragger());
+            this.AddManipulator(new RectangleSelector());
+            this.AddManipulator(new FreehandSelector());
 
-    /// <summary>
-    /// Reload the current selected language.
-    /// Normally used when changing language.
-    /// </summary>
-    public void ReloadLanguage()
-    {
-        List<BaseNode> allNodes = nodes.ToList().Where(node => node is BaseNode).Cast<BaseNode>().ToList();
-        foreach (var node in allNodes)
-        {
-            node.ReloadLanguage();
+            GridBackground grid = new GridBackground();
+            Insert(0, grid);
+            grid.StretchToParentSize();
+
+            AddSearchWindow();
         }
-    }
 
-     // Make Node's -----------------------------------------------------------------------------------
+        private void AddSearchWindow()
+        {
+            _searchWindow = ScriptableObject.CreateInstance<NodeSearchWindow>();
+            _searchWindow.Configure(editorWindow, this);
+            nodeCreationRequest = context =>
+                SearchWindow.Open(new SearchWindowContext(context.screenMousePosition), _searchWindow);
+        }
+
+        public override List<Port> GetCompatiblePorts(Port startPort, NodeAdapter nodeAdapter)
+        {
+            List<Port> compatiblePorts = new List<Port>();
+            Port startPortView = startPort;
+
+            ports.ForEach((port) =>
+            {
+                Port portView = port;
+
+                if (startPortView != portView && startPortView.node != portView.node &&
+                    startPortView.direction != port.direction)
+                {
+                    compatiblePorts.Add(port);
+                }
+            });
+
+            return compatiblePorts;
+        }
+
+        /// <summary>
+        /// Reload the current selected language.
+        /// Normally used when changing language.
+        /// </summary>
+        public void ReloadLanguage()
+        {
+            List<BaseNode> allNodes = nodes.ToList().Where(node => node is BaseNode).Cast<BaseNode>().ToList();
+            foreach (var node in allNodes)
+            {
+                node.ReloadLanguage();
+            }
+        }
+
+        // Make Node's -----------------------------------------------------------------------------------
 
         /// <summary>
         /// Make new Start Node and set it's position.
@@ -134,4 +138,5 @@ public class DialogueGraphView : GraphView
         {
             return new ChoiceNode(position, editorWindow, this);
         }
+    }
 }
