@@ -938,6 +938,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8095849237098251201, guid: 4baa246c6364c0c4cae855536806d754, type: 3}
+      propertyPath: autoDialogue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8095849237098251201, guid: 4baa246c6364c0c4cae855536806d754, type: 3}
       propertyPath: dialogueContainer
       value: 
       objectReference: {fileID: 11400000, guid: 8c651975a79bf2145a92671013539f48, type: 2}

@@ -13,60 +13,28 @@ MonoBehaviour:
   m_Name: YankeeBurger
   m_EditorClassIdentifier: 
   nodeLinkDatas:
-  - baseNodeGuid: 0b0143f6-c0c5-4281-899d-5eb1cb49b013
+  - baseNodeGuid: fea421d2-772b-4beb-aced-f2345583b5ed
     basePortName: Output
-    targetNodeGuid: 3edee6fa-3fc5-42b2-9901-ff00656aff8e
-    targetPortName: Input
-  - baseNodeGuid: b578b26e-175b-4d38-8afa-9450eec1ac7f
-    basePortName: Output
-    targetNodeGuid: ef6e40f6-ec45-40bb-9418-50845f3217de
-    targetPortName: Input
-  - baseNodeGuid: 2ba8eabd-2444-4687-90ce-dd80bd25cff3
-    basePortName: Output
-    targetNodeGuid: 686023d2-b1a1-4628-8bd6-e99e66b0dc6b
-    targetPortName: Input
-  - baseNodeGuid: 988f9dd7-de6c-4a05-bf15-63bac0d81c12
-    basePortName: Output
-    targetNodeGuid: 2ba8eabd-2444-4687-90ce-dd80bd25cff3
-    targetPortName: Input
-  - baseNodeGuid: a915b06a-6903-400f-8d01-ca385b66f178
-    basePortName: Output
-    targetNodeGuid: d91f344c-4409-49df-b9c1-a022729ce02d
-    targetPortName: Input
-  - baseNodeGuid: 686023d2-b1a1-4628-8bd6-e99e66b0dc6b
-    basePortName: Continue
-    targetNodeGuid: b578b26e-175b-4d38-8afa-9450eec1ac7f
+    targetNodeGuid: 273c1bbd-7867-4f54-983d-732e85253411
     targetPortName: Input
   - baseNodeGuid: d91f344c-4409-49df-b9c1-a022729ce02d
     basePortName: Continue
-    targetNodeGuid: 0b0143f6-c0c5-4281-899d-5eb1cb49b013
-    targetPortName: Input
-  - baseNodeGuid: 273c1bbd-7867-4f54-983d-732e85253411
-    basePortName: 619ca739-38eb-4ec3-b7a4-34e5848e86eb
-    targetNodeGuid: 988f9dd7-de6c-4a05-bf15-63bac0d81c12
-    targetPortName: Input
-  - baseNodeGuid: 273c1bbd-7867-4f54-983d-732e85253411
-    basePortName: 6e686170-f098-4d1e-8f2a-c1aa6f93e90b
-    targetNodeGuid: a915b06a-6903-400f-8d01-ca385b66f178
-    targetPortName: Input
-  - baseNodeGuid: fea421d2-772b-4beb-aced-f2345583b5ed
-    basePortName: Output
-    targetNodeGuid: 9cd067d7-7229-4d0c-a86c-65233c9007b9
-    targetPortName: Input
-  - baseNodeGuid: 9cd067d7-7229-4d0c-a86c-65233c9007b9
-    basePortName: False
-    targetNodeGuid: 273c1bbd-7867-4f54-983d-732e85253411
-    targetPortName: Input
-  - baseNodeGuid: 9cd067d7-7229-4d0c-a86c-65233c9007b9
-    basePortName: True
     targetNodeGuid: ef6e40f6-ec45-40bb-9418-50845f3217de
+    targetPortName: Input
+  - baseNodeGuid: 686023d2-b1a1-4628-8bd6-e99e66b0dc6b
+    basePortName: Continue
+    targetNodeGuid: d91f344c-4409-49df-b9c1-a022729ce02d
+    targetPortName: Input
+  - baseNodeGuid: 273c1bbd-7867-4f54-983d-732e85253411
+    basePortName: Continue
+    targetNodeGuid: 686023d2-b1a1-4628-8bd6-e99e66b0dc6b
     targetPortName: Input
   startDatas:
   - nodeGuid: fea421d2-772b-4beb-aced-f2345583b5ed
     position: {x: -128, y: 195.2}
   dialogueDatas:
   - nodeGuid: 686023d2-b1a1-4628-8bd6-e99e66b0dc6b
-    position: {x: 1254.4, y: 31.2}
+    position: {x: 693.6, y: 168.8}
     dialogueDataNames:
     - id:
         value: 1
@@ -99,42 +67,8 @@ MonoBehaviour:
       spriteRight:
         value: {fileID: 21300000, guid: a5dfd3f8b4691c24fa39247230984895, type: 3}
     dialogueDataPorts: []
-  - nodeGuid: d91f344c-4409-49df-b9c1-a022729ce02d
-    position: {x: 1232, y: 410.4}
-    dialogueDataNames:
-    - id:
-        value: 1
-      characterName:
-        value: Jiselle
-    dialogueDataTexts:
-    - id:
-        value: 2
-      guidID:
-        value: b3c70aa9-d0d7-43f7-9f82-945279af976b
-      text:
-      - languageType: 1
-        languageGenericType: nique ses mort
-      - languageType: 2
-        languageGenericType: fuck you
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    dialogueDataImages:
-    - id:
-        value: 0
-      spriteLeft:
-        value: {fileID: 21300000, guid: c4cc9d48f5f731247b80624d04ea9a2c, type: 3}
-      spriteRight:
-        value: {fileID: 21300000, guid: a5dfd3f8b4691c24fa39247230984895, type: 3}
-    dialogueDataPorts: []
   - nodeGuid: 273c1bbd-7867-4f54-983d-732e85253411
-    position: {x: 276, y: 195.2}
+    position: {x: 321.6, y: 184.8}
     dialogueDataNames:
     - id:
         value: 1
@@ -202,107 +136,46 @@ MonoBehaviour:
         value: {fileID: 21300000, guid: c4cc9d48f5f731247b80624d04ea9a2c, type: 3}
       spriteRight:
         value: {fileID: 21300000, guid: a5dfd3f8b4691c24fa39247230984895, type: 3}
-    dialogueDataPorts:
-    - portGuid: 619ca739-38eb-4ec3-b7a4-34e5848e86eb
-      inputGuid: 988f9dd7-de6c-4a05-bf15-63bac0d81c12
-      outputGuid: 273c1bbd-7867-4f54-983d-732e85253411
-    - portGuid: 6e686170-f098-4d1e-8f2a-c1aa6f93e90b
-      inputGuid: a915b06a-6903-400f-8d01-ca385b66f178
-      outputGuid: 273c1bbd-7867-4f54-983d-732e85253411
-  eventDatas:
-  - nodeGuid: 0b0143f6-c0c5-4281-899d-5eb1cb49b013
-    position: {x: 1530.4, y: 401.59998}
-    stringModifiers:
-    - stringEventText:
-        value: money
-      number:
-        value: 100
-      stringEventModifierType:
-        value: 3
-    dialogueEventSos: []
-  - nodeGuid: b578b26e-175b-4d38-8afa-9450eec1ac7f
-    position: {x: 1563.2, y: 203.2}
-    stringModifiers:
-    - stringEventText:
-        value: money
-      number:
-        value: 50
-      stringEventModifierType:
-        value: 4
-    - stringEventText:
-        value: health
-      number:
-        value: 200
-      stringEventModifierType:
-        value: 3
-    dialogueEventSos: []
-  - nodeGuid: 2ba8eabd-2444-4687-90ce-dd80bd25cff3
-    position: {x: 908.8, y: 213.6}
-    stringModifiers:
-    - stringEventText:
-        value: didaskforfood
-      number:
-        value: 0
-      stringEventModifierType:
+    dialogueDataPorts: []
+  - nodeGuid: d91f344c-4409-49df-b9c1-a022729ce02d
+    position: {x: 1084, y: 168.8}
+    dialogueDataNames:
+    - id:
         value: 1
-    dialogueEventSos: []
-  branchDatas:
-  - nodeGuid: 9cd067d7-7229-4d0c-a86c-65233c9007b9
-    position: {x: 622, y: -140.4}
-    trueGuidNode: ef6e40f6-ec45-40bb-9418-50845f3217de
-    falseGuidNode: 273c1bbd-7867-4f54-983d-732e85253411
-    stringConditions:
-    - stringEventText:
-        value: didaskforfood
-      number:
+      characterName:
+        value: Jiselle
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: b3c70aa9-d0d7-43f7-9f82-945279af976b
+      text:
+      - languageType: 1
+        languageGenericType: nique ses mort
+      - languageType: 2
+        languageGenericType: fuck you
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
         value: 0
-      stringEventConditionType:
-        value: 1
-  choiceDatas:
-  - nodeGuid: 988f9dd7-de6c-4a05-bf15-63bac0d81c12
-    position: {x: 592.8, y: 213.6}
-    choiceStateTypes:
-      value: 1
-    text:
-    - languageType: 1
-      languageGenericType: Allons au yankee
-    - languageType: 2
-      languageGenericType: Go yankee
-    - languageType: 3
-      languageGenericType: "\u0438\u0434\u0438 \u043A \u044F\u043D\u043A\u0438"
-    audioClips:
-    - languageType: 1
-      languageGenericType: {fileID: 0}
-    - languageType: 2
-      languageGenericType: {fileID: 0}
-    - languageType: 3
-      languageGenericType: {fileID: 0}
-    stringConditions: []
-  - nodeGuid: a915b06a-6903-400f-8d01-ca385b66f178
-    position: {x: 583.2, y: 368}
-    choiceStateTypes:
-      value: 1
-    text:
-    - languageType: 1
-      languageGenericType: non
-    - languageType: 2
-      languageGenericType: no
-    - languageType: 3
-      languageGenericType: "\u043D\u0435"
-    audioClips:
-    - languageType: 1
-      languageGenericType: {fileID: 0}
-    - languageType: 2
-      languageGenericType: {fileID: 0}
-    - languageType: 3
-      languageGenericType: {fileID: 0}
-    stringConditions: []
+      spriteLeft:
+        value: {fileID: 21300000, guid: c4cc9d48f5f731247b80624d04ea9a2c, type: 3}
+      spriteRight:
+        value: {fileID: 21300000, guid: a5dfd3f8b4691c24fa39247230984895, type: 3}
+    dialogueDataPorts: []
+  eventDatas: []
+  branchDatas: []
+  choiceDatas: []
   endDatas:
-  - nodeGuid: 3edee6fa-3fc5-42b2-9901-ff00656aff8e
-    position: {x: 1974.4, y: 401.59998}
-    endNodeType:
-      value: 3
   - nodeGuid: ef6e40f6-ec45-40bb-9418-50845f3217de
-    position: {x: 2116, y: 78.399994}
+    position: {x: 1473.6, y: 166.4}
     endNodeType:
       value: 1

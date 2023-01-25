@@ -8,6 +8,9 @@ namespace Team06
 {
     public class DialogueTalk : DialogueGetData
     {
+        [SerializeField] private bool autoDialogue;
+        [SerializeField] private float timeBetweenSentence = 3f;
+        
         private DialogueController _dialogueController;
         private AudioSource _audioSource;
 
@@ -182,9 +185,19 @@ namespace Team06
         {
             if (_currentIndex == _baseContainers.Count && _currentDialogueNodeData.dialogueDataPorts.Count == 0)
             {
-                UnityAction unityAction = null;
-                unityAction += () => CheckNodeType(GetNextNode(_currentDialogueNodeData));
-                _dialogueController.SetContinue(unityAction);
+                if (autoDialogue)
+                {
+                    StartCoroutine(EndDialogue());
+                }
+                else
+                {
+                    UnityAction unityAction = null;
+                    unityAction += () => CheckNodeType(GetNextNode(_currentDialogueNodeData));
+                    _dialogueController.SetContinue(unityAction);
+                }
+                
+                print("1");
+                
             }
             else if (_currentIndex == _baseContainers.Count)
             {
@@ -194,14 +207,23 @@ namespace Team06
                 {
                     ChoiceCheck(port.inputGuid, dialogueButtonContainers);
                 }
-
+                print("2");
                 _dialogueController.SetButtons(dialogueButtonContainers);
             }
             else
             {
-                UnityAction unityAction = null;
-                unityAction += () => DialogueToDo();
-                _dialogueController.SetContinue(unityAction);
+                print("3");
+                if (autoDialogue)
+                {
+                    StartCoroutine(NextDialogue());
+                }
+                else
+                {
+                    UnityAction unityAction = null;
+                    unityAction += () => DialogueToDo();
+                    _dialogueController.SetContinue(unityAction);
+                }
+                
             }
         }
 
@@ -232,6 +254,17 @@ namespace Team06
             dialogueButtonContainer.conditionCheck = checkBranch;
 
             dialogueButtonContainers.Add(dialogueButtonContainer);
+        }
+
+        IEnumerator NextDialogue()
+        {
+            yield return new WaitForSeconds(timeBetweenSentence);
+            DialogueToDo();
+        }
+        IEnumerator EndDialogue()
+        {
+            yield return new WaitForSeconds(timeBetweenSentence);
+            CheckNodeType(GetNextNode(_currentDialogueNodeData));
         }
     }
 }
