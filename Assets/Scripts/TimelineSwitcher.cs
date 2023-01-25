@@ -33,7 +33,7 @@ namespace Team06
                     Vector3 direction = ((Vector3)touch.position - _startPosition).normalized;
 
                     if (direction.y >= 0 && direction.y >= Vector3.up.y - offset) {
-                        Debug.Log("UUUPPPP");
+                        //Debug.Log("UUUPPPP");
 
                         if (_timelineIndex == 0)
                         {
@@ -46,7 +46,7 @@ namespace Team06
                     }
 
                     if (direction.y <= 0 && direction.y <= (Vector3.up.y - offset) * -1) {
-                        Debug.Log("dooown");
+                        //Debug.Log("dooown");
 
                         if (_timelineIndex == 1) {
                             _timelineIndex = 0;
