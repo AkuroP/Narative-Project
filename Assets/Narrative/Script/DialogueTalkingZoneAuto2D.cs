@@ -8,11 +8,11 @@ namespace Team06
     public class DialogueTalkingZoneAuto2D : MonoBehaviour
     {
         public DialogueTalk dialogueTalk;
-        private CircleCollider2D _circleCollider2D;
+        private Collider2D thisCollider2D;
 
         private void Awake()
         {
-            _circleCollider2D = GetComponent<CircleCollider2D>();
+            thisCollider2D = GetComponent<Collider2D>();
         }
 
         private void OnTriggerEnter2D(Collider2D other)
@@ -21,7 +21,7 @@ namespace Team06
             {
                 print("stp");
                 dialogueTalk.StartDialogue();
-                _circleCollider2D.enabled = false;
+                thisCollider2D.enabled = false;
 
             }
         }
