@@ -1,0 +1,286 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
+  m_Name: Village1
+  m_EditorClassIdentifier: 
+  nodeLinkDatas:
+  - baseNodeGuid: 33f34225-b83c-41f6-bc13-56a5198b64a2
+    basePortName: Output
+    targetNodeGuid: 467e52e7-ef4d-490d-86e7-0bffd612e40f
+    targetPortName: Input
+  - baseNodeGuid: 467e52e7-ef4d-490d-86e7-0bffd612e40f
+    basePortName: Continue
+    targetNodeGuid: 7f18e392-2f91-45a5-a4d9-f36f32fa6804
+    targetPortName: Input
+  - baseNodeGuid: 7f18e392-2f91-45a5-a4d9-f36f32fa6804
+    basePortName: Continue
+    targetNodeGuid: 59695603-b1d5-436a-8354-10414682e391
+    targetPortName: Input
+  - baseNodeGuid: 59695603-b1d5-436a-8354-10414682e391
+    basePortName: Continue
+    targetNodeGuid: 5c58c5e9-5b4e-4343-a944-676ce8024488
+    targetPortName: Input
+  startDatas:
+  - nodeGuid: 33f34225-b83c-41f6-bc13-56a5198b64a2
+    position: {x: -599.2, y: 345.6}
+  dialogueDatas:
+  - nodeGuid: 467e52e7-ef4d-490d-86e7-0bffd612e40f
+    position: {x: -432, y: 355.2}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 1
+      guidID:
+        value: 39efd562-e235-4400-b48b-789b1fd41064
+      text:
+      - languageType: 1
+        languageGenericType: "Je n\u2019arrive pas \xE0 croire que \xE7a fait quatre
+          mois que Clem est partie."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 2
+      guidID:
+        value: dec23e91-ebbf-4c37-8d03-b4d59b528f11
+      text:
+      - languageType: 1
+        languageGenericType: "Tout \xE9tait si facile quand elle \xE9tait encore
+          l\xE0\u2026 Et qu\u2019est-ce qu\u2019on s\u2019amusait !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 3
+      guidID:
+        value: 62111ff7-6a95-491c-81cd-1c89b6b46fcd
+      text:
+      - languageType: 1
+        languageGenericType: "Je m\u2019en souviendrais toujours quand on a chang\xE9
+          l\u2019heure du cadran de la mairie le jour du mariage de Paul et Emma\u2026
+          Tout le monde a cru que la c\xE9r\xE9monie avait dur\xE9 trop longtemps
+          ! Ils commen\xE7aient \xE0 s\u2019affoler ! Aaah..."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages: []
+    dialogueDataPorts: []
+  - nodeGuid: 7f18e392-2f91-45a5-a4d9-f36f32fa6804
+    position: {x: -154.4, y: 355.2}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 1
+      guidID:
+        value: 8e3d685d-ad66-42a4-9a79-0bacc1716413
+      text:
+      - languageType: 1
+        languageGenericType: "M. Lef\xE8vre nous engueulait sans cesse et pensait
+          qu\u2019on n\u2019arriverait \xE0 rien plus tard mais il n\u2019a plus
+          su quoi dire quand on lui a montr\xE9 nos notes du lyc\xE9e !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 2
+      guidID:
+        value: af1dd8f3-b2d8-4291-88c3-8621bf63c73b
+      text:
+      - languageType: 1
+        languageGenericType: "Ah ! Lui qui ne l\u2019avait jamais fini !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 3
+      guidID:
+        value: aa95cdc9-2ec8-417c-835a-a3a1543dba05
+      text:
+      - languageType: 1
+        languageGenericType: .......
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 4
+      guidID:
+        value: 5d9941fe-9fff-41ce-b3ae-5ced678543be
+      text:
+      - languageType: 1
+        languageGenericType: "Ca a toujours \xE9t\xE9 Cl\xE9mence la plus intelligente
+          de nous deux... Elle l'a bien prouv\xE9 en comprenant qu\u2019il n\u2019y
+          avait rien pour elle dans ce village...  Et aux alentours."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages: []
+    dialogueDataPorts: []
+  - nodeGuid: 59695603-b1d5-436a-8354-10414682e391
+    position: {x: 123.2, y: 355.2}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 1
+      guidID:
+        value: 9fa22a22-f754-4c2b-be5b-2ba3a0d6767f
+      text:
+      - languageType: 1
+        languageGenericType: "Je me demande quand est-ce qu\u2019elle a pris tant
+          d\u2019assurance et est devenue si ind\xE9pendante au point de partir,
+          d\u2019aller vivre seule !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 2
+      guidID:
+        value: d2d0fc9e-6a07-462a-82f6-8f3e8b0e20ba
+      text:
+      - languageType: 1
+        languageGenericType: "Au moins elle pourra se vanter de m\u2019avoir surprise
+          !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 3
+      guidID:
+        value: e2c281df-d32b-4011-871b-37d39e920c1f
+      text:
+      - languageType: 1
+        languageGenericType: "Est-ce qu'elle a vraiment pris mon avis en compte ?
+          On dirait presque qu\u2019elle s\u2019est enfuie \xE0 cause de moi\u2026
+          Qu\u2019est-ce que je suis suppos\xE9e faire maintenant ?!"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 4
+      guidID:
+        value: 7e027f12-477a-428d-970d-8c7ed43c1f51
+      text:
+      - languageType: 1
+        languageGenericType: "Je voudrais tellement qu\u2019elle soit encore l\xE0
+          ! Pourquoi il a fallu qu\u2019elle s\u2019en aille !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages: []
+    dialogueDataPorts: []
+  eventDatas: []
+  branchDatas: []
+  choiceDatas: []
+  endDatas:
+  - nodeGuid: 5c58c5e9-5b4e-4343-a944-676ce8024488
+    position: {x: 483.2, y: 355.2}
+    endNodeType:
+      value: 1

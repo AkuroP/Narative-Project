@@ -6,7 +6,9 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-public class DialogueController : MonoBehaviour
+namespace Team06
+{
+    public class DialogueController : MonoBehaviour
 {
     [SerializeField] private GameObject dialogueUI;
 
@@ -131,3 +133,4 @@ public class DialogueController : MonoBehaviour
             buttonContinue.gameObject.SetActive(true);
         }
     }
+}

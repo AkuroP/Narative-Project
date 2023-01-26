@@ -3,40 +3,52 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameEvents : MonoBehaviour
+namespace Team06
 {
-    private event Action<int> randomColorModel;
-    protected UseStringEventCondition useStringEventCondition = new UseStringEventCondition();
-    protected UseStringEventModifier useStringEventModifier = new UseStringEventModifier();
 
-    public static GameEvents Instance { get; private set; }
-    public Action<int> RandomColorModel { get => randomColorModel; set => randomColorModel = value; }
 
-    private void Awake()
+    public class GameEvents : MonoBehaviour
     {
-        if (Instance == null)
+        private event Action<int> randomColorModel;
+        protected UseStringEventCondition useStringEventCondition = new UseStringEventCondition();
+        protected UseStringEventModifier useStringEventModifier = new UseStringEventModifier();
+
+        public static GameEvents Instance { get; private set; }
+
+        public Action<int> RandomColorModel
         {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
+            get => randomColorModel;
+            set => randomColorModel = value;
         }
-        else
+
+        private void Awake()
         {
-            Destroy(gameObject);
+            if (Instance == null)
+            {
+                Instance = this;
+                DontDestroyOnLoad(gameObject);
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
-    }
 
-    public void CallRandomColorModel(int number)
-    {
-        randomColorModel?.Invoke(number);
-    }
+        public void CallRandomColorModel(int number)
+        {
+            randomColorModel?.Invoke(number);
+        }
 
-    public virtual void DialogueModifierEvents(string stringEvent, StringEventModifierType stringEventModifierType, float value = 0)
-    {
+        public virtual void DialogueModifierEvents(string stringEvent, StringEventModifierType stringEventModifierType,
+            float value = 0)
+        {
 
-    }
+        }
 
-    public virtual bool DialogueConditionEvents(string stringEvent, StringEventConditionType stringEventConditionType, float value = 0)
-    {
-        return false;
+        public virtual bool DialogueConditionEvents(string stringEvent,
+            StringEventConditionType stringEventConditionType, float value = 0)
+        {
+            return false;
+        }
     }
 }

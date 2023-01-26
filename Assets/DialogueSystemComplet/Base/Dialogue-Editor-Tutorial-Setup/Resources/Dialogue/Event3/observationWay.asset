@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
+  m_Name: observationWay
+  m_EditorClassIdentifier: 
+  nodeLinkDatas:
+  - baseNodeGuid: 85e12ace-8bde-447e-8702-d10804e7f01a
+    basePortName: Output
+    targetNodeGuid: 6b72bb71-d9c9-4d5a-baa0-1a5083d614b9
+    targetPortName: Input
+  - baseNodeGuid: 6b72bb71-d9c9-4d5a-baa0-1a5083d614b9
+    basePortName: Continue
+    targetNodeGuid: d57575f9-4d5f-4025-8f91-9edc57541326
+    targetPortName: Input
+  startDatas:
+  - nodeGuid: 85e12ace-8bde-447e-8702-d10804e7f01a
+    position: {x: 294, y: 306.8}
+  dialogueDatas:
+  - nodeGuid: 6b72bb71-d9c9-4d5a-baa0-1a5083d614b9
+    position: {x: 468, y: 388}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 1
+      guidID:
+        value: 88250d0b-b75c-4f93-8646-9ac7683a1410
+      text:
+      - languageType: 1
+        languageGenericType: "Ca fait un sacr\xE9 chemin.\nQuelque chose me dit qu\u2019il
+          a \xE9t\xE9 encore plus long avec maman qu\u2019avec Cl\xE9mence."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages: []
+    dialogueDataPorts: []
+  eventDatas: []
+  branchDatas: []
+  choiceDatas: []
+  endDatas:
+  - nodeGuid: d57575f9-4d5f-4025-8f91-9edc57541326
+    position: {x: 847.2, y: 432.8}
+    endNodeType:
+      value: 1

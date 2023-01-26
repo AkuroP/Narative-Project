@@ -5,28 +5,32 @@ using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using Edge = UnityEditor.Experimental.GraphView.Edge;
 
-public class DialogueSaveAndLoad
+namespace Team06
 {
-    private List<Edge> edges => _graphView.edges.ToList();
-    private List<BaseNode> nodes => _graphView.nodes.ToList().Where(node => node is BaseNode).Cast<BaseNode>().ToList();
-
-    private DialogueGraphView _graphView;
-
-    public DialogueSaveAndLoad(DialogueGraphView graphView)
+    public class DialogueSaveAndLoad
     {
-        this._graphView = graphView;
-    }
+        private List<Edge> edges => _graphView.edges.ToList();
 
-    public void Save(DialogueContainerSO dialogueContainerSo)
-    {
-        SaveEdges(dialogueContainerSo);
-        SaveNodes(dialogueContainerSo);
+        private List<BaseNode> nodes =>
+            _graphView.nodes.ToList().Where(node => node is BaseNode).Cast<BaseNode>().ToList();
 
-        EditorUtility.SetDirty(dialogueContainerSo);
-        AssetDatabase.SaveAssets();
-    }
-    
-    public void Load(DialogueContainerSO dialogueContainerSo)
+        private DialogueGraphView _graphView;
+
+        public DialogueSaveAndLoad(DialogueGraphView graphView)
+        {
+            this._graphView = graphView;
+        }
+
+        public void Save(DialogueContainerSO dialogueContainerSo)
+        {
+            SaveEdges(dialogueContainerSo);
+            SaveNodes(dialogueContainerSo);
+
+            EditorUtility.SetDirty(dialogueContainerSo);
+            AssetDatabase.SaveAssets();
+        }
+
+        public void Load(DialogueContainerSO dialogueContainerSo)
         {
             ClearGraph();
             GenerateNodes(dialogueContainerSo);
@@ -34,6 +38,7 @@ public class DialogueSaveAndLoad
         }
 
         #region Save
+
         private void SaveEdges(DialogueContainerSO dialogueContainerSo)
         {
             dialogueContainerSo.nodeLinkDatas.Clear();
@@ -41,7 +46,7 @@ public class DialogueSaveAndLoad
             Edge[] connectedEdges = edges.Where(edge => edge.input.node != null).ToArray();
             for (int i = 0; i < connectedEdges.Count(); i++)
             {
-                BaseNode outputNode = (BaseNode)connectedEdges[i].output.node;
+                BaseNode outputNode = (BaseNode) connectedEdges[i].output.node;
                 BaseNode inputNode = connectedEdges[i].input.node as BaseNode;
 
                 dialogueContainerSo.nodeLinkDatas.Add(new DialogueContainerSO.NodeLinkDatas()
@@ -91,7 +96,7 @@ public class DialogueSaveAndLoad
             });
         }
 
-          private DialogueData SaveNodeData(DialogueNode node)
+        private DialogueData SaveNodeData(DialogueNode node)
         {
             DialogueData dialogueData = new DialogueData
             {
@@ -299,6 +304,7 @@ public class DialogueSaveAndLoad
 
             return nodeData;
         }
+
         #endregion
 
         #region Load
@@ -345,6 +351,7 @@ public class DialogueSaveAndLoad
                 {
                     tempNode.AddScriptableEvent(item);
                 }
+
                 foreach (EventDataStringModifier item in node.stringModifiers)
                 {
                     tempNode.AddStringEvent(item);
@@ -388,6 +395,7 @@ public class DialogueSaveAndLoad
                         }
                     }
                 }
+
                 foreach (LanguageGeneric<AudioClip> dataAudioClip in node.audioClips)
                 {
                     foreach (LanguageGeneric<AudioClip> editorAudioClip in tempNode.ChoiceData.audioClips)
@@ -422,7 +430,7 @@ public class DialogueSaveAndLoad
                 dataBaseContainer.AddRange(node.dialogueDataTexts);
                 dataBaseContainer.AddRange(node.dialogueDataNames);
 
-                dataBaseContainer.Sort(delegate (DialogueDataBaseContainer x, DialogueDataBaseContainer y)
+                dataBaseContainer.Sort(delegate(DialogueDataBaseContainer x, DialogueDataBaseContainer y)
                 {
                     return x.id.value.CompareTo(y.id.value);
                 });
@@ -461,15 +469,17 @@ public class DialogueSaveAndLoad
             // Make connection for all node.
             for (int i = 0; i < nodes.Count; i++)
             {
-                List<DialogueContainerSO.NodeLinkDatas> connections = dialogueContainer.nodeLinkDatas.Where(edge => edge.baseNodeGuid == nodes[i].NodeGuid).ToList();
+                List<DialogueContainerSO.NodeLinkDatas> connections = dialogueContainer.nodeLinkDatas
+                    .Where(edge => edge.baseNodeGuid == nodes[i].NodeGuid).ToList();
 
-                List<Port> allOutputPorts = nodes[i].outputContainer.Children().Where(x => x is Port).Cast<Port>().ToList();
+                List<Port> allOutputPorts =
+                    nodes[i].outputContainer.Children().Where(x => x is Port).Cast<Port>().ToList();
 
                 for (int j = 0; j < connections.Count; j++)
                 {
                     string targetNodeGuid = connections[j].targetNodeGuid;
                     var targetNode = nodes.FirstOrDefault(node => node.NodeGuid == targetNodeGuid);
-                    
+
                     if (targetNode == null)
                         continue;
 
@@ -477,7 +487,7 @@ public class DialogueSaveAndLoad
                     {
                         if (item.portName == connections[j].basePortName)
                         {
-                            LinkNodesTogether(item, (Port)targetNode.inputContainer[0]);
+                            LinkNodesTogether(item, (Port) targetNode.inputContainer[0]);
                         }
                     }
                 }
@@ -498,4 +508,5 @@ public class DialogueSaveAndLoad
 
         #endregion
     }
+}
 

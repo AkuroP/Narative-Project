@@ -3,23 +3,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LanguageController : MonoBehaviour
+namespace Team06
 {
-    [SerializeField] private LanguageType languageType;
-    
-    public static LanguageController Instance { get; private set; }
-    public LanguageType LanguageType { get => languageType; set => languageType = value; }
-
-    private void Awake()
+    public class LanguageController : MonoBehaviour
     {
-        if (Instance == null)
+        [SerializeField] private LanguageType languageType;
+
+        public static LanguageController Instance { get; private set; }
+
+        public LanguageType LanguageType
         {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
+            get => languageType;
+            set => languageType = value;
         }
-        else
+
+        private void Awake()
         {
-            Destroy(gameObject);
+            if (Instance == null)
+            {
+                Instance = this;
+                DontDestroyOnLoad(gameObject);
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }

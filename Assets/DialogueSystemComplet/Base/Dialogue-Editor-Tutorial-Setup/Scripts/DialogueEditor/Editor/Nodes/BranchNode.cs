@@ -6,6 +6,10 @@ using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
+namespace Team06
+{
+    
+
 public class BranchNode : BaseNode
 {
     private BranchData _branchData = new BranchData();
@@ -48,4 +52,5 @@ public class BranchNode : BaseNode
         AddStringConditionEventBuild(_branchData.stringConditions, stringEvent);
     }
     
+}
 }

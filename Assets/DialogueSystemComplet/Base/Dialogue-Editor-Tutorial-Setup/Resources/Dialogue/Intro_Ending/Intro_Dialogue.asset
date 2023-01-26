@@ -1,0 +1,1204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
+  m_Name: Intro_Dialogue
+  m_EditorClassIdentifier: 
+  nodeLinkDatas:
+  - baseNodeGuid: 998f20af-6f9a-4a5f-b1f9-f7bc80515149
+    basePortName: Output
+    targetNodeGuid: 5ce446c3-dc8e-4cec-b129-8e3c737d37cc
+    targetPortName: Input
+  - baseNodeGuid: 5ce446c3-dc8e-4cec-b129-8e3c737d37cc
+    basePortName: Continue
+    targetNodeGuid: d16095fa-417b-402b-b635-5df8f2ddf17e
+    targetPortName: Input
+  - baseNodeGuid: d16095fa-417b-402b-b635-5df8f2ddf17e
+    basePortName: Continue
+    targetNodeGuid: d9f2eb3c-594d-4f7c-b521-478b86bd4028
+    targetPortName: Input
+  - baseNodeGuid: d9f2eb3c-594d-4f7c-b521-478b86bd4028
+    basePortName: Continue
+    targetNodeGuid: a1f5f39c-c6ea-4a61-b989-e0e3c0815b2b
+    targetPortName: Input
+  - baseNodeGuid: a1f5f39c-c6ea-4a61-b989-e0e3c0815b2b
+    basePortName: Continue
+    targetNodeGuid: d31eccbf-9f80-4db2-95bd-846572755a49
+    targetPortName: Input
+  - baseNodeGuid: d31eccbf-9f80-4db2-95bd-846572755a49
+    basePortName: Continue
+    targetNodeGuid: a292dd86-4b11-4aad-aa9b-3f387838140a
+    targetPortName: Input
+  - baseNodeGuid: a292dd86-4b11-4aad-aa9b-3f387838140a
+    basePortName: Continue
+    targetNodeGuid: 89d5e6c0-c120-457e-99b6-af92103e99d7
+    targetPortName: Input
+  - baseNodeGuid: 89d5e6c0-c120-457e-99b6-af92103e99d7
+    basePortName: Continue
+    targetNodeGuid: 5a694668-7b9a-4b90-82d8-3ce38417d704
+    targetPortName: Input
+  - baseNodeGuid: 5a694668-7b9a-4b90-82d8-3ce38417d704
+    basePortName: Continue
+    targetNodeGuid: 57650ca2-45a0-4b24-a973-d56bf85ecdad
+    targetPortName: Input
+  - baseNodeGuid: 57650ca2-45a0-4b24-a973-d56bf85ecdad
+    basePortName: Continue
+    targetNodeGuid: 5ce36647-4b30-47ef-a35f-c682ecce2d47
+    targetPortName: Input
+  - baseNodeGuid: 5ce36647-4b30-47ef-a35f-c682ecce2d47
+    basePortName: Continue
+    targetNodeGuid: 0d627530-dcd3-4b52-84fe-fecae9a3b906
+    targetPortName: Input
+  - baseNodeGuid: 7d9938f2-1cdb-4b53-a545-0d4df0122903
+    basePortName: Continue
+    targetNodeGuid: b52faa80-167b-4cd9-a402-15103ee45ec2
+    targetPortName: Input
+  - baseNodeGuid: b52faa80-167b-4cd9-a402-15103ee45ec2
+    basePortName: Continue
+    targetNodeGuid: 33bf656d-6ee8-4a69-aa82-b4f8587e0b7b
+    targetPortName: Input
+  - baseNodeGuid: 33bf656d-6ee8-4a69-aa82-b4f8587e0b7b
+    basePortName: Continue
+    targetNodeGuid: f9ff58dd-868a-43a5-b7d6-513805ec1c95
+    targetPortName: Input
+  - baseNodeGuid: f9ff58dd-868a-43a5-b7d6-513805ec1c95
+    basePortName: Continue
+    targetNodeGuid: 5daf2e1d-2226-46d6-aa58-c7277288b167
+    targetPortName: Input
+  - baseNodeGuid: 5daf2e1d-2226-46d6-aa58-c7277288b167
+    basePortName: Continue
+    targetNodeGuid: 659a1f33-4e32-4e3a-b2a9-317c761b532b
+    targetPortName: Input
+  - baseNodeGuid: 659a1f33-4e32-4e3a-b2a9-317c761b532b
+    basePortName: Continue
+    targetNodeGuid: 6250eea1-7817-4a26-a2fa-d2c20904db00
+    targetPortName: Input
+  - baseNodeGuid: 6250eea1-7817-4a26-a2fa-d2c20904db00
+    basePortName: Continue
+    targetNodeGuid: 2c61bb10-a974-44d1-9cbb-027cc36257f0
+    targetPortName: Input
+  - baseNodeGuid: 2c61bb10-a974-44d1-9cbb-027cc36257f0
+    basePortName: Continue
+    targetNodeGuid: 8ac2e3ba-9458-48e5-b1dc-dd80e7ebed3d
+    targetPortName: Input
+  - baseNodeGuid: 8ac2e3ba-9458-48e5-b1dc-dd80e7ebed3d
+    basePortName: Continue
+    targetNodeGuid: 645323c8-6a55-4582-a7b6-17f8fc984719
+    targetPortName: Input
+  - baseNodeGuid: 645323c8-6a55-4582-a7b6-17f8fc984719
+    basePortName: Continue
+    targetNodeGuid: fd2399f3-1cab-41c0-acb2-09b96e2bca1a
+    targetPortName: Input
+  - baseNodeGuid: fd2399f3-1cab-41c0-acb2-09b96e2bca1a
+    basePortName: Continue
+    targetNodeGuid: 681f83f9-1b70-4871-af76-9fd50260be76
+    targetPortName: Input
+  - baseNodeGuid: 681f83f9-1b70-4871-af76-9fd50260be76
+    basePortName: Continue
+    targetNodeGuid: bd85bb31-4db9-49fa-873f-9714f6dc1e85
+    targetPortName: Input
+  - baseNodeGuid: bd85bb31-4db9-49fa-873f-9714f6dc1e85
+    basePortName: Continue
+    targetNodeGuid: f0286ff8-cfea-452d-bf31-556f1658e263
+    targetPortName: Input
+  - baseNodeGuid: f0286ff8-cfea-452d-bf31-556f1658e263
+    basePortName: Continue
+    targetNodeGuid: 69dab0da-c099-4849-9e19-2deb9ac945f1
+    targetPortName: Input
+  - baseNodeGuid: 69dab0da-c099-4849-9e19-2deb9ac945f1
+    basePortName: Continue
+    targetNodeGuid: 0cc12be4-37d2-4870-9de5-a98720a6f50c
+    targetPortName: Input
+  - baseNodeGuid: 0cc12be4-37d2-4870-9de5-a98720a6f50c
+    basePortName: Continue
+    targetNodeGuid: 06bf116b-ac74-4704-a4f3-2bae22c5ac0e
+    targetPortName: Input
+  - baseNodeGuid: 53f73720-8169-42cd-9369-1860330ec6d3
+    basePortName: Continue
+    targetNodeGuid: 91882592-3128-42a7-8edc-5b91a095f0da
+    targetPortName: Input
+  - baseNodeGuid: 06bf116b-ac74-4704-a4f3-2bae22c5ac0e
+    basePortName: Continue
+    targetNodeGuid: 53f73720-8169-42cd-9369-1860330ec6d3
+    targetPortName: Input
+  - baseNodeGuid: 0d627530-dcd3-4b52-84fe-fecae9a3b906
+    basePortName: Continue
+    targetNodeGuid: 7d9938f2-1cdb-4b53-a545-0d4df0122903
+    targetPortName: Input
+  startDatas:
+  - nodeGuid: 998f20af-6f9a-4a5f-b1f9-f7bc80515149
+    position: {x: 325.6, y: 396}
+  dialogueDatas:
+  - nodeGuid: 5ce446c3-dc8e-4cec-b129-8e3c737d37cc
+    position: {x: 496.8, y: 295.2}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 97a53714-1bcc-4613-aee0-b8cd6703af5e
+      text:
+      - languageType: 1
+        languageGenericType: "C\u2019est pas G\xC9ANT !? T\u2019imagines le monde
+          qu\u2019il y aura ? Un festival en campagne ! En vrai c\u2019est normal,
+          mais c\u2019est jamais arriv\xE9 pr\xE8s de chez nous !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: d16095fa-417b-402b-b635-5df8f2ddf17e
+    position: {x: 801.6, y: 295.2}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: "Cl\xE9mence"
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 165f7c56-9ec9-4859-bb97-231191dc022c
+      text:
+      - languageType: 1
+        languageGenericType: "Hmm\u2026"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: d9f2eb3c-594d-4f7c-b521-478b86bd4028
+    position: {x: 1099.2, y: 295.2}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: d47fbd76-dba3-49d5-bbb8-e39bf1f51abd
+      text:
+      - languageType: 1
+        languageGenericType: "Au fait Clem, t\u2019as demand\xE9 \xE0 tes parents
+          ? Ils peuvent bien laisser leur fille s\u2019amuser un soir, hein ? Et
+          j\u2019suis pr\xEAte \xE0 te couvrir !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: a1f5f39c-c6ea-4a61-b989-e0e3c0815b2b
+    position: {x: 1398.4, y: 295.2}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: "Cl\xE9mence"
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 59e5aac7-4962-4566-833c-a1e6fe2fd026
+      text:
+      - languageType: 1
+        languageGenericType: "Ouais\u2026 t\u2019inqui\xE8te pas trop."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: d31eccbf-9f80-4db2-95bd-846572755a49
+    position: {x: 1699.2, y: 295.2}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 96c5395f-152b-48de-98a0-2b8e8a6bf600
+      text:
+      - languageType: 1
+        languageGenericType: "Apr\xE8s faut demander \xE0 Sandra, \xE0 Bel, \xE0
+          Mag si c'est bon pour la voiture\u2026"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: a292dd86-4b11-4aad-aa9b-3f387838140a
+    position: {x: 1997.6, y: 295.2}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: "Cl\xE9mence"
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 7c42d8f8-1857-43e8-97df-d94af4166fe8
+      text:
+      - languageType: 1
+        languageGenericType: "Oh h\xE9 Ambre, c\u2019est pas dans 6 mois ? Tu penses
+          pas que tu pr\xE9vois trop \xE0 l\u2019avance ?"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: 89d5e6c0-c120-457e-99b6-af92103e99d7
+    position: {x: 2297.6, y: 295.2}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 6f13e63a-8f05-478f-be68-406291c42a9c
+      text:
+      - languageType: 1
+        languageGenericType: "Hein ? Pas de \u201CPr\xE9cieuse\u201D aujourd\u2019hui
+          ?"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: 57650ca2-45a0-4b24-a973-d56bf85ecdad
+    position: {x: 2897.6, y: 295.2}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 56326f46-21c8-4ad3-b292-d77ea188da8c
+      text:
+      - languageType: 1
+        languageGenericType: "Mais\u2026 j\u2019ai pas l\u2019habitude que t\u2019utilises
+          mon nom !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: 5ce36647-4b30-47ef-a35f-c682ecce2d47
+    position: {x: 3200, y: 295.2}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: "Cl\xE9mence"
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 92a048b4-c3cd-4805-b7c8-2c69554b675d
+      text:
+      - languageType: 1
+        languageGenericType: "Haha ! Je devrais faire \xE7a plus souvent si \xE7a
+          te met dans cet \xE9tat."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: 0d627530-dcd3-4b52-84fe-fecae9a3b906
+    position: {x: 3496.8, y: 295.2}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: ad3ee79d-c91a-40a7-8984-ffb31a96c9e9
+      text:
+      - languageType: 1
+        languageGenericType: Hey !
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: 7d9938f2-1cdb-4b53-a545-0d4df0122903
+    position: {x: 3801.6, y: 295.2}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: "Cl\xE9mence "
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: dcd0c1d3-ad5b-4df8-b727-96cfd18d7ff5
+      text:
+      - languageType: 1
+        languageGenericType: Hahaha !
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: b52faa80-167b-4cd9-a402-15103ee45ec2
+    position: {x: 496.8, y: 799.2}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: "Cl\xE9mence"
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 9b98968c-4bc6-43c4-af04-69ac69d9352a
+      text:
+      - languageType: 1
+        languageGenericType: "Mais s\xE9rieusement, il faut que je te dise quelque
+          chose."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: 33bf656d-6ee8-4a69-aa82-b4f8587e0b7b
+    position: {x: 795.2, y: 799.2}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: acbc567d-7959-4b23-83bc-b60cdf47aa34
+      text:
+      - languageType: 1
+        languageGenericType: "J\u2019t\u2019\xE9coute !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: f9ff58dd-868a-43a5-b7d6-513805ec1c95
+    position: {x: 1099.2, y: 800}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: "Cl\xE9mence"
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 1afcc280-7132-4182-9c95-125cc89079ea
+      text:
+      - languageType: 1
+        languageGenericType: Tu sais quand je suis partie un aprem pour un concours
+          ?
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: 5daf2e1d-2226-46d6-aa58-c7277288b167
+    position: {x: 1399.2, y: 800}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 70241b69-991c-4167-baf1-8b72103480cf
+      text:
+      - languageType: 1
+        languageGenericType: "Ouais ? C\u2019\xE9tait pour une \xE9cole, c\u2019est
+          \xE7a ?"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: 659a1f33-4e32-4e3a-b2a9-317c761b532b
+    position: {x: 1699.2, y: 800}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: "Cl\xE9mence"
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 73653136-9a5a-4724-84b8-279502fe0734
+      text:
+      - languageType: 1
+        languageGenericType: "C\u2019est \xE7a, une \xE9cole. "
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 3
+      guidID:
+        value: 8bc91ba8-0f43-4988-99f7-50756e6e9906
+      text:
+      - languageType: 1
+        languageGenericType: "Une \xE9cole \xE0 la capitale."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: 2c61bb10-a974-44d1-9cbb-027cc36257f0
+    position: {x: 2298.4, y: 800}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: "Cl\xE9mence"
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 1d1ead88-1725-49d2-9ce8-81aae8064525
+      text:
+      - languageType: 1
+        languageGenericType: "Non non ! C'est de ma faute, je n\u2019osais pas te
+          le dire. Parce que, s'ils m\u2019acceptent, je vivrais dans un appart \xE0
+          Paris pour les prochaines ann\xE9es."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: 6250eea1-7817-4a26-a2fa-d2c20904db00
+    position: {x: 1997.6, y: 800}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 50cb7626-92d0-42b6-b25b-fe61242885c5
+      text:
+      - languageType: 1
+        languageGenericType: "Ah\u2026 j\u2019ai du zapp\xE9 ce d\xE9tail."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: 5a694668-7b9a-4b90-82d8-3ce38417d704
+    position: {x: 2600.8, y: 295.2}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: "Cl\xE9mence"
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 464692a6-7ca5-4e38-9936-ded496136979
+      text:
+      - languageType: 1
+        languageGenericType: "... \nc\u2019est \xE7a qui te choque ?"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: 8ac2e3ba-9458-48e5-b1dc-dd80e7ebed3d
+    position: {x: 2600.8, y: 800}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: f950ef60-804c-41df-9915-7a3329a9d4fc
+      text:
+      - languageType: 1
+        languageGenericType: "Ouais t\u2019inqui\xE8tes, j\u2019ai fait le calcul
+          ! Ton futur est le plus important !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: 645323c8-6a55-4582-a7b6-17f8fc984719
+    position: {x: 2900, y: 800}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: "Cl\xE9mence"
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: e01a2315-9788-4d48-96f6-3b7c540b3887
+      text:
+      - languageType: 1
+        languageGenericType: "\xC7a me rassure. Je ne savais pas comment tu allais
+          prendre la nouvelle."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: fd2399f3-1cab-41c0-acb2-09b96e2bca1a
+    position: {x: 3200, y: 800}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: dccc5304-4729-4bbd-ae5a-7bafabfe0682
+      text:
+      - languageType: 1
+        languageGenericType: "Haha. Tu me connais vraiment bien\u2026 mais j\u2019t\u2019assures,
+          du moment que t\u2019es heureuse \xE7a me va !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: 681f83f9-1b70-4871-af76-9fd50260be76
+    position: {x: 3501.6, y: 800}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: "Cl\xE9mence"
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 61ab6bca-9d59-481e-87cb-9af47d958846
+      text:
+      - languageType: 1
+        languageGenericType: "Merci, les derni\xE8res semaines sont assez stressantes."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: bd85bb31-4db9-49fa-873f-9714f6dc1e85
+    position: {x: 496.8, y: 1299.2}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: dbb6f372-dfdf-41be-8136-47aba9ccf4fc
+      text:
+      - languageType: 1
+        languageGenericType: "Tu m\u2019appelleras, hein ?"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: f0286ff8-cfea-452d-bf31-556f1658e263
+    position: {x: 798.4, y: 1299.2}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: "Cl\xE9mence"
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: b76bf497-4d3f-4709-aa65-a9face29722e
+      text:
+      - languageType: 1
+        languageGenericType: "De quoi tu t\u2019inqui\xE8tes ? Bien s\xFBr que je
+          t\u2019appellerai, tous les jours !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: 69dab0da-c099-4849-9e19-2deb9ac945f1
+    position: {x: 1099.2, y: 1299.2}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: e3e1b42b-ec3f-4562-9659-c381d3440321
+      text:
+      - languageType: 1
+        languageGenericType: Cool.
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: 0cc12be4-37d2-4870-9de5-a98720a6f50c
+    position: {x: 496.8, y: 1800.7999}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 4c59be14-22e3-4837-b70b-b2b23f7083cb
+      text:
+      - languageType: 1
+        languageGenericType: "Quand est-ce que tu re\xE7ois la r\xE9ponse ? \xE7a
+          m'\xE9tonnerait que tu sois pas prise."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: 06bf116b-ac74-4704-a4f3-2bae22c5ac0e
+    position: {x: 798.4, y: 1800.7999}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: "Cl\xE9mence"
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 90bc10e7-abcd-456f-b927-bd6b8024c880
+      text:
+      - languageType: 1
+        languageGenericType: "Dans la semaine, esp\xE9rons que la Poste trouve le
+          village, haha !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: 53f73720-8169-42cd-9369-1860330ec6d3
+    position: {x: 1099.2, y: 1800.7999}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 36cea8e9-868e-4a63-af6e-b2d0c38f3641
+      text:
+      - languageType: 1
+        languageGenericType: "Esp\xE9rons..."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  - nodeGuid: 91882592-3128-42a7-8edc-5b91a095f0da
+    position: {x: 1396, y: 1800.7999}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 8c3a50e4-aded-456d-ac75-62a41defd04b
+      text:
+      - languageType: 1
+        languageGenericType: "Cl\xE9mence va quitter le village, \xE7a fait bizarre
+          de se dire \xE7a. J\u2019aurais jamais imaginer que \xE7a puisse arriver
+          un jour\u2026 Est-ce qu\u2019elle va penser \xE0 moi quand elle sera l\xE0-bas
+          ?"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
+  eventDatas: []
+  branchDatas: []
+  choiceDatas: []
+  endDatas: []

@@ -3,19 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ContinueButton : MonoBehaviour
+namespace Team06
 {
-    [Header("Button")]
-    [SerializeField] private Button continueButton;
-
-    [Header("KeyCode")]
-    [SerializeField] private KeyCode continueKey01 = KeyCode.Space;
-
-    void Update()
+    public class ContinueButton : MonoBehaviour
     {
-        if (Input.GetKeyDown(continueKey01) && continueButton.gameObject.activeSelf)
+        [Header("Button")] [SerializeField] private Button continueButton;
+
+        [Header("KeyCode")] [SerializeField] private KeyCode continueKey01 = KeyCode.Space;
+
+        void Update()
         {
-            continueButton.onClick.Invoke();
+            if (Input.GetKeyDown(continueKey01) && continueButton.gameObject.activeSelf)
+            {
+                continueButton.onClick.Invoke();
+            }
         }
     }
 }

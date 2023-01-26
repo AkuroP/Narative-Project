@@ -1,0 +1,287 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
+  m_Name: Village2
+  m_EditorClassIdentifier: 
+  nodeLinkDatas:
+  - baseNodeGuid: 94a3d9ca-3106-4117-bbde-0dd0421c4c36
+    basePortName: Output
+    targetNodeGuid: 27c7943b-916e-45e9-9563-95b0f9b5be31
+    targetPortName: Input
+  - baseNodeGuid: 27c7943b-916e-45e9-9563-95b0f9b5be31
+    basePortName: Continue
+    targetNodeGuid: 1757f5b1-43e5-4248-b7d6-6abe853a40b0
+    targetPortName: Input
+  - baseNodeGuid: 1757f5b1-43e5-4248-b7d6-6abe853a40b0
+    basePortName: Continue
+    targetNodeGuid: 84796f8e-6787-4bcb-8eaf-6d6b0bb7cafd
+    targetPortName: Input
+  - baseNodeGuid: 84796f8e-6787-4bcb-8eaf-6d6b0bb7cafd
+    basePortName: Continue
+    targetNodeGuid: e66f1c6e-2584-4dc9-81ef-ea81a17c1c06
+    targetPortName: Input
+  startDatas:
+  - nodeGuid: 94a3d9ca-3106-4117-bbde-0dd0421c4c36
+    position: {x: -206, y: -698}
+  dialogueDatas:
+  - nodeGuid: 27c7943b-916e-45e9-9563-95b0f9b5be31
+    position: {x: -131, y: -698}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 1
+      guidID:
+        value: b907eac8-c97b-4843-bd6b-6b7f1ecf05c0
+      text:
+      - languageType: 1
+        languageGenericType: "Elle n\u2019aurait jamais d\xFB partir !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 2
+      guidID:
+        value: f53d64e9-5bb2-4086-85fd-53bef72724db
+      text:
+      - languageType: 1
+        languageGenericType: "Je ne peux pas croire qu\u2019elle m\u2019ai fait \xE7a
+          ! Elle est tellement\u2026tellement \xE9go\xEFste !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages: []
+    dialogueDataPorts: []
+  - nodeGuid: 1757f5b1-43e5-4248-b7d6-6abe853a40b0
+    position: {x: 146, y: -698}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    - id:
+        value: 2
+      characterName:
+        value: "Cl\xE9mence"
+    - id:
+        value: 4
+      characterName:
+        value: Ambre
+    - id:
+        value: 6
+      characterName:
+        value: "Cl\xE9mence"
+    - id:
+        value: 8
+      characterName:
+        value: Ambre
+    - id:
+        value: 10
+      characterName:
+        value: "Cl\xE9mence"
+    dialogueDataTexts:
+    - id:
+        value: 1
+      guidID:
+        value: ed422567-4982-4516-af2a-59acf36e5e37
+      text:
+      - languageType: 1
+        languageGenericType: "Clem ?! Mais\u2026 Mais qu\u2019est-ce que tu fais
+          l\xE0 ?!"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 3
+      guidID:
+        value: 67359060-ff49-48bd-8565-177f00407dd0
+      text:
+      - languageType: 1
+        languageGenericType: "Bah je tiens l\u2019\xE9tale pendant que mes parents
+          font leur tour du march\xE9\u2026"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 5
+      guidID:
+        value: c954898d-a259-4f87-a4c7-e53d536c71f1
+      text:
+      - languageType: 1
+        languageGenericType: "Nan mais quand est-ce que t'es revenue ?! Et tes cours
+          de m\xE9decine ?!"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 7
+      guidID:
+        value: 653188a4-06ed-453a-9d80-14d29a11799c
+      text:
+      - languageType: 1
+        languageGenericType: "Hein\u2026 T\u2019es s\xE9rieuse l\xE0 ?! Tu trouves
+          \xE7a dr\xF4le ?! C\u2019est pas parce que \xE7a fait 4 mois que je dig\xE8re
+          mieux leur refus !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 9
+      guidID:
+        value: a914a5ee-bd20-4388-b89d-14a6fd8b8e61
+      text:
+      - languageType: 1
+        languageGenericType: "Leur refus ? Mais je ne comprends plus rien\u2026 T'as
+          \xE9t\xE9 refus\xE9e ? Mais t'es partie o\xF9 ces 4 derniers mois alors
+          ?"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 11
+      guidID:
+        value: e5172bdb-b515-446b-b6a3-534435e1a9b9
+      text:
+      - languageType: 1
+        languageGenericType: "Tu t'es cogn\xE9 la t\xEAte ? Je n\u2019ai jamais boug\xE9
+          ! Il faut arr\xEAter de dormir jusqu\u2019\xE0 midi, tu te r\xE9veille
+          toujours dans un \xE9tat pas possible\u2026"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 12
+      guidID:
+        value: 8686dd9e-086c-4dd2-b44f-4ee59a575d81
+      text:
+      - languageType: 1
+        languageGenericType: "Oh pourquoi il a fallu que tu me les rappelle ! Maintenant
+          je suis encore plus \xE9nerv\xE9e ! Nan mais je te jure\u2026Ils m\u2019ont
+          carr\xE9ment ignor\xE9 ! Jamais un mot, rien !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages: []
+    dialogueDataPorts: []
+  - nodeGuid: 84796f8e-6787-4bcb-8eaf-6d6b0bb7cafd
+    position: {x: 424, y: -698}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 1
+      guidID:
+        value: 3d1cb1c7-9313-4790-8d72-e7db79d8c5f4
+      text:
+      - languageType: 1
+        languageGenericType: "Mais\u2026 \xC7a n'a plus aucun sens ! Clem est toujours
+          l\xE0, elle n\u2019a jamais \xE9t\xE9 accept\xE9e dans son \xE9cole et
+          personne ne trouve \xE7a bizarre ?"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages: []
+    dialogueDataPorts: []
+  eventDatas: []
+  branchDatas: []
+  choiceDatas: []
+  endDatas:
+  - nodeGuid: e66f1c6e-2584-4dc9-81ef-ea81a17c1c06
+    position: {x: 702, y: -698}
+    endNodeType:
+      value: 1

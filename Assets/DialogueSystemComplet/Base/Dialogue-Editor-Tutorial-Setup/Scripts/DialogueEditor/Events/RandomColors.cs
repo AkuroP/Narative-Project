@@ -4,41 +4,44 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class RandomColors : MonoBehaviour
+namespace Team06
 {
-    [SerializeField] private int myNumber;
-    private List<Material> _materials = new List<Material>();
-
-    private void Awake()
+    public class RandomColors : MonoBehaviour
     {
-        SkinnedMeshRenderer[] skinnedMeshRenderers = GetComponentsInChildren<SkinnedMeshRenderer>();
+        [SerializeField] private int myNumber;
+        private List<Material> _materials = new List<Material>();
 
-        foreach (var smr in skinnedMeshRenderers)
+        private void Awake()
         {
-            foreach (var mat in smr.materials)
+            SkinnedMeshRenderer[] skinnedMeshRenderers = GetComponentsInChildren<SkinnedMeshRenderer>();
+
+            foreach (var smr in skinnedMeshRenderers)
             {
-                _materials.Add(mat);
+                foreach (var mat in smr.materials)
+                {
+                    _materials.Add(mat);
+                }
             }
         }
-    }
 
-    private void Start()
-    {
-        GameEvents.Instance.RandomColorModel += DoRandomColorModel;
-    }
-
-    private void OnDestroy()
-    {
-        GameEvents.Instance.RandomColorModel -= DoRandomColorModel;
-    }
-
-    private void DoRandomColorModel(int number)
-    {
-        if (myNumber == number)
+        private void Start()
         {
-            foreach (var mat in _materials)
+            GameEvents.Instance.RandomColorModel += DoRandomColorModel;
+        }
+
+        private void OnDestroy()
+        {
+            GameEvents.Instance.RandomColorModel -= DoRandomColorModel;
+        }
+
+        private void DoRandomColorModel(int number)
+        {
+            if (myNumber == number)
             {
-                mat.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+                foreach (var mat in _materials)
+                {
+                    mat.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+                }
             }
         }
     }

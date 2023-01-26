@@ -2,44 +2,47 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Team06;
 
-public class DialogueTalkZone : MonoBehaviour
+namespace Team06
 {
-    [SerializeField] private GameObject speechBubble;
-    [SerializeField] private KeyCode talkKey = KeyCode.E;
-    [SerializeField] private Text keyInputText;
-
-    private DialogueTalk _dialogueTalk;
-
-    private void Awake()
+    public class DialogueTalkZone : MonoBehaviour
     {
-        _dialogueTalk = GetComponent<DialogueTalk>();
-        speechBubble.SetActive(false);
-        keyInputText.text = talkKey.ToString();
-    }
+        [SerializeField] private GameObject speechBubble;
+        [SerializeField] private KeyCode talkKey = KeyCode.E;
+        [SerializeField] private Text keyInputText;
+        private DialogueTalk _dialogueTalk;
 
-    void Update()
-    {
-        if(Input.GetKeyDown(talkKey) && speechBubble.activeSelf)
+        private void Awake()
         {
-            // TODO: Start Dialogue.
-            _dialogueTalk.StartDialogue();
-        }
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.CompareTag("Player"))
-        {
-            speechBubble.SetActive(true);
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
+            _dialogueTalk = GetComponent<DialogueTalk>();
             speechBubble.SetActive(false);
+            keyInputText.text = talkKey.ToString();
+        }
+
+        void Update()
+        {
+            if (Input.GetKeyDown(talkKey) && speechBubble.activeSelf)
+            {
+                // TODO: Start Dialogue.
+                _dialogueTalk.StartDialogue();
+            }
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.CompareTag("Player"))
+            {
+                speechBubble.SetActive(true);
+            }
+        }
+
+        private void OnTriggerExit(Collider other)
+        {
+            if (other.CompareTag("Player"))
+            {
+                speechBubble.SetActive(false);
+            }
         }
     }
 }

@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum LanguageType 
+namespace Team06
 {
-  French = 1,
-  English = 2,
-  Russian = 3
+  public enum LanguageType
+  {
+    French = 1,
+    English = 2,
+    Russian = 3
+  }
 }
