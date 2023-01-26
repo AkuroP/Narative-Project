@@ -24,7 +24,7 @@ namespace Team06
             set { playerController = value; }
         }
 
-        private Coroutine moveCoroutine;
+        public Coroutine moveCoroutine;
 
         [SerializeField] private bool canMove = true;
 
@@ -34,11 +34,14 @@ namespace Team06
             set { this.canMove = value; }
         }
 
+        public Cinemachine.CinemachineConfiner confiner;
+        public Collider2D confinerColl;
         // Start is called before the first frame update
         private void Start()
         {
             playerController = this.GetComponent<CharacterController>();
             canMove = true;
+            confiner.m_BoundingShape2D = confinerColl;
         }
 
         // Update is called once per frame
