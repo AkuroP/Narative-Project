@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 336615511}
   - component: {fileID: 336615510}
   m_Layer: 0
-  m_Name: LanugageController
+  m_Name: LanguageController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -638,6 +638,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2073329893 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1247131146333377853, guid: 58167f0622b628e44b6620d2a6b09ac8, type: 3}
+  m_PrefabInstance: {fileID: 1247131147256375636}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1247131147256375636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -645,6 +656,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 822258265935830909, guid: 58167f0622b628e44b6620d2a6b09ac8, type: 3}
+      propertyPath: textPanel
+      value: 
+      objectReference: {fileID: 2073329893}
+    - target: {fileID: 822258265935830909, guid: 58167f0622b628e44b6620d2a6b09ac8, type: 3}
+      propertyPath: modifyTextPanel
+      value: 
+      objectReference: {fileID: 21300000, guid: c4cc9d48f5f731247b80624d04ea9a2c, type: 3}
     - target: {fileID: 1015622638867400687, guid: 58167f0622b628e44b6620d2a6b09ac8, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -918,5 +937,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8095849237098251201, guid: 4baa246c6364c0c4cae855536806d754, type: 3}
+      propertyPath: autoDialogue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8095849237098251201, guid: 4baa246c6364c0c4cae855536806d754, type: 3}
+      propertyPath: dialogueContainer
+      value: 
+      objectReference: {fileID: 11400000, guid: 8c651975a79bf2145a92671013539f48, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4baa246c6364c0c4cae855536806d754, type: 3}

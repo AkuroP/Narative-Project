@@ -3,26 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class  GameUI : MonoBehaviour
+namespace Team06
 {
-    public Text healthText;
-    public Text moneyText;
-    void Start()
+
+    public class GameUI : MonoBehaviour
     {
-        Player player = FindObjectOfType<Player>();
-        if (player != null)
+        public Text healthText;
+        public Text moneyText;
+
+        void Start()
         {
-            player.OnChangedHealth += () =>
+            Player player = FindObjectOfType<Player>();
+            if (player != null)
             {
-                healthText.text = $"Health: {player.Health}";
-            };
+                player.OnChangedHealth += () => { healthText.text = $"Health: {player.Health}"; };
 
-            player.OnChangedMoney += () =>
-            {
-                moneyText.text = $"Money: {player.Money}";
-            };
+                player.OnChangedMoney += () => { moneyText.text = $"Money: {player.Money}"; };
+            }
         }
-    }
 
-    
+
+    }
 }

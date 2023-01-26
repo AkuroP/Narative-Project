@@ -5,26 +5,31 @@ using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class StartNode : BaseNode
+namespace Team06
 {
-    public StartNode(){}
-
-    public StartNode(Vector2 _position, DialogueEditorWindow editorWindow, DialogueGraphView graphView)
+    public class StartNode : BaseNode
     {
-        base.editorWindow = editorWindow;
-        base.graphView = graphView;
-        
-        StyleSheet styleSheet = Resources.Load<StyleSheet>("USS/Nodes/StartNodeStyle");
-        styleSheets.Add(styleSheet);
-        
-        title = "Start";
-        SetPosition(new Rect(_position, defaultNodeSize));
-        nodeGuid = Guid.NewGuid().ToString();
+        public StartNode()
+        {
+        }
 
-        AddOutputPort("Output", Port.Capacity.Single);
+        public StartNode(Vector2 _position, DialogueEditorWindow editorWindow, DialogueGraphView graphView)
+        {
+            base.editorWindow = editorWindow;
+            base.graphView = graphView;
 
-        RefreshExpandedState();
-        RefreshPorts();
-        
+            StyleSheet styleSheet = Resources.Load<StyleSheet>("USS/Nodes/StartNodeStyle");
+            styleSheets.Add(styleSheet);
+
+            title = "Start";
+            SetPosition(new Rect(_position, defaultNodeSize));
+            nodeGuid = Guid.NewGuid().ToString();
+
+            AddOutputPort("Output", Port.Capacity.Single);
+
+            RefreshExpandedState();
+            RefreshPorts();
+
+        }
     }
 }

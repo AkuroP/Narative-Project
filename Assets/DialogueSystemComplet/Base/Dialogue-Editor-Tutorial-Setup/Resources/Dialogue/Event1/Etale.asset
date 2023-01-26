@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
+  m_Name: Etale
+  m_EditorClassIdentifier: 
+  nodeLinkDatas:
+  - baseNodeGuid: 0a2522d8-b345-4502-ab7e-a56812b9cc86
+    basePortName: Output
+    targetNodeGuid: e3b90931-014b-4572-91bf-839445e587ae
+    targetPortName: Input
+  - baseNodeGuid: e3b90931-014b-4572-91bf-839445e587ae
+    basePortName: Continue
+    targetNodeGuid: f82d1ea8-6988-4648-baee-2e708baa22c2
+    targetPortName: Input
+  startDatas:
+  - nodeGuid: 0a2522d8-b345-4502-ab7e-a56812b9cc86
+    position: {x: 298.4, y: 299.2}
+  dialogueDatas:
+  - nodeGuid: e3b90931-014b-4572-91bf-839445e587ae
+    position: {x: 375.2, y: 299.2}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 1
+      guidID:
+        value: 099c92f1-3c74-48f9-9b71-88cb09ff490d
+      text:
+      - languageType: 1
+        languageGenericType: "Tout est comme d\u2019habitude, mais Clem a disparu
+          !\nJe ne l\u2019avais m\xEAme pas quitt\xE9 des yeux ! Encore cette impression
+          bizarre..."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages: []
+    dialogueDataPorts: []
+  eventDatas: []
+  branchDatas: []
+  choiceDatas: []
+  endDatas:
+  - nodeGuid: f82d1ea8-6988-4648-baee-2e708baa22c2
+    position: {x: 652.8, y: 299.2}
+    endNodeType:
+      value: 1

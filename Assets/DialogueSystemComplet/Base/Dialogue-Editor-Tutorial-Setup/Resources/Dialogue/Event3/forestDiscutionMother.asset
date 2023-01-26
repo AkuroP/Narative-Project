@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
+  m_Name: forestDiscutionMother
+  m_EditorClassIdentifier: 
+  nodeLinkDatas:
+  - baseNodeGuid: ae134ed4-65b1-495d-abea-457d7c278216
+    basePortName: Output
+    targetNodeGuid: 472d1a40-7bea-4e8a-ba1e-fa81f458963a
+    targetPortName: Input
+  - baseNodeGuid: 472d1a40-7bea-4e8a-ba1e-fa81f458963a
+    basePortName: Continue
+    targetNodeGuid: e69d3638-505e-4564-ac9d-fbd3463358f7
+    targetPortName: Input
+  startDatas:
+  - nodeGuid: ae134ed4-65b1-495d-abea-457d7c278216
+    position: {x: 116, y: 128.8}
+  dialogueDatas:
+  - nodeGuid: 472d1a40-7bea-4e8a-ba1e-fa81f458963a
+    position: {x: 263.2, y: 166}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Madame Brunelle
+    - id:
+        value: 2
+      characterName:
+        value: Ambre
+    - id:
+        value: 4
+      characterName:
+        value: Madame Brunelle
+    dialogueDataTexts:
+    - id:
+        value: 1
+      guidID:
+        value: a054e9aa-ddc6-4461-946f-cd3c27e62ca0
+      text:
+      - languageType: 1
+        languageGenericType: "Bon il reste encore une bonne trotte devant nous. Tu
+          te sens pr\xEAte ?\r"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 3
+      guidID:
+        value: b567f664-f45f-40fe-94a6-4b173824f053
+      text:
+      - languageType: 1
+        languageGenericType: "Est-ce que j\u2019ai vraiment le choix ?"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 5
+      guidID:
+        value: 1bc56fd1-25bf-475a-a3aa-06238283a11c
+      text:
+      - languageType: 1
+        languageGenericType: "Et non ! Tu te plaindras une fois qu\u2019on sera arriv\xE9es
+          !\r"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages: []
+    dialogueDataPorts: []
+  eventDatas: []
+  branchDatas: []
+  choiceDatas: []
+  endDatas:
+  - nodeGuid: e69d3638-505e-4564-ac9d-fbd3463358f7
+    position: {x: 630, y: 240.8}
+    endNodeType:
+      value: 1

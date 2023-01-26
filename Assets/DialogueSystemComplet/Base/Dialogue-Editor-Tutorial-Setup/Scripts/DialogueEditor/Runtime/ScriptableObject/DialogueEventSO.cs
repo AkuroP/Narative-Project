@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Dialogue/New Dialogue Event")]
-[System.Serializable]
-public class DialogueEventSO : ScriptableObject
+namespace Team06
 {
-    public virtual void RunEvent()
+    [CreateAssetMenu(menuName = "Dialogue/New Dialogue Event")]
+    [System.Serializable]
+    public class DialogueEventSO : ScriptableObject
     {
-        Debug.Log("Event was Call");
+        public virtual void RunEvent()
+        {
+            Debug.Log("Event was Call");
+        }
     }
 }
