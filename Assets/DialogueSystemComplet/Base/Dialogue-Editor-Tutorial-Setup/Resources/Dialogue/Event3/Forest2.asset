@@ -10,45 +10,45 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
-  m_Name: Forest2
+  m_Name: forest2
   m_EditorClassIdentifier: 
   nodeLinkDatas:
-  - baseNodeGuid: ce001e06-ad5b-405f-b95c-a962781696b5
+  - baseNodeGuid: a84ee6f9-b6a0-42cb-9415-0c4e34e44de4
     basePortName: Output
-    targetNodeGuid: c841d8ee-d80d-4f2b-915d-0cb3163cac24
+    targetNodeGuid: 64022eec-0ec9-40cd-9398-3c5acc316c35
     targetPortName: Input
-  - baseNodeGuid: c841d8ee-d80d-4f2b-915d-0cb3163cac24
+  - baseNodeGuid: 64022eec-0ec9-40cd-9398-3c5acc316c35
     basePortName: Continue
-    targetNodeGuid: 28047d94-910e-4769-9714-3e384366cf4c
+    targetNodeGuid: c3ed1ed7-2dfd-4943-9850-3c6c737d2aaa
     targetPortName: Input
   startDatas:
-  - nodeGuid: ce001e06-ad5b-405f-b95c-a962781696b5
-    position: {x: 199.2, y: 2.7999992}
+  - nodeGuid: a84ee6f9-b6a0-42cb-9415-0c4e34e44de4
+    position: {x: 199.2, y: 98}
   dialogueDatas:
-  - nodeGuid: c841d8ee-d80d-4f2b-915d-0cb3163cac24
-    position: {x: 276, y: 2.7999992}
+  - nodeGuid: 64022eec-0ec9-40cd-9398-3c5acc316c35
+    position: {x: 276, y: 98}
     dialogueDataNames:
     - id:
         value: 0
       characterName:
         value: Ambre
     - id:
-        value: 3
+        value: 2
       characterName:
-        value: Madame Brunelle
+        value: "Cl\xE9mence"
     - id:
-        value: 8
+        value: 5
       characterName:
         value: Ambre
     dialogueDataTexts:
     - id:
         value: 1
       guidID:
-        value: b23c27f1-8d83-4f68-a81f-613cd954f663
+        value: 1fececf0-9432-4c87-875d-06777fb298ed
       text:
       - languageType: 1
-        languageGenericType: "Dis moi maman, tu as v\xE9cu comment le d\xE9part de
-          Cl\xE9mence toi ?"
+        languageGenericType: "Tu as pr\xE9vu de faire quoi les prochaines semaines
+          ?"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -61,14 +61,14 @@ MonoBehaviour:
       - languageType: 3
         languageGenericType: {fileID: 0}
     - id:
-        value: 2
+        value: 3
       guidID:
-        value: 352beb41-3a33-40a0-8f9d-5b70b4a2cf2f
+        value: fa7372fe-7b75-47c5-b992-096340ec250d
       text:
       - languageType: 1
-        languageGenericType: "Je sais que c\u2019\xE9tait assez difficile pour pas
-          mal de monde mais tu ne m\u2019as jamais donn\xE9 ton point de vue sur
-          la chose."
+        languageGenericType: "Pour l\u2019instant je continue d\u2019apprendre le
+          m\xE9tier de vendeuse aupr\xE8s de mes parents donc je ne vais pas \xEAtre
+          tr\xE8s libre."
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -83,31 +83,11 @@ MonoBehaviour:
     - id:
         value: 4
       guidID:
-        value: d9063e17-4d78-45e4-8724-c676c948d7f9
+        value: efa3744b-17a9-4610-bf36-b53b6e45ce45
       text:
       - languageType: 1
-        languageGenericType: "Moi ? Je t\u2019admets que personnellement son d\xE9part
-          ne me fait pas grand chose.\nElle est partie vivre la vie qu\u2019elle
-          souhaite c\u2019est tout.\n"
-      - languageType: 2
-        languageGenericType: 
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    - id:
-        value: 5
-      guidID:
-        value: 9bf7fb10-a381-48f4-9131-c787088855de
-      text:
-      - languageType: 1
-        languageGenericType: "Mais effectivement, lorsque je regarde autour de moi,
-          je vois que son d\xE9part ne nous est pas le plus favorable.\n"
+        languageGenericType: "J\u2019aurai un peu plus de temps apr\xE8s mais on
+          se verra quand m\xEAme un peu moins je crois."
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -122,53 +102,12 @@ MonoBehaviour:
     - id:
         value: 6
       guidID:
-        value: 7bd398d0-5b48-4140-9971-fe83006e29b3
+        value: b96e5518-820f-4883-9117-b4b20d529066
       text:
       - languageType: 1
-        languageGenericType: "Notre vieux maire est r\xE9cemment tomb\xE9 malade
-          et sans Cl\xE9mence aux alentours il nous a fallu attendre une bonne demi-semaine
-          pour que quelqu\u2019un puisse venir le soigner.\nSes parents doivent chercher
-          quelqu\u2019un pour reprendre leur travail apr\xE8s eux et d\u2019autres
-          encore sont touch\xE9s mais je pense surtout \xE0 toi Ambre."
-      - languageType: 2
-        languageGenericType: 
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    - id:
-        value: 7
-      guidID:
-        value: 57e73941-5b62-415c-8a85-dc086a6c527a
-      text:
-      - languageType: 1
-        languageGenericType: "\rJe vois bien comment tu vis son d\xE9part et combien
-          c\u2019est difficile pour toi.\nAvant c\u2019est toi qui menait la danse
-          avec Cl\xE9mence, mais j\u2019ai l\u2019impression que son d\xE9part a
-          tout fait changer.\r"
-      - languageType: 2
-        languageGenericType: 
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    - id:
-        value: 9
-      guidID:
-        value: 2881e6a3-bd07-455f-920e-09a8e6bd424a
-      text:
-      - languageType: 1
-        languageGenericType: Oui... Je... Je vois ce que tu veux dire.
+        languageGenericType: "C\u2019est pas grave, je comprends. Il faut que je
+          r\xE9fl\xE9chisse aussi \xE0 mon futur maintenant !\nMais j\u2019ai jamais
+          \xE9t\xE9 aussi dou\xE9 que toi pour envisager mon avenir."
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -186,7 +125,7 @@ MonoBehaviour:
   branchDatas: []
   choiceDatas: []
   endDatas:
-  - nodeGuid: 28047d94-910e-4769-9714-3e384366cf4c
-    position: {x: 553.6, y: 2.7999992}
+  - nodeGuid: c3ed1ed7-2dfd-4943-9850-3c6c737d2aaa
+    position: {x: 553.6, y: 98}
     endNodeType:
       value: 1

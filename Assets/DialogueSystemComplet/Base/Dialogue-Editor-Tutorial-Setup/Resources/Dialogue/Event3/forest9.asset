@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
-  m_Name: Etale2
+  m_Name: forest9
   m_EditorClassIdentifier: 
   nodeLinkDatas:
-  - baseNodeGuid: 7c24676e-804f-4963-ae0a-9dda58fc988e
+  - baseNodeGuid: 76aac100-7abd-4537-9ea6-a448c955ed68
     basePortName: Output
-    targetNodeGuid: 19e88801-41a8-4d7d-b28e-a203350a4bfa
+    targetNodeGuid: 3873985e-c65e-4243-901f-6d15a824f38b
     targetPortName: Input
-  - baseNodeGuid: 19e88801-41a8-4d7d-b28e-a203350a4bfa
+  - baseNodeGuid: 3873985e-c65e-4243-901f-6d15a824f38b
     basePortName: Continue
-    targetNodeGuid: 2dff5016-810a-4761-af5e-9306b9739a17
+    targetNodeGuid: 2a0ecdfb-c42e-42f0-8de0-eb4cf7868a45
     targetPortName: Input
   startDatas:
-  - nodeGuid: 7c24676e-804f-4963-ae0a-9dda58fc988e
-    position: {x: 298.4, y: 400}
+  - nodeGuid: 76aac100-7abd-4537-9ea6-a448c955ed68
+    position: {x: 136, y: 140.8}
   dialogueDatas:
-  - nodeGuid: 19e88801-41a8-4d7d-b28e-a203350a4bfa
-    position: {x: 375.2, y: 400}
+  - nodeGuid: 3873985e-c65e-4243-901f-6d15a824f38b
+    position: {x: 361.2, y: 206}
     dialogueDataNames:
     - id:
         value: 0
@@ -36,12 +36,11 @@ MonoBehaviour:
     - id:
         value: 1
       guidID:
-        value: ca046e06-d6be-40bd-b99c-6132b53ca4f4
+        value: 4f2fa076-48ca-4906-8620-52952cd5ca7c
       text:
       - languageType: 1
-        languageGenericType: "D\u2019un seul coup Clem est de retour et sa m\xE8re
-          est maintenant en train de faire la queue pour acheter des fruits ! Il
-          se passe quoi l\xE0 ?!"
+        languageGenericType: "J\u2019ai toujours appr\xE9ci\xE9 les sorties en for\xEAt.
+          \xC7a me d\xE9tend, lorsque j\u2019ai des soucis."
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -56,30 +55,11 @@ MonoBehaviour:
     - id:
         value: 2
       guidID:
-        value: 529e540b-26f1-43b6-955b-f66e6b1d9cb0
+        value: 47a5bbed-ba8d-487e-ad68-1e526d9eb436
       text:
       - languageType: 1
-        languageGenericType: "Tout le monde fait comme d\u2019habitude et ne semble
-          pas choqu\xE9. C'est quand m\xEAme pas le village tout entier qui me fait
-          une blague ?!\r"
-      - languageType: 2
-        languageGenericType: 
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    - id:
-        value: 3
-      guidID:
-        value: bc5aec44-c268-40cb-8364-d08cb51aae17
-      text:
-      - languageType: 1
-        languageGenericType: "J'devrai mener ma petite enqu\xEAte.\r"
+        languageGenericType: "Pourtant, apr\xE8s le d\xE9part de Cl\xE9mence je n\u2019y
+          allais plus vraiment. J\u2019ai du mal \xE0 vraiment comprendre pourquoi\u2026"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -97,7 +77,7 @@ MonoBehaviour:
   branchDatas: []
   choiceDatas: []
   endDatas:
-  - nodeGuid: 2dff5016-810a-4761-af5e-9306b9739a17
-    position: {x: 652.8, y: 400}
+  - nodeGuid: 2a0ecdfb-c42e-42f0-8de0-eb4cf7868a45
+    position: {x: 759.2, y: 246.00002}
     endNodeType:
       value: 1

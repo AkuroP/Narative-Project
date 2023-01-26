@@ -10,32 +10,45 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
-  m_Name: DialogueClemenceMother
+  m_Name: forest7
   m_EditorClassIdentifier: 
-  nodeLinkDatas: []
+  nodeLinkDatas:
+  - baseNodeGuid: ce001e06-ad5b-405f-b95c-a962781696b5
+    basePortName: Output
+    targetNodeGuid: c841d8ee-d80d-4f2b-915d-0cb3163cac24
+    targetPortName: Input
+  - baseNodeGuid: c841d8ee-d80d-4f2b-915d-0cb3163cac24
+    basePortName: Continue
+    targetNodeGuid: 28047d94-910e-4769-9714-3e384366cf4c
+    targetPortName: Input
   startDatas:
-  - nodeGuid: 50cc9442-d6af-4fae-996c-abfa7ea9352e
-    position: {x: 242.4, y: 220}
+  - nodeGuid: ce001e06-ad5b-405f-b95c-a962781696b5
+    position: {x: 199.2, y: 2.7999992}
   dialogueDatas:
-  - nodeGuid: b1d12b8e-4137-42c7-9c3d-29dc1d269c8d
-    position: {x: 557.6, y: 292}
+  - nodeGuid: c841d8ee-d80d-4f2b-915d-0cb3163cac24
+    position: {x: 276, y: 2.7999992}
     dialogueDataNames:
     - id:
         value: 0
       characterName:
         value: Ambre
     - id:
-        value: 2
+        value: 3
       characterName:
-        value: Madame L'Angelier
+        value: Madame Brunelle
+    - id:
+        value: 8
+      characterName:
+        value: Ambre
     dialogueDataTexts:
     - id:
         value: 1
       guidID:
-        value: 9aa5fb28-6866-4e66-9f99-39fb6c614762
+        value: b23c27f1-8d83-4f68-a81f-613cd954f663
       text:
       - languageType: 1
-        languageGenericType: "Mais\u2026 Elle est pass\xE9e o\xF9 Clem ?"
+        languageGenericType: "Dis moi maman, tu as v\xE9cu comment le d\xE9part de
+          Cl\xE9mence toi ?"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -48,13 +61,14 @@ MonoBehaviour:
       - languageType: 3
         languageGenericType: {fileID: 0}
     - id:
-        value: 3
+        value: 2
       guidID:
-        value: 7945904d-cd27-4aae-9330-28eddb6365b2
+        value: 352beb41-3a33-40a0-8f9d-5b70b4a2cf2f
       text:
       - languageType: 1
-        languageGenericType: "Oulah tu viens de te r\xE9veiller Ambre ?! \xC7a fait
-          quatre mois qu'elle est partie Cl\xE9mence !"
+        languageGenericType: "Je sais que c\u2019\xE9tait assez difficile pour pas
+          mal de monde mais tu ne m\u2019as jamais donn\xE9 ton point de vue sur
+          la chose."
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -69,13 +83,12 @@ MonoBehaviour:
     - id:
         value: 4
       guidID:
-        value: bc3f4971-6c47-46ad-80ce-b4846d5ce572
+        value: d9063e17-4d78-45e4-8724-c676c948d7f9
       text:
       - languageType: 1
-        languageGenericType: "Je sais bien que c\u2019est un peu plus difficile sans
-          elle et qu\u2019elle ne communique pas beaucoup mais tu sais c\u2019est
-          tr\xE8s important pour elle. Ne t\u2019inqui\xE8tes pas, elle reviendra
-          de temps en temps au village, probablement pour les vacances."
+        languageGenericType: "Moi ? Je t\u2019admets que personnellement son d\xE9part
+          ne me fait pas grand chose.\nElle est partie vivre la vie qu\u2019elle
+          souhaite c\u2019est tout.\n"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -90,10 +103,11 @@ MonoBehaviour:
     - id:
         value: 5
       guidID:
-        value: aa7da14f-09c8-4679-8301-5ada6b510024
+        value: 9bf7fb10-a381-48f4-9131-c787088855de
       text:
       - languageType: 1
-        languageGenericType: "Bon sinon tu comptes m\u2019acheter quelque chose ?"
+        languageGenericType: "Mais effectivement, lorsque je regarde autour de moi,
+          je vois que son d\xE9part ne nous est pas le plus favorable.\n"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -105,23 +119,17 @@ MonoBehaviour:
         languageGenericType: {fileID: 0}
       - languageType: 3
         languageGenericType: {fileID: 0}
-    dialogueDataImages: []
-    dialogueDataPorts: []
-  - nodeGuid: f256eed1-b843-48fe-80f5-4f0fb87572ad
-    position: {x: 557.6, y: -21.599998}
-    dialogueDataNames:
     - id:
-        value: 0
-      characterName:
-        value: Madame L'Angelier
-    dialogueDataTexts:
-    - id:
-        value: 1
+        value: 6
       guidID:
-        value: edf06376-e560-4db3-a789-504f8563eb14
+        value: 7bd398d0-5b48-4140-9971-fe83006e29b3
       text:
       - languageType: 1
-        languageGenericType: Tu veux m'acheter quelque chose ?
+        languageGenericType: "Notre vieux maire est r\xE9cemment tomb\xE9 malade
+          et sans Cl\xE9mence aux alentours il nous a fallu attendre une bonne demi-semaine
+          pour que quelqu\u2019un puisse venir le soigner.\nSes parents doivent chercher
+          quelqu\u2019un pour reprendre leur travail apr\xE8s eux et d\u2019autres
+          encore sont touch\xE9s mais je pense surtout \xE0 toi Ambre."
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -133,26 +141,34 @@ MonoBehaviour:
         languageGenericType: {fileID: 0}
       - languageType: 3
         languageGenericType: {fileID: 0}
-    dialogueDataImages: []
-    dialogueDataPorts: []
-  - nodeGuid: d29b15dd-168d-44c6-8eaf-53886d15152d
-    position: {x: 835.2, y: 292}
-    dialogueDataNames:
     - id:
-        value: 0
-      characterName:
-        value: Ambre
-    dialogueDataTexts:
-    - id:
-        value: 1
+        value: 7
       guidID:
-        value: 9212ada9-290c-4368-a838-b02a12b6eac9
+        value: 57e73941-5b62-415c-8a85-dc086a6c527a
       text:
       - languageType: 1
-        languageGenericType: "Mais qu\u2019est-ce qu\u2019il se passe ? Un instant
-          Cl\xE9m est de retour et n\u2019est jamais partie, l\u2019autre elle est
-          toujours en train de faire ses \xE9tudes.\nJe comprends pas ce qu'y se
-          passe\u2026 Ils me font tous une blague ?"
+        languageGenericType: "\rJe vois bien comment tu vis son d\xE9part et combien
+          c\u2019est difficile pour toi.\nAvant c\u2019est toi qui menait la danse
+          avec Cl\xE9mence, mais j\u2019ai l\u2019impression que son d\xE9part a
+          tout fait changer.\r"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 9
+      guidID:
+        value: 2881e6a3-bd07-455f-920e-09a8e6bd424a
+      text:
+      - languageType: 1
+        languageGenericType: Oui... Je... Je vois ce que tu veux dire.
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -167,15 +183,10 @@ MonoBehaviour:
     dialogueDataImages: []
     dialogueDataPorts: []
   eventDatas: []
-  branchDatas:
-  - nodeGuid: fbd85edd-7820-4b05-a15a-585943bdc870
-    position: {x: 319.2, y: 220}
-    trueGuidNode: 
-    falseGuidNode: 
-    stringConditions: []
+  branchDatas: []
   choiceDatas: []
   endDatas:
-  - nodeGuid: 8e6b273b-e622-4a68-be47-7016237dd287
-    position: {x: 1112.8, y: 292}
+  - nodeGuid: 28047d94-910e-4769-9714-3e384366cf4c
+    position: {x: 553.6, y: 2.7999992}
     endNodeType:
       value: 1

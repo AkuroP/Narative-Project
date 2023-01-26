@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
-  m_Name: observationForestNight
+  m_Name: forest13
   m_EditorClassIdentifier: 
   nodeLinkDatas:
-  - baseNodeGuid: 21183554-9c17-4c6c-a784-f1958d38700a
+  - baseNodeGuid: 00b5512b-c152-4ab9-9d77-24d64e9559a3
     basePortName: Output
-    targetNodeGuid: 4b221014-1b7c-46e1-b0c5-d98e76d828d4
+    targetNodeGuid: adbc4fc5-4a54-478e-838c-9ebace484a9c
     targetPortName: Input
-  - baseNodeGuid: 4b221014-1b7c-46e1-b0c5-d98e76d828d4
+  - baseNodeGuid: adbc4fc5-4a54-478e-838c-9ebace484a9c
     basePortName: Continue
-    targetNodeGuid: f71e958c-1646-4d20-a118-6e5b462eb7db
+    targetNodeGuid: e11e7fb4-2c2d-4762-9310-2dcbd4ce82f5
     targetPortName: Input
   startDatas:
-  - nodeGuid: 21183554-9c17-4c6c-a784-f1958d38700a
-    position: {x: 201, y: 347}
+  - nodeGuid: 00b5512b-c152-4ab9-9d77-24d64e9559a3
+    position: {x: 152, y: 247}
   dialogueDatas:
-  - nodeGuid: 4b221014-1b7c-46e1-b0c5-d98e76d828d4
-    position: {x: 278, y: 347}
+  - nodeGuid: adbc4fc5-4a54-478e-838c-9ebace484a9c
+    position: {x: 228, y: 248}
     dialogueDataNames:
     - id:
         value: 0
@@ -36,10 +36,11 @@ MonoBehaviour:
     - id:
         value: 1
       guidID:
-        value: f1d76ea5-2ec7-469a-9aac-da62ba050e04
+        value: c94e0bfe-928a-4370-97f0-3aef0f2dbe0c
       text:
       - languageType: 1
-        languageGenericType: "Il fait d\xE9j\xE0 noir, tant pis pour la vue."
+        languageGenericType: "Tiens, j'ai l'impression qu'on a d\xE9pass\xE9 l\xE0
+          o\xF9 j'en suis avec Cl\xE9mence ! En m\xEAme temps avec tout son blabla..."
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -57,7 +58,7 @@ MonoBehaviour:
   branchDatas: []
   choiceDatas: []
   endDatas:
-  - nodeGuid: f71e958c-1646-4d20-a118-6e5b462eb7db
-    position: {x: 556, y: 352}
+  - nodeGuid: e11e7fb4-2c2d-4762-9310-2dcbd4ce82f5
+    position: {x: 507, y: 249}
     endNodeType:
       value: 1
