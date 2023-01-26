@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
-  m_Name: ObservationForest
+  m_Name: forest6
   m_EditorClassIdentifier: 
   nodeLinkDatas:
-  - baseNodeGuid: e4fa1815-ba73-433c-8af4-ddba2189d7bc
+  - baseNodeGuid: 85e12ace-8bde-447e-8702-d10804e7f01a
     basePortName: Output
-    targetNodeGuid: 3441bac2-0afc-4c1b-895b-3f958eadaa2a
+    targetNodeGuid: 6b72bb71-d9c9-4d5a-baa0-1a5083d614b9
     targetPortName: Input
-  - baseNodeGuid: 3441bac2-0afc-4c1b-895b-3f958eadaa2a
+  - baseNodeGuid: 6b72bb71-d9c9-4d5a-baa0-1a5083d614b9
     basePortName: Continue
-    targetNodeGuid: 0b34a7df-74af-4dd6-864a-0c718ade857a
+    targetNodeGuid: d57575f9-4d5f-4025-8f91-9edc57541326
     targetPortName: Input
   startDatas:
-  - nodeGuid: e4fa1815-ba73-433c-8af4-ddba2189d7bc
-    position: {x: 241.2, y: 222}
+  - nodeGuid: 85e12ace-8bde-447e-8702-d10804e7f01a
+    position: {x: 294, y: 306.8}
   dialogueDatas:
-  - nodeGuid: 3441bac2-0afc-4c1b-895b-3f958eadaa2a
-    position: {x: 448, y: 294}
+  - nodeGuid: 6b72bb71-d9c9-4d5a-baa0-1a5083d614b9
+    position: {x: 468, y: 388}
     dialogueDataNames:
     - id:
         value: 0
@@ -36,12 +36,11 @@ MonoBehaviour:
     - id:
         value: 1
       guidID:
-        value: 49253117-288c-431b-9672-0c04145adc53
+        value: 88250d0b-b75c-4f93-8646-9ac7683a1410
       text:
       - languageType: 1
-        languageGenericType: "C\u2019est marrant, la for\xEAt est exactement la m\xEAme
-          que dans l\u2019autre temporalit\xE9 et pourtant ici elle semble si silencieuse,
-          si calme."
+        languageGenericType: "Ca fait un sacr\xE9 chemin.\nQuelque chose me dit qu\u2019il
+          a \xE9t\xE9 encore plus long avec maman qu\u2019avec Cl\xE9mence."
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -59,7 +58,7 @@ MonoBehaviour:
   branchDatas: []
   choiceDatas: []
   endDatas:
-  - nodeGuid: 0b34a7df-74af-4dd6-864a-0c718ade857a
-    position: {x: 810, y: 342}
+  - nodeGuid: d57575f9-4d5f-4025-8f91-9edc57541326
+    position: {x: 847.2, y: 432.8}
     endNodeType:
       value: 1

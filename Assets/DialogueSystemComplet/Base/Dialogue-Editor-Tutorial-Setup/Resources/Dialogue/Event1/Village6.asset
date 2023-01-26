@@ -10,45 +10,58 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
-  m_Name: forestClemence
+  m_Name: Village6
   m_EditorClassIdentifier: 
   nodeLinkDatas:
-  - baseNodeGuid: a84ee6f9-b6a0-42cb-9415-0c4e34e44de4
+  - baseNodeGuid: 7c24676e-804f-4963-ae0a-9dda58fc988e
     basePortName: Output
-    targetNodeGuid: 64022eec-0ec9-40cd-9398-3c5acc316c35
+    targetNodeGuid: 19e88801-41a8-4d7d-b28e-a203350a4bfa
     targetPortName: Input
-  - baseNodeGuid: 64022eec-0ec9-40cd-9398-3c5acc316c35
+  - baseNodeGuid: 19e88801-41a8-4d7d-b28e-a203350a4bfa
     basePortName: Continue
-    targetNodeGuid: c3ed1ed7-2dfd-4943-9850-3c6c737d2aaa
+    targetNodeGuid: 2dff5016-810a-4761-af5e-9306b9739a17
     targetPortName: Input
   startDatas:
-  - nodeGuid: a84ee6f9-b6a0-42cb-9415-0c4e34e44de4
-    position: {x: 199.2, y: 98}
+  - nodeGuid: 7c24676e-804f-4963-ae0a-9dda58fc988e
+    position: {x: 298.4, y: 400}
   dialogueDatas:
-  - nodeGuid: 64022eec-0ec9-40cd-9398-3c5acc316c35
-    position: {x: 276, y: 98}
+  - nodeGuid: 19e88801-41a8-4d7d-b28e-a203350a4bfa
+    position: {x: 375.2, y: 400}
     dialogueDataNames:
     - id:
         value: 0
-      characterName:
-        value: Ambre
-    - id:
-        value: 2
-      characterName:
-        value: "Cl\xE9mence"
-    - id:
-        value: 5
       characterName:
         value: Ambre
     dialogueDataTexts:
     - id:
         value: 1
       guidID:
-        value: 1fececf0-9432-4c87-875d-06777fb298ed
+        value: ca046e06-d6be-40bd-b99c-6132b53ca4f4
       text:
       - languageType: 1
-        languageGenericType: "Tu as pr\xE9vu de faire quoi les prochaines semaines
-          ?"
+        languageGenericType: "D\u2019un seul coup Clem est de retour et sa m\xE8re
+          est maintenant en train de faire la queue pour acheter des fruits ! Il
+          se passe quoi l\xE0 ?!"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 2
+      guidID:
+        value: 529e540b-26f1-43b6-955b-f66e6b1d9cb0
+      text:
+      - languageType: 1
+        languageGenericType: "Tout le monde fait comme d\u2019habitude et ne semble
+          pas choqu\xE9. C'est quand m\xEAme pas le village tout entier qui me fait
+          une blague ?!\r"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -63,51 +76,10 @@ MonoBehaviour:
     - id:
         value: 3
       guidID:
-        value: fa7372fe-7b75-47c5-b992-096340ec250d
+        value: bc5aec44-c268-40cb-8364-d08cb51aae17
       text:
       - languageType: 1
-        languageGenericType: "Pour l\u2019instant je continue d\u2019apprendre le
-          m\xE9tier de vendeuse aupr\xE8s de mes parents donc je ne vais pas \xEAtre
-          tr\xE8s libre."
-      - languageType: 2
-        languageGenericType: 
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    - id:
-        value: 4
-      guidID:
-        value: efa3744b-17a9-4610-bf36-b53b6e45ce45
-      text:
-      - languageType: 1
-        languageGenericType: "J\u2019aurai un peu plus de temps apr\xE8s mais on
-          se verra quand m\xEAme un peu moins je crois."
-      - languageType: 2
-        languageGenericType: 
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    - id:
-        value: 6
-      guidID:
-        value: b96e5518-820f-4883-9117-b4b20d529066
-      text:
-      - languageType: 1
-        languageGenericType: "C\u2019est pas grave, je comprends. Il faut que je
-          r\xE9fl\xE9chisse aussi \xE0 mon futur maintenant !\nMais j\u2019ai jamais
-          \xE9t\xE9 aussi dou\xE9 que toi pour envisager mon avenir."
+        languageGenericType: "J'devrai mener ma petite enqu\xEAte.\r"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -125,7 +97,7 @@ MonoBehaviour:
   branchDatas: []
   choiceDatas: []
   endDatas:
-  - nodeGuid: c3ed1ed7-2dfd-4943-9850-3c6c737d2aaa
-    position: {x: 553.6, y: 98}
+  - nodeGuid: 2dff5016-810a-4761-af5e-9306b9739a17
+    position: {x: 652.8, y: 400}
     endNodeType:
       value: 1

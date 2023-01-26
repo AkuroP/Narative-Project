@@ -13,73 +13,47 @@ MonoBehaviour:
   m_Name: forest3
   m_EditorClassIdentifier: 
   nodeLinkDatas:
-  - baseNodeGuid: 462c6ffd-64de-400b-a33d-35cb89a4f50b
-    basePortName: Continue
-    targetNodeGuid: 8d31cd81-a9c2-4864-99ad-ea41acd58291
-    targetPortName: Input
-  - baseNodeGuid: e78e3fb6-9f9d-49cc-b082-810c7d417987
-    basePortName: False
-    targetNodeGuid: 462c6ffd-64de-400b-a33d-35cb89a4f50b
-    targetPortName: Input
-  - baseNodeGuid: c50b81bc-c26f-409b-8c79-026798fe3f33
+  - baseNodeGuid: f8fe505c-9df7-403c-9c30-00e7214708dc
     basePortName: Output
-    targetNodeGuid: e78e3fb6-9f9d-49cc-b082-810c7d417987
+    targetNodeGuid: 2af4cd78-af24-41e5-8482-72b8607d2f6a
+    targetPortName: Input
+  - baseNodeGuid: 2af4cd78-af24-41e5-8482-72b8607d2f6a
+    basePortName: Continue
+    targetNodeGuid: 7ef6c0c5-7f93-4685-bf88-0eaf251b697c
     targetPortName: Input
   startDatas:
-  - nodeGuid: c50b81bc-c26f-409b-8c79-026798fe3f33
-    position: {x: -314, y: -461}
+  - nodeGuid: f8fe505c-9df7-403c-9c30-00e7214708dc
+    position: {x: 91, y: 176}
   dialogueDatas:
-  - nodeGuid: 462c6ffd-64de-400b-a33d-35cb89a4f50b
-    position: {x: 151, y: -458}
+  - nodeGuid: 2af4cd78-af24-41e5-8482-72b8607d2f6a
+    position: {x: 168, y: 176}
     dialogueDataNames:
     - id:
         value: 0
       characterName:
         value: Ambre
     - id:
-        value: 2
+        value: 3
       characterName:
         value: "Cl\xE9mence"
     - id:
-        value: 4
+        value: 5
       characterName:
         value: Ambre
     - id:
         value: 7
       characterName:
         value: "Cl\xE9mence"
-    - id:
-        value: 11
-      characterName:
-        value: Ambre
-    - id:
-        value: 13
-      characterName:
-        value: "Cl\xE9mence"
-    - id:
-        value: 16
-      characterName:
-        value: Ambre
-    - id:
-        value: 18
-      characterName:
-        value: "Cl\xE9mence"
-    - id:
-        value: 20
-      characterName:
-        value: Ambre
-    - id:
-        value: 22
-      characterName:
-        value: "Cl\xE9mence"
     dialogueDataTexts:
     - id:
         value: 1
       guidID:
-        value: 31a3e3fb-1ff1-496d-83ac-37e41a2d3059
+        value: 85676652-270f-4253-8918-0ec53370dfb4
       text:
       - languageType: 1
-        languageGenericType: "Dis moi, selon toi il faudrait que je fasse quoi ?\r"
+        languageGenericType: "C\u2019est toujours agr\xE9able de se balader ici.\nLa
+          for\xEAt toujours aussi belle, la lumi\xE8re traversant les arbres, les
+          animaux que l\u2019on peut observer\u2026"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -92,12 +66,12 @@ MonoBehaviour:
       - languageType: 3
         languageGenericType: {fileID: 0}
     - id:
-        value: 3
+        value: 2
       guidID:
-        value: 4608aae2-5c83-48e9-a145-8eafa6cda6bd
+        value: f3b54aa8-b9f5-4847-98f9-a4a623a95189
       text:
       - languageType: 1
-        languageGenericType: "Comment \xE7a ?\r"
+        languageGenericType: On est bien ici pas vrai ?
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -110,12 +84,13 @@ MonoBehaviour:
       - languageType: 3
         languageGenericType: {fileID: 0}
     - id:
-        value: 5
+        value: 4
       guidID:
-        value: b5f6041a-cc88-48b9-943f-68da3ea6ee23
+        value: b9bf5116-22d3-4aa4-83c0-d381dceb8f0d
       text:
       - languageType: 1
-        languageGenericType: Plus tard, dans la vie active.
+        languageGenericType: "Ouais enfin agr\xE9able, agr\xE9able\u2026 Si tu veux
+          ! Mais laisse-moi un peu douter lorsque l\u2019on est en hiver."
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -130,13 +105,11 @@ MonoBehaviour:
     - id:
         value: 6
       guidID:
-        value: d37ebe04-5f4c-4d44-af54-22e003350339
+        value: b7751e2f-2886-4d4b-a203-892e7fff71a5
       text:
       - languageType: 1
-        languageGenericType: "Je n'ai pas d'envie particuli\xE8re pour le futur,
-          pas de business \xE0 reprendre et \xE7a va faire plus de 4 mois que je
-          ne fais rien. Je n'ai jamais trouv\xE9 mon truc \xE0 moi.\nDonc je me posais
-          la question."
+        languageGenericType: "Tu peux essayer de te concentrer un peu plus sur le
+          positif s\u2019il-te-pla\xEEt ?"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -151,205 +124,10 @@ MonoBehaviour:
     - id:
         value: 8
       guidID:
-        value: 7c18055f-aca8-412a-addb-cdbab0f5d06d
+        value: 0ddd5871-52f0-4006-8ac8-a5de79a9f6ff
       text:
       - languageType: 1
-        languageGenericType: Effectivement, on n'a jamais eu cette discussion ensemble.
-      - languageType: 2
-        languageGenericType: 
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    - id:
-        value: 9
-      guidID:
-        value: 6365d821-9590-4721-b709-c5394cb0654f
-      text:
-      - languageType: 1
-        languageGenericType: ...
-      - languageType: 2
-        languageGenericType: 
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    - id:
-        value: 10
-      guidID:
-        value: 4d20dfe6-b4ac-4d4a-9b32-2a348fa09fed
-      text:
-      - languageType: 1
-        languageGenericType: Pourquoi tu n'essaies pas de continuer dans ton sport
-          ?
-      - languageType: 2
-        languageGenericType: 
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    - id:
-        value: 12
-      guidID:
-        value: 7366e0ff-3a47-48fa-9702-9dbcb6ccfc72
-      text:
-      - languageType: 1
-        languageGenericType: "Honn\xEAtement \xE7a ne m'int\xE9resse pas plus que
-          \xE7a. J'en fais pour le plaisir, je veux bien dire que c'est une petite
-          passion pour moi mais de l\xE0 \xE0 en faire ma vie. Bof."
-      - languageType: 2
-        languageGenericType: 
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    - id:
-        value: 14
-      guidID:
-        value: e1c699c5-d91d-4468-9673-5513eedf0908
-      text:
-      - languageType: 1
-        languageGenericType: Ouais je vois ce que tu veux dire.
-      - languageType: 2
-        languageGenericType: 
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    - id:
-        value: 15
-      guidID:
-        value: 21a14697-64bc-4351-80ec-9cd0bb8e5ece
-      text:
-      - languageType: 1
-        languageGenericType: "Bon faisons une liste ! M\xE9tiers manuels d\xE9j\xE0
-          c'est non ! Tu te mettrais en danger plus qu'autre chose."
-      - languageType: 2
-        languageGenericType: 
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    - id:
-        value: 17
-      guidID:
-        value: 5969eccc-1844-418d-b949-0a52be782be8
-      text:
-      - languageType: 1
-        languageGenericType: Eh !
-      - languageType: 2
-        languageGenericType: 
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    - id:
-        value: 19
-      guidID:
-        value: 4e8117d9-66c0-42da-b3f6-03624c38150e
-      text:
-      - languageType: 1
-        languageGenericType: Ose me dire que j'ai tort !
-      - languageType: 2
-        languageGenericType: 
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    - id:
-        value: 21
-      guidID:
-        value: 5b5669a8-3798-4fe9-b00b-7a23bd3ddb2a
-      text:
-      - languageType: 1
-        languageGenericType: ...
-      - languageType: 2
-        languageGenericType: 
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    - id:
-        value: 23
-      guidID:
-        value: 687f34e4-eb4b-4855-bc5c-43dfdd86b16d
-      text:
-      - languageType: 1
-        languageGenericType: C'est bien ce qu'il me semblait.
-      - languageType: 2
-        languageGenericType: 
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    dialogueDataImages: []
-    dialogueDataPorts: []
-  - nodeGuid: f9fbdf40-3e99-46ef-b499-9aadcfdfac07
-    position: {x: 132, y: -834}
-    dialogueDataNames:
-    - id:
-        value: 0
-      characterName:
-        value: "Cl\xE9mence"
-    dialogueDataTexts:
-    - id:
-        value: 1
-      guidID:
-        value: 6347d6cb-c775-4d52-98ca-21af7b14523b
-      text:
-      - languageType: 1
-        languageGenericType: "Bon alors, \xE7a ce n'est pas ton truc, \xE7a non plus...
-          Humm... Tu ne veux pas me donner un coup de main ?"
+        languageGenericType: Oui pardon ! Pardon ! Je vais essayer.
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -364,15 +142,10 @@ MonoBehaviour:
     dialogueDataImages: []
     dialogueDataPorts: []
   eventDatas: []
-  branchDatas:
-  - nodeGuid: e78e3fb6-9f9d-49cc-b082-810c7d417987
-    position: {x: -162, y: -527}
-    trueGuidNode: 
-    falseGuidNode: 462c6ffd-64de-400b-a33d-35cb89a4f50b
-    stringConditions: []
+  branchDatas: []
   choiceDatas: []
   endDatas:
-  - nodeGuid: 8d31cd81-a9c2-4864-99ad-ea41acd58291
-    position: {x: 576, y: -566}
+  - nodeGuid: 7ef6c0c5-7f93-4685-bf88-0eaf251b697c
+    position: {x: 446, y: 176}
     endNodeType:
       value: 1

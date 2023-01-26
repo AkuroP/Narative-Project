@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
-  m_Name: Etale
+  m_Name: forest12
   m_EditorClassIdentifier: 
   nodeLinkDatas:
-  - baseNodeGuid: 0a2522d8-b345-4502-ab7e-a56812b9cc86
+  - baseNodeGuid: 21183554-9c17-4c6c-a784-f1958d38700a
     basePortName: Output
-    targetNodeGuid: e3b90931-014b-4572-91bf-839445e587ae
+    targetNodeGuid: 4b221014-1b7c-46e1-b0c5-d98e76d828d4
     targetPortName: Input
-  - baseNodeGuid: e3b90931-014b-4572-91bf-839445e587ae
+  - baseNodeGuid: 4b221014-1b7c-46e1-b0c5-d98e76d828d4
     basePortName: Continue
-    targetNodeGuid: f82d1ea8-6988-4648-baee-2e708baa22c2
+    targetNodeGuid: f71e958c-1646-4d20-a118-6e5b462eb7db
     targetPortName: Input
   startDatas:
-  - nodeGuid: 0a2522d8-b345-4502-ab7e-a56812b9cc86
-    position: {x: 298.4, y: 299.2}
+  - nodeGuid: 21183554-9c17-4c6c-a784-f1958d38700a
+    position: {x: 201, y: 347}
   dialogueDatas:
-  - nodeGuid: e3b90931-014b-4572-91bf-839445e587ae
-    position: {x: 375.2, y: 299.2}
+  - nodeGuid: 4b221014-1b7c-46e1-b0c5-d98e76d828d4
+    position: {x: 278, y: 347}
     dialogueDataNames:
     - id:
         value: 0
@@ -36,12 +36,10 @@ MonoBehaviour:
     - id:
         value: 1
       guidID:
-        value: 099c92f1-3c74-48f9-9b71-88cb09ff490d
+        value: f1d76ea5-2ec7-469a-9aac-da62ba050e04
       text:
       - languageType: 1
-        languageGenericType: "Tout est comme d\u2019habitude, mais Clem a disparu
-          !\nJe ne l\u2019avais m\xEAme pas quitt\xE9 des yeux ! Encore cette impression
-          bizarre..."
+        languageGenericType: "Il fait d\xE9j\xE0 noir, tant pis pour la vue."
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -59,7 +57,7 @@ MonoBehaviour:
   branchDatas: []
   choiceDatas: []
   endDatas:
-  - nodeGuid: f82d1ea8-6988-4648-baee-2e708baa22c2
-    position: {x: 652.8, y: 299.2}
+  - nodeGuid: f71e958c-1646-4d20-a118-6e5b462eb7db
+    position: {x: 556, y: 352}
     endNodeType:
       value: 1
