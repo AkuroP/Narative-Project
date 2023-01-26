@@ -23,7 +23,7 @@ MonoBehaviour:
     targetPortName: Input
   startDatas:
   - nodeGuid: f8fe505c-9df7-403c-9c30-00e7214708dc
-    position: {x: 91.2, y: 176}
+    position: {x: 91, y: 176}
   dialogueDatas:
   - nodeGuid: 2af4cd78-af24-41e5-8482-72b8607d2f6a
     position: {x: 168, y: 176}
@@ -127,7 +127,7 @@ MonoBehaviour:
         value: 0ddd5871-52f0-4006-8ac8-a5de79a9f6ff
       text:
       - languageType: 1
-        languageGenericType: Pardon ! Pardon ! Je vais essayer.
+        languageGenericType: Oui pardon ! Pardon ! Je vais essayer.
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -146,6 +146,6 @@ MonoBehaviour:
   choiceDatas: []
   endDatas:
   - nodeGuid: 7ef6c0c5-7f93-4685-bf88-0eaf251b697c
-    position: {x: 445.6, y: 176}
+    position: {x: 446, y: 176}
     endNodeType:
       value: 1
