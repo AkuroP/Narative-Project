@@ -44,5 +44,7 @@ namespace Team06
                 speechBubble.SetActive(false);
             }
         }
+        
+        
     }
 }
