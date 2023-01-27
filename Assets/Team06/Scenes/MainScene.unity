@@ -1028,7 +1028,7 @@ MonoBehaviour:
   playerIsMoving: 0
   canMove: 1
   confiner: {fileID: 1984289216}
-  confinerColl: {fileID: 1207061672}
+  confinerColl: {fileID: 860515560}
   playerAnim: {fileID: 196077878}
 --- !u!143 &196077875
 CharacterController:
@@ -1108,7 +1108,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 196077873}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.26, z: 0}
+  m_LocalPosition: {x: 27.00678, y: -3.26, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6199,7 +6199,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1011077329}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.61787, y: -1.468424, z: -10}
+  m_LocalPosition: {x: 28.619303, y: -1.2717446, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12740,7 +12740,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1984289213}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.2600001, z: -10}
+  m_LocalPosition: {x: 27.00678, y: -1.2600001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
