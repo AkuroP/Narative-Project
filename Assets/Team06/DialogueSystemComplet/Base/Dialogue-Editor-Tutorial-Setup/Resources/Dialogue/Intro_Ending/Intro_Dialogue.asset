@@ -142,7 +142,7 @@ MonoBehaviour:
     position: {x: 325.6, y: 396}
   dialogueDatas:
   - nodeGuid: 5ce446c3-dc8e-4cec-b129-8e3c737d37cc
-    position: {x: 496.8, y: 295.2}
+    position: {x: 496.8, y: 295.19998}
     dialogueDataNames:
     - id:
         value: 0
@@ -159,7 +159,9 @@ MonoBehaviour:
           qu\u2019il y aura ? Un festival en campagne ! En vrai c\u2019est normal,
           mais c\u2019est jamais arriv\xE9 pr\xE8s de chez nous !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Isn't it INSANE!? Can you imagine the world there will
+          be? A festival in the countryside! To be true it's normal, but it's never
+          happened near us!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -178,7 +180,7 @@ MonoBehaviour:
         value: {fileID: 0}
     dialogueDataPorts: []
   - nodeGuid: d16095fa-417b-402b-b635-5df8f2ddf17e
-    position: {x: 801.6, y: 295.2}
+    position: {x: 801.6, y: 295.19998}
     dialogueDataNames:
     - id:
         value: 0
@@ -193,7 +195,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Hmm\u2026"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: "Hmm\u2026"
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -212,7 +214,7 @@ MonoBehaviour:
         value: {fileID: 0}
     dialogueDataPorts: []
   - nodeGuid: d9f2eb3c-594d-4f7c-b521-478b86bd4028
-    position: {x: 1099.2, y: 295.2}
+    position: {x: 1099.2, y: 295.19998}
     dialogueDataNames:
     - id:
         value: 0
@@ -229,41 +231,9 @@ MonoBehaviour:
           ? Ils peuvent bien laisser leur fille s\u2019amuser un soir, hein ? Et
           j\u2019suis pr\xEAte \xE0 te couvrir !"
       - languageType: 2
-        languageGenericType: 
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    dialogueDataImages:
-    - id:
-        value: 1
-      spriteLeft:
-        value: {fileID: 0}
-      spriteRight:
-        value: {fileID: 0}
-    dialogueDataPorts: []
-  - nodeGuid: a1f5f39c-c6ea-4a61-b989-e0e3c0815b2b
-    position: {x: 1398.4, y: 295.2}
-    dialogueDataNames:
-    - id:
-        value: 0
-      characterName:
-        value: "Cl\xE9mence"
-    dialogueDataTexts:
-    - id:
-        value: 2
-      guidID:
-        value: 59e5aac7-4962-4566-833c-a1e6fe2fd026
-      text:
-      - languageType: 1
-        languageGenericType: "Ouais\u2026 t\u2019inqui\xE8te pas trop."
-      - languageType: 2
-        languageGenericType: 
+        languageGenericType: By the way Clem, did you ask your parents? They can
+          let their daughter have some fun just one night, right? And I'm ready to
+          cover you!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -282,7 +252,7 @@ MonoBehaviour:
         value: {fileID: 0}
     dialogueDataPorts: []
   - nodeGuid: d31eccbf-9f80-4db2-95bd-846572755a49
-    position: {x: 1699.2, y: 295.2}
+    position: {x: 1699.2, y: 295.19998}
     dialogueDataNames:
     - id:
         value: 0
@@ -298,7 +268,8 @@ MonoBehaviour:
         languageGenericType: "Apr\xE8s faut demander \xE0 Sandra, \xE0 Bel, \xE0
           Mag si c'est bon pour la voiture\u2026"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Then we will have to ask to Sandra, to Bel and also
+          Mag if it's good for the car...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -317,7 +288,7 @@ MonoBehaviour:
         value: {fileID: 0}
     dialogueDataPorts: []
   - nodeGuid: a292dd86-4b11-4aad-aa9b-3f387838140a
-    position: {x: 1997.6, y: 295.2}
+    position: {x: 1997.6, y: 295.19998}
     dialogueDataNames:
     - id:
         value: 0
@@ -333,7 +304,8 @@ MonoBehaviour:
         languageGenericType: "Oh h\xE9 Ambre, c\u2019est pas dans 6 mois ? Tu penses
           pas que tu pr\xE9vois trop \xE0 l\u2019avance ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Hey Ambre, isn't that six months away? Don't you think
+          you're planning too far ahead?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -352,7 +324,7 @@ MonoBehaviour:
         value: {fileID: 0}
     dialogueDataPorts: []
   - nodeGuid: 89d5e6c0-c120-457e-99b6-af92103e99d7
-    position: {x: 2297.6, y: 295.2}
+    position: {x: 2297.6, y: 295.19998}
     dialogueDataNames:
     - id:
         value: 0
@@ -365,10 +337,9 @@ MonoBehaviour:
         value: 6f13e63a-8f05-478f-be68-406291c42a9c
       text:
       - languageType: 1
-        languageGenericType: "Hein ? Pas de \u201CPr\xE9cieuse\u201D aujourd\u2019hui
-          ?"
+        languageGenericType: "Hein ? Pas de \"Pr\xE9cieuse\" aujourd'hui ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Huh? No "Precious" today?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -387,7 +358,7 @@ MonoBehaviour:
         value: {fileID: 0}
     dialogueDataPorts: []
   - nodeGuid: 57650ca2-45a0-4b24-a973-d56bf85ecdad
-    position: {x: 2897.6, y: 295.2}
+    position: {x: 2897.6, y: 295.19998}
     dialogueDataNames:
     - id:
         value: 0
@@ -403,7 +374,7 @@ MonoBehaviour:
         languageGenericType: "Mais\u2026 j\u2019ai pas l\u2019habitude que t\u2019utilises
           mon nom !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: But... I'm not used to you using my name!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -422,7 +393,7 @@ MonoBehaviour:
         value: {fileID: 0}
     dialogueDataPorts: []
   - nodeGuid: 5ce36647-4b30-47ef-a35f-c682ecce2d47
-    position: {x: 3200, y: 295.2}
+    position: {x: 3200, y: 295.19998}
     dialogueDataNames:
     - id:
         value: 0
@@ -438,7 +409,8 @@ MonoBehaviour:
         languageGenericType: "Haha ! Je devrais faire \xE7a plus souvent si \xE7a
           te met dans cet \xE9tat."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Haha! I should do this more often if it gets you in
+          this state.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -457,7 +429,7 @@ MonoBehaviour:
         value: {fileID: 0}
     dialogueDataPorts: []
   - nodeGuid: 0d627530-dcd3-4b52-84fe-fecae9a3b906
-    position: {x: 3496.8, y: 295.2}
+    position: {x: 3496.8, y: 295.19998}
     dialogueDataNames:
     - id:
         value: 0
@@ -472,7 +444,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: Hey !
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Hey!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -491,7 +463,7 @@ MonoBehaviour:
         value: {fileID: 0}
     dialogueDataPorts: []
   - nodeGuid: 7d9938f2-1cdb-4b53-a545-0d4df0122903
-    position: {x: 3801.6, y: 295.2}
+    position: {x: 3801.6, y: 295.19998}
     dialogueDataNames:
     - id:
         value: 0
@@ -506,7 +478,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: Hahaha !
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Hahaha!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -541,7 +513,7 @@ MonoBehaviour:
         languageGenericType: "Mais s\xE9rieusement, il faut que je te dise quelque
           chose."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: But seriously, I have to tell you something.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -575,7 +547,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "J\u2019t\u2019\xE9coute !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I'm listening!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -610,7 +582,7 @@ MonoBehaviour:
         languageGenericType: Tu sais quand je suis partie un aprem pour un concours
           ?
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: You know when I went to a contest one afternoon?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -645,7 +617,7 @@ MonoBehaviour:
         languageGenericType: "Ouais ? C\u2019\xE9tait pour une \xE9cole, c\u2019est
           \xE7a ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Yeah? It was for a school, right?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -677,9 +649,9 @@ MonoBehaviour:
         value: 73653136-9a5a-4724-84b8-279502fe0734
       text:
       - languageType: 1
-        languageGenericType: "C\u2019est \xE7a, une \xE9cole. "
+        languageGenericType: "C'est \xE7a, une \xE9cole."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Yes, a school.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -697,7 +669,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Une \xE9cole \xE0 la capitale."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: A school in the capital.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -733,7 +705,9 @@ MonoBehaviour:
           le dire. Parce que, s'ils m\u2019acceptent, je vivrais dans un appart \xE0
           Paris pour les prochaines ann\xE9es."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: No, no, no! It's my fault, I was afraid to tell you.
+          Because, if they accept me, I'll be living in an apartment in Paris for
+          the next few years.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -767,7 +741,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Ah\u2026 j\u2019ai du zapp\xE9 ce d\xE9tail."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Ah... I must have skipped that detail.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -786,7 +760,7 @@ MonoBehaviour:
         value: {fileID: 0}
     dialogueDataPorts: []
   - nodeGuid: 5a694668-7b9a-4b90-82d8-3ce38417d704
-    position: {x: 2600.8, y: 295.2}
+    position: {x: 2600.8, y: 295.19998}
     dialogueDataNames:
     - id:
         value: 0
@@ -799,9 +773,9 @@ MonoBehaviour:
         value: 464692a6-7ca5-4e38-9936-ded496136979
       text:
       - languageType: 1
-        languageGenericType: "... \nc\u2019est \xE7a qui te choque ?"
+        languageGenericType: "... \nC'est \xE7a qui te choque ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: "... \nIs this what shocks you?"
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -836,7 +810,8 @@ MonoBehaviour:
         languageGenericType: "Ouais t\u2019inqui\xE8tes, j\u2019ai fait le calcul
           ! Ton futur est le plus important !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Yeah don't worry, I did the math! Your future is the
+          most important!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -959,7 +934,7 @@ MonoBehaviour:
         value: {fileID: 0}
     dialogueDataPorts: []
   - nodeGuid: bd85bb31-4db9-49fa-873f-9714f6dc1e85
-    position: {x: 496.8, y: 1299.2}
+    position: {x: 496.8, y: 1299.2001}
     dialogueDataNames:
     - id:
         value: 0
@@ -993,7 +968,7 @@ MonoBehaviour:
         value: {fileID: 0}
     dialogueDataPorts: []
   - nodeGuid: f0286ff8-cfea-452d-bf31-556f1658e263
-    position: {x: 798.4, y: 1299.2}
+    position: {x: 798.4, y: 1299.2001}
     dialogueDataNames:
     - id:
         value: 0
@@ -1028,7 +1003,7 @@ MonoBehaviour:
         value: {fileID: 0}
     dialogueDataPorts: []
   - nodeGuid: 69dab0da-c099-4849-9e19-2deb9ac945f1
-    position: {x: 1099.2, y: 1299.2}
+    position: {x: 1099.2, y: 1299.2001}
     dialogueDataNames:
     - id:
         value: 0
@@ -1062,7 +1037,7 @@ MonoBehaviour:
         value: {fileID: 0}
     dialogueDataPorts: []
   - nodeGuid: 0cc12be4-37d2-4870-9de5-a98720a6f50c
-    position: {x: 496.8, y: 1800.7999}
+    position: {x: 496.8, y: 1800.8}
     dialogueDataNames:
     - id:
         value: 0
@@ -1097,7 +1072,7 @@ MonoBehaviour:
         value: {fileID: 0}
     dialogueDataPorts: []
   - nodeGuid: 06bf116b-ac74-4704-a4f3-2bae22c5ac0e
-    position: {x: 798.4, y: 1800.7999}
+    position: {x: 798.4, y: 1800.8}
     dialogueDataNames:
     - id:
         value: 0
@@ -1132,7 +1107,7 @@ MonoBehaviour:
         value: {fileID: 0}
     dialogueDataPorts: []
   - nodeGuid: 53f73720-8169-42cd-9369-1860330ec6d3
-    position: {x: 1099.2, y: 1800.7999}
+    position: {x: 1099.2, y: 1800.8}
     dialogueDataNames:
     - id:
         value: 0
@@ -1166,7 +1141,7 @@ MonoBehaviour:
         value: {fileID: 0}
     dialogueDataPorts: []
   - nodeGuid: 91882592-3128-42a7-8edc-5b91a095f0da
-    position: {x: 1396, y: 1800.7999}
+    position: {x: 1396, y: 1800.8}
     dialogueDataNames:
     - id:
         value: 0
@@ -1202,11 +1177,45 @@ MonoBehaviour:
       spriteRight:
         value: {fileID: 0}
     dialogueDataPorts: []
+  - nodeGuid: a1f5f39c-c6ea-4a61-b989-e0e3c0815b2b
+    position: {x: 1398.4, y: 295.19998}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: "Cl\xE9mence"
+    dialogueDataTexts:
+    - id:
+        value: 2
+      guidID:
+        value: 59e5aac7-4962-4566-833c-a1e6fe2fd026
+      text:
+      - languageType: 1
+        languageGenericType: "Ouais\u2026 t\u2019inqui\xE8te pas trop."
+      - languageType: 2
+        languageGenericType: Yeah... don't worry about it.
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages:
+    - id:
+        value: 1
+      spriteLeft:
+        value: {fileID: 0}
+      spriteRight:
+        value: {fileID: 0}
+    dialogueDataPorts: []
   eventDatas: []
   branchDatas: []
   choiceDatas: []
   endDatas:
   - nodeGuid: f9e0fb13-9378-495e-9c5b-da0577e2e9f6
-    position: {x: 1761.6, y: 1800.7999}
+    position: {x: 1761.6, y: 1800.8}
     endNodeType:
       value: 1
