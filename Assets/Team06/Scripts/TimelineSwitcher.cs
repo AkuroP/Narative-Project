@@ -16,12 +16,15 @@ namespace Team06
 
         [Range(0, 1)] public float offset;
 
+        private TeamSixPlayer player;
+
 
         private void Start() {
             _timelines = new GameObject[2];
 
             _timelines[0] = transform.GetChild(0).gameObject;
             _timelines[1] = transform.GetChild(1).gameObject;
+            player = GameObject.FindGameObjectWithTag("Player").GetComponentInParent<TeamSixPlayer>();
         }
 
         void Update() {
@@ -37,6 +40,7 @@ namespace Team06
 
                         if (_timelineIndex == 0)
                         {
+                            player.playerAnim.SetTrigger("Switch");
                             _timelineIndex = 1;
                             _timelines[_timelineIndex].SetActive(true);
                             _timelines[_timelineIndex == 1 ? 0 : 1].SetActive(false);
@@ -49,6 +53,7 @@ namespace Team06
                         //Debug.Log("dooown");
 
                         if (_timelineIndex == 1) {
+                            player.playerAnim.SetTrigger("Switch");
                             _timelineIndex = 0;
                             _timelines[_timelineIndex].SetActive(true);
                             _timelines[_timelineIndex == 0 ? 1 : 0].SetActive(false);
