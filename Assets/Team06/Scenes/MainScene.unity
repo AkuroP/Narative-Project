@@ -2436,6 +2436,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 196077874}
     - target: {fileID: 1396218729959629717, guid: 45f8bd78a627f6b419ad0830ada18a1c, type: 3}
+      propertyPath: autoDialogue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396218729959629717, guid: 45f8bd78a627f6b419ad0830ada18a1c, type: 3}
       propertyPath: timelineSwitcher
       value: 
       objectReference: {fileID: 207802770}
@@ -3309,6 +3313,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &647372404 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5839147295527615160, guid: 45f8bd78a627f6b419ad0830ada18a1c, type: 3}
+  m_PrefabInstance: {fileID: 556362443}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &653961042
 GameObject:
   m_ObjectHideFlags: 0
@@ -3421,7 +3430,8 @@ Transform:
   m_LocalPosition: {x: 0.75, y: -3.768, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 8569932664280844361}
   m_Father: {fileID: 1268242059}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7435,7 +7445,8 @@ Transform:
   m_LocalPosition: {x: 24.75, y: -2.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 647372404}
   m_Father: {fileID: 1837870154}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7491,6 +7502,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1321845554 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1247131147039799093, guid: 58167f0622b628e44b6620d2a6b09ac8, type: 3}
+  m_PrefabInstance: {fileID: 1971003551}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1322363063
 GameObject:
   m_ObjectHideFlags: 0
@@ -8396,6 +8412,8 @@ Transform:
   - {fileID: 846308511}
   - {fileID: 181742800}
   - {fileID: 918506488}
+  - {fileID: 819706455}
+  - {fileID: 485520641}
   m_Father: {fileID: 1292187107}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9790,6 +9808,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &1766242600 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5839147295527615160, guid: 45f8bd78a627f6b419ad0830ada18a1c, type: 3}
+  m_PrefabInstance: {fileID: 138627276}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1779053166
 GameObject:
   m_ObjectHideFlags: 0
@@ -10170,6 +10193,8 @@ Transform:
   - {fileID: 1109922216}
   - {fileID: 1835254116}
   - {fileID: 1276255715}
+  - {fileID: 469351378}
+  - {fileID: 1766242600}
   m_Father: {fileID: 303382483}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10836,6 +10861,26 @@ PrefabInstance:
     - target: {fileID: 3271024075608306611, guid: 58167f0622b628e44b6620d2a6b09ac8, type: 3}
       propertyPath: m_text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032526205944510536, guid: 58167f0622b628e44b6620d2a6b09ac8, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113158156876594554, guid: 58167f0622b628e44b6620d2a6b09ac8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113158156876594554, guid: 58167f0622b628e44b6620d2a6b09ac8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113158156876594554, guid: 58167f0622b628e44b6620d2a6b09ac8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1321845554}
+    - target: {fileID: 5113158156876594554, guid: 58167f0622b628e44b6620d2a6b09ac8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5331483077515306820, guid: 58167f0622b628e44b6620d2a6b09ac8, type: 3}
       propertyPath: m_AnchorMax.y
@@ -11774,6 +11819,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 196077874}
     - target: {fileID: 1396218729959629717, guid: 45f8bd78a627f6b419ad0830ada18a1c, type: 3}
+      propertyPath: autoDialogue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396218729959629717, guid: 45f8bd78a627f6b419ad0830ada18a1c, type: 3}
       propertyPath: timelineSwitcher
       value: 
       objectReference: {fileID: 207802770}
@@ -11781,6 +11830,10 @@ PrefabInstance:
       propertyPath: dialogueContainer
       value: 
       objectReference: {fileID: 11400000, guid: ad55b210dc502fd4bb9607895d7a0443, type: 2}
+    - target: {fileID: 1396218729959629717, guid: 45f8bd78a627f6b419ad0830ada18a1c, type: 3}
+      propertyPath: timeBetweenSentence
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5839147295527614791, guid: 45f8bd78a627f6b419ad0830ada18a1c, type: 3}
       propertyPath: m_Name
       value: Talkzone

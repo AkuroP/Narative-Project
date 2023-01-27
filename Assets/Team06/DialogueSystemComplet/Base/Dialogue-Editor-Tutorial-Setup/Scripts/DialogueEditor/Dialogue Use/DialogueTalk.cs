@@ -220,7 +220,7 @@ namespace Team06
             }
             else
             {
-                print("3");
+                print("3"); 
                 if (this.autoDialogue)
                 {
                     StartCoroutine(NextDialogue());
