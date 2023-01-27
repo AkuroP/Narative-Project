@@ -45,10 +45,6 @@ MonoBehaviour:
     basePortName: Continue
     targetNodeGuid: 5a694668-7b9a-4b90-82d8-3ce38417d704
     targetPortName: Input
-  - baseNodeGuid: 5a694668-7b9a-4b90-82d8-3ce38417d704
-    basePortName: Continue
-    targetNodeGuid: 57650ca2-45a0-4b24-a973-d56bf85ecdad
-    targetPortName: Input
   - baseNodeGuid: 57650ca2-45a0-4b24-a973-d56bf85ecdad
     basePortName: Continue
     targetNodeGuid: 5ce36647-4b30-47ef-a35f-c682ecce2d47
@@ -56,6 +52,10 @@ MonoBehaviour:
   - baseNodeGuid: 5ce36647-4b30-47ef-a35f-c682ecce2d47
     basePortName: Continue
     targetNodeGuid: 0d627530-dcd3-4b52-84fe-fecae9a3b906
+    targetPortName: Input
+  - baseNodeGuid: 0d627530-dcd3-4b52-84fe-fecae9a3b906
+    basePortName: Continue
+    targetNodeGuid: 7d9938f2-1cdb-4b53-a545-0d4df0122903
     targetPortName: Input
   - baseNodeGuid: 7d9938f2-1cdb-4b53-a545-0d4df0122903
     basePortName: Continue
@@ -81,13 +81,17 @@ MonoBehaviour:
     basePortName: Continue
     targetNodeGuid: 6250eea1-7817-4a26-a2fa-d2c20904db00
     targetPortName: Input
+  - baseNodeGuid: 2c61bb10-a974-44d1-9cbb-027cc36257f0
+    basePortName: Continue
+    targetNodeGuid: 8ac2e3ba-9458-48e5-b1dc-dd80e7ebed3d
+    targetPortName: Input
   - baseNodeGuid: 6250eea1-7817-4a26-a2fa-d2c20904db00
     basePortName: Continue
     targetNodeGuid: 2c61bb10-a974-44d1-9cbb-027cc36257f0
     targetPortName: Input
-  - baseNodeGuid: 2c61bb10-a974-44d1-9cbb-027cc36257f0
+  - baseNodeGuid: 5a694668-7b9a-4b90-82d8-3ce38417d704
     basePortName: Continue
-    targetNodeGuid: 8ac2e3ba-9458-48e5-b1dc-dd80e7ebed3d
+    targetNodeGuid: 57650ca2-45a0-4b24-a973-d56bf85ecdad
     targetPortName: Input
   - baseNodeGuid: 8ac2e3ba-9458-48e5-b1dc-dd80e7ebed3d
     basePortName: Continue
@@ -121,17 +125,17 @@ MonoBehaviour:
     basePortName: Continue
     targetNodeGuid: 06bf116b-ac74-4704-a4f3-2bae22c5ac0e
     targetPortName: Input
-  - baseNodeGuid: 53f73720-8169-42cd-9369-1860330ec6d3
-    basePortName: Continue
-    targetNodeGuid: 91882592-3128-42a7-8edc-5b91a095f0da
-    targetPortName: Input
   - baseNodeGuid: 06bf116b-ac74-4704-a4f3-2bae22c5ac0e
     basePortName: Continue
     targetNodeGuid: 53f73720-8169-42cd-9369-1860330ec6d3
     targetPortName: Input
-  - baseNodeGuid: 0d627530-dcd3-4b52-84fe-fecae9a3b906
+  - baseNodeGuid: 53f73720-8169-42cd-9369-1860330ec6d3
     basePortName: Continue
-    targetNodeGuid: 7d9938f2-1cdb-4b53-a545-0d4df0122903
+    targetNodeGuid: 91882592-3128-42a7-8edc-5b91a095f0da
+    targetPortName: Input
+  - baseNodeGuid: 91882592-3128-42a7-8edc-5b91a095f0da
+    basePortName: Continue
+    targetNodeGuid: f9e0fb13-9378-495e-9c5b-da0577e2e9f6
     targetPortName: Input
   startDatas:
   - nodeGuid: 998f20af-6f9a-4a5f-b1f9-f7bc80515149
@@ -1201,4 +1205,8 @@ MonoBehaviour:
   eventDatas: []
   branchDatas: []
   choiceDatas: []
-  endDatas: []
+  endDatas:
+  - nodeGuid: f9e0fb13-9378-495e-9c5b-da0577e2e9f6
+    position: {x: 1761.6, y: 1800.7999}
+    endNodeType:
+      value: 1

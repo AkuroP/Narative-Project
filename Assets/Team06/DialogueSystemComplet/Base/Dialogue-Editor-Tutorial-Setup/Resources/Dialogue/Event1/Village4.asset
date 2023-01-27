@@ -12,13 +12,69 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
   m_Name: Village4
   m_EditorClassIdentifier: 
-  nodeLinkDatas: []
+  nodeLinkDatas:
+  - baseNodeGuid: fbd85edd-7820-4b05-a15a-585943bdc870
+    basePortName: True
+    targetNodeGuid: f256eed1-b843-48fe-80f5-4f0fb87572ad
+    targetPortName: Input
+  - baseNodeGuid: fbd85edd-7820-4b05-a15a-585943bdc870
+    basePortName: False
+    targetNodeGuid: b1d12b8e-4137-42c7-9c3d-29dc1d269c8d
+    targetPortName: Input
+  - baseNodeGuid: 50cc9442-d6af-4fae-996c-abfa7ea9352e
+    basePortName: Output
+    targetNodeGuid: fbd85edd-7820-4b05-a15a-585943bdc870
+    targetPortName: Input
+  - baseNodeGuid: b1d12b8e-4137-42c7-9c3d-29dc1d269c8d
+    basePortName: Continue
+    targetNodeGuid: d29b15dd-168d-44c6-8eaf-53886d15152d
+    targetPortName: Input
+  - baseNodeGuid: f256eed1-b843-48fe-80f5-4f0fb87572ad
+    basePortName: Continue
+    targetNodeGuid: 8e6b273b-e622-4a68-be47-7016237dd287
+    targetPortName: Input
+  - baseNodeGuid: d29b15dd-168d-44c6-8eaf-53886d15152d
+    basePortName: Continue
+    targetNodeGuid: 679a83c0-0bca-4708-bda9-d6a35aea07b7
+    targetPortName: Input
+  - baseNodeGuid: 679a83c0-0bca-4708-bda9-d6a35aea07b7
+    basePortName: Output
+    targetNodeGuid: 8e6b273b-e622-4a68-be47-7016237dd287
+    targetPortName: Input
   startDatas:
   - nodeGuid: 50cc9442-d6af-4fae-996c-abfa7ea9352e
     position: {x: 242.4, y: 220}
   dialogueDatas:
+  - nodeGuid: f256eed1-b843-48fe-80f5-4f0fb87572ad
+    position: {x: 765.6, y: -15.999999}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Madame L'Angelier
+    dialogueDataTexts:
+    - id:
+        value: 1
+      guidID:
+        value: edf06376-e560-4db3-a789-504f8563eb14
+      text:
+      - languageType: 1
+        languageGenericType: Tu veux m'acheter quelque chose ?
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages: []
+    dialogueDataPorts: []
   - nodeGuid: b1d12b8e-4137-42c7-9c3d-29dc1d269c8d
-    position: {x: 557.6, y: 292}
+    position: {x: 712.8, y: 384}
     dialogueDataNames:
     - id:
         value: 0
@@ -107,36 +163,8 @@ MonoBehaviour:
         languageGenericType: {fileID: 0}
     dialogueDataImages: []
     dialogueDataPorts: []
-  - nodeGuid: f256eed1-b843-48fe-80f5-4f0fb87572ad
-    position: {x: 557.6, y: -21.599998}
-    dialogueDataNames:
-    - id:
-        value: 0
-      characterName:
-        value: Madame L'Angelier
-    dialogueDataTexts:
-    - id:
-        value: 1
-      guidID:
-        value: edf06376-e560-4db3-a789-504f8563eb14
-      text:
-      - languageType: 1
-        languageGenericType: Tu veux m'acheter quelque chose ?
-      - languageType: 2
-        languageGenericType: 
-      - languageType: 3
-        languageGenericType: 
-      audioClips:
-      - languageType: 1
-        languageGenericType: {fileID: 0}
-      - languageType: 2
-        languageGenericType: {fileID: 0}
-      - languageType: 3
-        languageGenericType: {fileID: 0}
-    dialogueDataImages: []
-    dialogueDataPorts: []
   - nodeGuid: d29b15dd-168d-44c6-8eaf-53886d15152d
-    position: {x: 835.2, y: 292}
+    position: {x: 990.4, y: 384}
     dialogueDataNames:
     - id:
         value: 0
@@ -166,16 +194,32 @@ MonoBehaviour:
         languageGenericType: {fileID: 0}
     dialogueDataImages: []
     dialogueDataPorts: []
-  eventDatas: []
+  eventDatas:
+  - nodeGuid: 679a83c0-0bca-4708-bda9-d6a35aea07b7
+    position: {x: 1375.2, y: 339.2}
+    stringModifiers:
+    - stringEventText:
+        value: TalkedToAngelier
+      number:
+        value: 0
+      stringEventModifierType:
+        value: 1
+    dialogueEventSos: []
   branchDatas:
   - nodeGuid: fbd85edd-7820-4b05-a15a-585943bdc870
     position: {x: 319.2, y: 220}
-    trueGuidNode: 
-    falseGuidNode: 
-    stringConditions: []
+    trueGuidNode: f256eed1-b843-48fe-80f5-4f0fb87572ad
+    falseGuidNode: b1d12b8e-4137-42c7-9c3d-29dc1d269c8d
+    stringConditions:
+    - stringEventText:
+        value: TalkedToAngelier
+      number:
+        value: 0
+      stringEventConditionType:
+        value: 1
   choiceDatas: []
   endDatas:
   - nodeGuid: 8e6b273b-e622-4a68-be47-7016237dd287
-    position: {x: 1112.8, y: 292}
+    position: {x: 1824, y: 294.40002}
     endNodeType:
       value: 1

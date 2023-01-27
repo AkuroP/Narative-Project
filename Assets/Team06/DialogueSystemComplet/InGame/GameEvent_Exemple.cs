@@ -9,6 +9,8 @@ namespace Team06
     public class GameEvent_Exemple : GameEvents
     {
         private bool thought;
+        private bool talkedAngelier;
+        private bool talkedToClemence;
         public Image textPanel;
         public Sprite modifyTextPanel;
 
@@ -30,6 +32,10 @@ namespace Team06
                         stringEventConditionType);
                 case "thought":
                     return useStringEventCondition.ConditionBoolCheck(Thought, stringEventConditionType);
+                case "TalkedToAngelier":
+                    return useStringEventCondition.ConditionBoolCheck(talkedAngelier, stringEventConditionType);
+                case "TalkedToClemence":
+                    return useStringEventCondition.ConditionBoolCheck(talkedToClemence, stringEventConditionType);
                 default:
                     Debug.LogWarning("No String Event was found");
                     return false;
@@ -57,6 +63,14 @@ namespace Team06
                 case "thought":
                     Thought = (stringEventModifierType == StringEventModifierType.SetTrue ? true : false);
                     Thought = useStringEventModifier.ModifierBoolCheck(stringEventModifierType);
+                    break;
+                case "TalkedToAngelier":
+                    talkedAngelier = (stringEventModifierType == StringEventModifierType.SetTrue ? true : false);
+                    talkedAngelier = useStringEventModifier.ModifierBoolCheck(stringEventModifierType);
+                    break;
+                case "TalkedToClemence":
+                    talkedToClemence = (stringEventModifierType == StringEventModifierType.SetTrue ? true : false);
+                    talkedToClemence = useStringEventModifier.ModifierBoolCheck(stringEventModifierType);
                     break;
                 default:
                     break;

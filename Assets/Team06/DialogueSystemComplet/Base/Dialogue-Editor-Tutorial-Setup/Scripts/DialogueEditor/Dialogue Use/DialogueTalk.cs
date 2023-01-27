@@ -198,12 +198,13 @@ namespace Team06
                 }
                 else
                 {
+                    print("1");
                     UnityAction unityAction = null;
                     unityAction += () => CheckNodeType(GetNextNode(_currentDialogueNodeData));
                     _dialogueController.SetContinue(unityAction);
                 }
                 
-                print("1");
+                
                 
             }
             else if (_currentIndex == _baseContainers.Count)
@@ -220,7 +221,7 @@ namespace Team06
             else
             {
                 print("3");
-                if (autoDialogue)
+                if (this.autoDialogue)
                 {
                     StartCoroutine(NextDialogue());
                 }

@@ -128,6 +128,7 @@ namespace Team06
 
         public void SetContinue(UnityAction unityAction)
         {
+            print("do it");
             buttonContinue.onClick = new Button.ButtonClickedEvent();
             buttonContinue.onClick.AddListener(unityAction);
             buttonContinue.gameObject.SetActive(true);
