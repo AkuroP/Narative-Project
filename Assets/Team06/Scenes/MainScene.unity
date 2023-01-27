@@ -587,7 +587,7 @@ PrefabInstance:
       objectReference: {fileID: 196077874}
     - target: {fileID: 1396218729959629717, guid: 45f8bd78a627f6b419ad0830ada18a1c, type: 3}
       propertyPath: autoDialogue
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1396218729959629717, guid: 45f8bd78a627f6b419ad0830ada18a1c, type: 3}
       propertyPath: timelineSwitcher
@@ -2352,7 +2352,7 @@ PrefabInstance:
       objectReference: {fileID: 196077874}
     - target: {fileID: 1396218729959629717, guid: 45f8bd78a627f6b419ad0830ada18a1c, type: 3}
       propertyPath: autoDialogue
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1396218729959629717, guid: 45f8bd78a627f6b419ad0830ada18a1c, type: 3}
       propertyPath: timelineSwitcher
@@ -2534,7 +2534,7 @@ PrefabInstance:
       objectReference: {fileID: 196077874}
     - target: {fileID: 1396218729959629717, guid: 45f8bd78a627f6b419ad0830ada18a1c, type: 3}
       propertyPath: autoDialogue
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1396218729959629717, guid: 45f8bd78a627f6b419ad0830ada18a1c, type: 3}
       propertyPath: timelineSwitcher
@@ -4027,7 +4027,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueContainer: {fileID: 11400000, guid: 4825149f0ea5cd24d9ceadb143585047, type: 2}
-  autoDialogue: 0
+  autoDialogue: 1
   timeBetweenSentence: 5
   timelineSwitcher: {fileID: 207802770}
   player: {fileID: 196077874}
@@ -4264,7 +4264,7 @@ PrefabInstance:
       objectReference: {fileID: 196077874}
     - target: {fileID: 1396218729959629717, guid: 45f8bd78a627f6b419ad0830ada18a1c, type: 3}
       propertyPath: autoDialogue
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1396218729959629717, guid: 45f8bd78a627f6b419ad0830ada18a1c, type: 3}
       propertyPath: timelineSwitcher
@@ -11836,7 +11836,7 @@ PrefabInstance:
       objectReference: {fileID: 196077874}
     - target: {fileID: 1396218729959629717, guid: 45f8bd78a627f6b419ad0830ada18a1c, type: 3}
       propertyPath: autoDialogue
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1396218729959629717, guid: 45f8bd78a627f6b419ad0830ada18a1c, type: 3}
       propertyPath: timelineSwitcher
@@ -11917,7 +11917,7 @@ PrefabInstance:
       objectReference: {fileID: 196077874}
     - target: {fileID: 1396218729959629717, guid: 45f8bd78a627f6b419ad0830ada18a1c, type: 3}
       propertyPath: autoDialogue
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1396218729959629717, guid: 45f8bd78a627f6b419ad0830ada18a1c, type: 3}
       propertyPath: timelineSwitcher
