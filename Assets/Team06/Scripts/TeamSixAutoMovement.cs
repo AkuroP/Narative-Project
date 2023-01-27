@@ -70,10 +70,11 @@ namespace Team06
 
         private void ToNextIndex()
         {
-            if (currentIndex >= movingSettings.Length - 1)
+            if (currentIndex > movingSettings.Length - 1)
             {
                 startMoving = false;
                 teamSixPlayer.PlayerStopMoving();
+                teamSixPlayer.playerAnim.SetBool("IsMoving", false);
                 teamSixPlayer.CanMove = true;
                 timelineSwitcher.canSwitch = true;
                 Destroy(this.gameObject);
@@ -95,10 +96,10 @@ namespace Team06
                 teamSixPlayer = collider.GetComponentInParent<TeamSixPlayer>();
                 startMoving = true;
                 teamSixPlayer.CanMove = false;
-                this.GetComponent<Collider2D>().enabled = false;
-                teamSixPlayer.FlipPlayer(movingSettings[currentIndex].movingDir.x);
-                teamSixPlayer.PlayerIsMoving = false;
                 timelineSwitcher.canSwitch = false;
+                this.GetComponent<Collider2D>().enabled = false;
+                teamSixPlayer.PlayerIsMoving = false;
+                teamSixPlayer.FlipPlayer(movingSettings[currentIndex].movingDir.x);
             }
         }
     }
