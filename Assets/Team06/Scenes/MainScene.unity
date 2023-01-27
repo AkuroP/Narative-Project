@@ -1236,6 +1236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 463ebc24a9455704196cc70af9714f7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canSwitch: 1
   offset: 0.1
 --- !u!1 &213862745
 GameObject:
@@ -2636,6 +2637,14 @@ PrefabInstance:
       value: TriggerAutoMovement
       objectReference: {fileID: 0}
     - target: {fileID: 5429715780053016082, guid: 4d9bf4fef307d6e48b6e20b38c15956c, type: 3}
+      propertyPath: teamSixPlayer
+      value: 
+      objectReference: {fileID: 196077874}
+    - target: {fileID: 5429715780053016082, guid: 4d9bf4fef307d6e48b6e20b38c15956c, type: 3}
+      propertyPath: timelineSwitcher
+      value: 
+      objectReference: {fileID: 207802770}
+    - target: {fileID: 5429715780053016082, guid: 4d9bf4fef307d6e48b6e20b38c15956c, type: 3}
       propertyPath: movingSettings.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -3865,6 +3874,8 @@ MonoBehaviour:
   dialogueContainer: {fileID: 11400000, guid: 4825149f0ea5cd24d9ceadb143585047, type: 2}
   autoDialogue: 0
   timeBetweenSentence: 5
+  timelineSwitcher: {fileID: 0}
+  player: {fileID: 0}
 --- !u!114 &712506394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5199,6 +5210,8 @@ MonoBehaviour:
   dialogueContainer: {fileID: 11400000, guid: 104151e187424b4418544dc21c7b3187, type: 2}
   autoDialogue: 1
   timeBetweenSentence: 5
+  timelineSwitcher: {fileID: 207802770}
+  player: {fileID: 196077874}
 --- !u!114 &996148350
 MonoBehaviour:
   m_ObjectHideFlags: 0

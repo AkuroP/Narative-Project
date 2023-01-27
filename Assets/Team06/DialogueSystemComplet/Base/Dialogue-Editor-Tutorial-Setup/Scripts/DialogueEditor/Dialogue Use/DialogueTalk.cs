@@ -21,6 +21,9 @@ namespace Team06
         private List<DialogueDataBaseContainer> _baseContainers;
         private int _currentIndex = 0;
 
+        public TimelineSwitcher timelineSwitcher;
+        public Team06.TeamSixPlayer player;
+
         private void Awake()
         {
             _dialogueController = FindObjectOfType<DialogueController>();
@@ -30,6 +33,9 @@ namespace Team06
         public void StartDialogue()
         {
             _dialogueController.ShowDialogueUI(true);
+            timelineSwitcher.canSwitch = false;
+            player.PlayerStopMoving();
+            player.CanMove = false;
             CheckNodeType(GetNextNode(dialogueContainer.startDatas[0]));
         }
 
@@ -265,6 +271,8 @@ namespace Team06
         IEnumerator EndDialogue()
         {
             yield return new WaitForSeconds(timeBetweenSentence);
+            timelineSwitcher.canSwitch = true;
+            player.CanMove = true;
             CheckNodeType(GetNextNode(_currentDialogueNodeData));
         }
     }

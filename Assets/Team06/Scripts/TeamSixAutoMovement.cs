@@ -27,6 +27,7 @@ namespace Team06
         [SerializeField] private int currentIndex;
         [SerializeField] private bool startMoving;
         [SerializeField] private TeamSixPlayer teamSixPlayer;
+        [SerializeField] private TimelineSwitcher timelineSwitcher;
 
         // Start is called before the first frame update
         private void Start()
@@ -74,6 +75,7 @@ namespace Team06
                 startMoving = false;
                 teamSixPlayer.PlayerStopMoving();
                 teamSixPlayer.CanMove = true;
+                timelineSwitcher.canSwitch = true;
                 Destroy(this.gameObject);
             }
             else
@@ -96,6 +98,7 @@ namespace Team06
                 this.GetComponent<Collider2D>().enabled = false;
                 teamSixPlayer.FlipPlayer(movingSettings[currentIndex].movingDir.x);
                 teamSixPlayer.PlayerIsMoving = false;
+                timelineSwitcher.canSwitch = false;
             }
         }
     }
