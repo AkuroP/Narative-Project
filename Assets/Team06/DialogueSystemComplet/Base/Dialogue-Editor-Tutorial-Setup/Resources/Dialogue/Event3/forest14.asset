@@ -1,0 +1,327 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
+  m_Name: forest14
+  m_EditorClassIdentifier: 
+  nodeLinkDatas:
+  - baseNodeGuid: 2d8405ba-c2c7-4576-a17b-0058ff0500f6
+    basePortName: Output
+    targetNodeGuid: 53b64291-eaf1-49d0-9488-fd97cba47319
+    targetPortName: Input
+  - baseNodeGuid: 53b64291-eaf1-49d0-9488-fd97cba47319
+    basePortName: Continue
+    targetNodeGuid: 2fd9d117-c30f-43be-96a3-4788e503cd26
+    targetPortName: Input
+  startDatas:
+  - nodeGuid: 2d8405ba-c2c7-4576-a17b-0058ff0500f6
+    position: {x: 93, y: 160}
+  dialogueDatas:
+  - nodeGuid: 53b64291-eaf1-49d0-9488-fd97cba47319
+    position: {x: 169, y: 159}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    - id:
+        value: 2
+      characterName:
+        value: Madame Brunelle
+    - id:
+        value: 4
+      characterName:
+        value: Ambre
+    - id:
+        value: 6
+      characterName:
+        value: Madame Brunelle
+    - id:
+        value: 9
+      characterName:
+        value: Ambre
+    - id:
+        value: 11
+      characterName:
+        value: Madame Brunelle
+    - id:
+        value: 15
+      characterName:
+        value: Ambre
+    - id:
+        value: 17
+      characterName:
+        value: Madame Brunelle
+    - id:
+        value: 20
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 1
+      guidID:
+        value: be22e29a-f8a2-486a-b285-4adaeae2199a
+      text:
+      - languageType: 1
+        languageGenericType: Dis moi maman. Je me pose une question. Selon toi qu'est-ce
+          que je pourrai faire plus tard ?
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 3
+      guidID:
+        value: 0b0570c0-2c6b-4494-a7c4-c44f91d6b3c0
+      text:
+      - languageType: 1
+        languageGenericType: "... Plus tard comment ? Dans une semaine ou plut\xF4t
+          dans 4-5 ans ?"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 5
+      guidID:
+        value: 9e19f37b-9979-4e49-9300-573d58983168
+      text:
+      - languageType: 1
+        languageGenericType: "Pour une fois je pr\xE9f\xE8re voir dans longtemps."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 7
+      guidID:
+        value: 37b25c19-1331-4e18-9bc5-1f12f7a4fc7a
+      text:
+      - languageType: 1
+        languageGenericType: Humm... C'est une question difficile que tu me poses.
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 8
+      guidID:
+        value: 91d2db49-4fab-4977-bb01-b234e5d19ef3
+      text:
+      - languageType: 1
+        languageGenericType: "C'est difficile d'avoir la r\xE9ponse \xE0 ta place
+          et je sais que depuis le d\xE9part de Cl\xE9mence tu n'as pas pens\xE9e
+          \xE0 r\xE9fl\xE9chir \xE0 \xE7a..."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 10
+      guidID:
+        value: 5023ff3d-4b05-47a3-9c13-4ec3e94e388a
+      text:
+      - languageType: 1
+        languageGenericType: "Oui c'est pour \xE7a que je te le demande maintenant.
+          Il faut bien que j'avance aussi !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 12
+      guidID:
+        value: b037edfc-8125-4707-a035-c097e30c87ea
+      text:
+      - languageType: 1
+        languageGenericType: "Et bien je n'ai pas de r\xE9ponse bien pr\xE9cise pour
+          toi, comment pourrai-je savoir \xE0 ta place ?"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 13
+      guidID:
+        value: 8d363b42-7330-4f21-a609-b06257ec7685
+      text:
+      - languageType: 1
+        languageGenericType: "Mais si il y a bien une chose que je sais c\u2019est
+          que tu n\u2019as pas \xE0 te d\xE9p\xEAcher de trouver quelque chose qui
+          te plaise !\nPrends ton temps, profite de ta jeunesse pour d\xE9couvrir
+          de nouvelles choses, sache que je serai toujours derri\xE8re toi."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 14
+      guidID:
+        value: 74bd2c64-b991-4071-bda2-33b1eaa01e91
+      text:
+      - languageType: 1
+        languageGenericType: "Tu ne connais que ce village et \xE7a se sent que tu
+          l\u2019aimes mais tu ne t\u2019es jamais dit que toi aussi ta place \xE9tait
+          peut-\xEAtre en dehors ?"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 16
+      guidID:
+        value: 6cb61c21-354d-44b1-92ff-6b4f6cdf11b2
+      text:
+      - languageType: 1
+        languageGenericType: "Mais\u2026 \xC7a fait d\xE9j\xE0 4 mois que je suis
+          l\xE0 \xE0 ne rien faire\u2026 Je ne peux pas perdre plus de temps !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 18
+      guidID:
+        value: 25cd1fbf-1f97-493c-8028-4026998502a0
+      text:
+      - languageType: 1
+        languageGenericType: "Ambre\u2026 Ne t\u2019inqui\xE8tes pas, prends ton
+          temps je te dis ! Si jamais tu veux travailler en attendant de trouver
+          quoi faire, tu trouveras toujours quelqu\u2019un au village qui acceptera
+          ton aide !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 19
+      guidID:
+        value: 8a36c14e-0e7f-4a63-9cb8-57c4e338b361
+      text:
+      - languageType: 1
+        languageGenericType: "Ici on se serre tous les coudes, oui tu avais Cl\xE9mence
+          avec toi et elle est partie mais n\u2019oublies pas, tu nous a tous !"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 21
+      guidID:
+        value: 083630d8-4613-48f5-8859-a70f4b76ca93
+      text:
+      - languageType: 1
+        languageGenericType: "Oui\u2026 Merci maman."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages: []
+    dialogueDataPorts: []
+  eventDatas: []
+  branchDatas: []
+  choiceDatas: []
+  endDatas:
+  - nodeGuid: 2fd9d117-c30f-43be-96a3-4788e503cd26
+    position: {x: 444, y: 159}
+    endNodeType:
+      value: 1

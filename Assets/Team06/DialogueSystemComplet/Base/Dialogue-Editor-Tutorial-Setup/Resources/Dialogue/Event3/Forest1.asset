@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
+  m_Name: forest1
+  m_EditorClassIdentifier: 
+  nodeLinkDatas:
+  - baseNodeGuid: dd64bff3-6f50-4995-b818-e78a22061d39
+    basePortName: Output
+    targetNodeGuid: 600d7019-9bcf-4bbe-becc-a1d6378e11f5
+    targetPortName: Input
+  - baseNodeGuid: 600d7019-9bcf-4bbe-becc-a1d6378e11f5
+    basePortName: Continue
+    targetNodeGuid: 712080da-47af-4145-9897-59caff292c67
+    targetPortName: Input
+  - baseNodeGuid: 712080da-47af-4145-9897-59caff292c67
+    basePortName: Continue
+    targetNodeGuid: 01f5aad2-b7a9-4da3-a656-4304ed48cf8b
+    targetPortName: Input
+  startDatas:
+  - nodeGuid: dd64bff3-6f50-4995-b818-e78a22061d39
+    position: {x: 98.8, y: 104}
+  dialogueDatas:
+  - nodeGuid: 600d7019-9bcf-4bbe-becc-a1d6378e11f5
+    position: {x: 175.6, y: 104}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    - id:
+        value: 2
+      characterName:
+        value: "Cl\xE9mence"
+    - id:
+        value: 5
+      characterName:
+        value: Ambre
+    - id:
+        value: 7
+      characterName:
+        value: "Cl\xE9mence"
+    dialogueDataTexts:
+    - id:
+        value: 1
+      guidID:
+        value: a4e86e0d-c1b0-4f25-9bbb-e74bf32bcad9
+      text:
+      - languageType: 1
+        languageGenericType: "Mais du coup pourquoi n\u2019es-tu pas parti ?\nD'accord,
+          l'universit\xE9 que tu voulais tant ne t\u2019as pas pris mais il n\u2019y
+          avait pas qu'elle ! Si ?"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 3
+      guidID:
+        value: c779b56d-44b4-4457-af9a-65c746bf1a2d
+      text:
+      - languageType: 1
+        languageGenericType: "Ca pourra te sembler simpliste mais ne rien recevoir
+          de leur part, \xE7a m\u2019a d\xE9motiv\xE9.\nJe n\u2019arrivais plus \xE0
+          avoir la foi de continuer\u2026"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 4
+      guidID:
+        value: 61a76973-3ad6-4712-83f8-449cff96a606
+      text:
+      - languageType: 1
+        languageGenericType: "Quand les r\xE9sultats des autres universit\xE9s sont
+          arriv\xE9s, j\u2019ai \xE9t\xE9 refus\xE9e pour toutes. Sans surprise."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 6
+      guidID:
+        value: 96fc1d16-2a27-4cb6-8e43-82e0c061d1df
+      text:
+      - languageType: 1
+        languageGenericType: "Oh je suis d\xE9sol\xE9\u2026 Je ne pensais pas que
+          \xE7a s\u2019\xE9tait pass\xE9 ainsi\u2026"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 8
+      guidID:
+        value: bd050a77-f5d0-4570-818f-415800c53c9b
+      text:
+      - languageType: 1
+        languageGenericType: "Ne t\u2019excuse pas, tu n'y es pour rien.\nEt puis
+          je ne suis pas non plus malheureuse, j\u2019aurai un travail, je suis entour\xE9e
+          de personnes que j\u2019aime et je suis en bonne sant\xE9."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 9
+      guidID:
+        value: 5c4cfda4-b047-41b5-8e2c-2c660604db24
+      text:
+      - languageType: 1
+        languageGenericType: "Alors oui ce n\u2019est pas ce que j\u2019esp\xE9rais
+          mais ce n\u2019est pas si mal."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages: []
+    dialogueDataPorts: []
+  - nodeGuid: 712080da-47af-4145-9897-59caff292c67
+    position: {x: 453.2, y: 104}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 1
+      guidID:
+        value: 13203909-f60c-45f2-9ff3-460126824ea0
+      text:
+      - languageType: 1
+        languageGenericType: "Ca me laisse quand m\xEAme perplexe\u2026 \xC9tait-ce
+          finalement une bonne chose pour elle de la faire rester ?"
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    - id:
+        value: 2
+      guidID:
+        value: ccbcce10-e1ca-4293-ab6e-ac4fd5fdbc2e
+      text:
+      - languageType: 1
+        languageGenericType: "Je devrais aller v\xE9rifier ce qu\u2019il se passe
+          dans l\u2019autre temporalit\xE9 au cas-o\xF9."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages: []
+    dialogueDataPorts: []
+  eventDatas: []
+  branchDatas: []
+  choiceDatas: []
+  endDatas:
+  - nodeGuid: 01f5aad2-b7a9-4da3-a656-4304ed48cf8b
+    position: {x: 730.8, y: 104}
+    endNodeType:
+      value: 1

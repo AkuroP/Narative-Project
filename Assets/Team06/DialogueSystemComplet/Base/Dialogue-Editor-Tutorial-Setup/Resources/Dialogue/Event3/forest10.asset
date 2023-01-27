@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2fa9f3afb11f745a388cebef5022b4, type: 3}
+  m_Name: forest10
+  m_EditorClassIdentifier: 
+  nodeLinkDatas:
+  - baseNodeGuid: 4681d601-d1e4-40e6-b778-4a353fecd554
+    basePortName: Output
+    targetNodeGuid: 4111e934-e835-4ae2-ae05-11d4714910b0
+    targetPortName: Input
+  - baseNodeGuid: 4111e934-e835-4ae2-ae05-11d4714910b0
+    basePortName: Continue
+    targetNodeGuid: cef934be-94f0-4675-ac86-1117dfd9a705
+    targetPortName: Input
+  startDatas:
+  - nodeGuid: 4681d601-d1e4-40e6-b778-4a353fecd554
+    position: {x: 102, y: 102}
+  dialogueDatas:
+  - nodeGuid: 4111e934-e835-4ae2-ae05-11d4714910b0
+    position: {x: 177, y: 102}
+    dialogueDataNames:
+    - id:
+        value: 0
+      characterName:
+        value: Ambre
+    dialogueDataTexts:
+    - id:
+        value: 1
+      guidID:
+        value: 064ee4f4-d1e8-48ab-a0ac-d80581504298
+      text:
+      - languageType: 1
+        languageGenericType: "Il va bient\xF4t faire nuit. Il me semble qu\u2019il
+          y a une clairi\xE8re un peu plus loin, ce serait bien que je puisse aller
+          y voir le coucher de soleil avec Cl\xE9mence, \xE7a fait un moment."
+      - languageType: 2
+        languageGenericType: 
+      - languageType: 3
+        languageGenericType: 
+      audioClips:
+      - languageType: 1
+        languageGenericType: {fileID: 0}
+      - languageType: 2
+        languageGenericType: {fileID: 0}
+      - languageType: 3
+        languageGenericType: {fileID: 0}
+    dialogueDataImages: []
+    dialogueDataPorts: []
+  eventDatas: []
+  branchDatas: []
+  choiceDatas: []
+  endDatas:
+  - nodeGuid: cef934be-94f0-4675-ac86-1117dfd9a705
+    position: {x: 456, y: 101}
+    endNodeType:
+      value: 1
