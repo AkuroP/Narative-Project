@@ -55,6 +55,8 @@ namespace Team06
                     else
                     {
                         movingSettings[currentIndex].pauseMovingTime -= Time.deltaTime;
+                        if(movingSettings[currentIndex].movingTime <= 0f)teamSixPlayer.playerAnim.SetBool("IsMoving", false);
+                        
                     }
                 }
                 else ToNextIndex();
@@ -70,7 +72,7 @@ namespace Team06
 
         private void ToNextIndex()
         {
-            if (currentIndex > movingSettings.Length - 1)
+            if (currentIndex >= movingSettings.Length - 1)
             {
                 startMoving = false;
                 teamSixPlayer.PlayerStopMoving();
