@@ -10,6 +10,7 @@ namespace Team06
     {
         [SerializeField] private bool autoDialogue;
         [SerializeField] private float timeBetweenSentence = 3f;
+
         
         private DialogueController _dialogueController;
         private AudioSource _audioSource;
