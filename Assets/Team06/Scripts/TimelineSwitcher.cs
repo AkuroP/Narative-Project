@@ -9,7 +9,7 @@ namespace Team06
 {
     
     public class TimelineSwitcher : MonoBehaviour {
-
+        public bool canSwitch;
         private Vector3 _startPosition;
         private GameObject[] _timelines;
         private int _timelineIndex;
@@ -25,7 +25,7 @@ namespace Team06
         }
 
         void Update() {
-
+            if(!canSwitch)return;
             foreach (Touch touch in Input.touches) {
                 if (touch.phase == TouchPhase.Began)
                     _startPosition = touch.position;
