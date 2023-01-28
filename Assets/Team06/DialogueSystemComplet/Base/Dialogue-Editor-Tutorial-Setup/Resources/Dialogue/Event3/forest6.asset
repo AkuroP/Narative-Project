@@ -23,7 +23,7 @@ MonoBehaviour:
     targetPortName: Input
   startDatas:
   - nodeGuid: 85e12ace-8bde-447e-8702-d10804e7f01a
-    position: {x: 294, y: 306.8}
+    position: {x: 294, y: 307}
   dialogueDatas:
   - nodeGuid: 6b72bb71-d9c9-4d5a-baa0-1a5083d614b9
     position: {x: 468, y: 388}
@@ -42,7 +42,10 @@ MonoBehaviour:
         languageGenericType: "Ca fait un sacr\xE9 chemin.\nQuelque chose me dit qu\u2019il
           a \xE9t\xE9 encore plus long avec maman qu\u2019avec Cl\xE9mence."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: 'It''s been quite a walk.
+
+          Something tells
+          me that it was even longer with Mom than with Clemence.'
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -59,6 +62,6 @@ MonoBehaviour:
   choiceDatas: []
   endDatas:
   - nodeGuid: d57575f9-4d5f-4025-8f91-9edc57541326
-    position: {x: 847.2, y: 432.8}
+    position: {x: 847, y: 433}
     endNodeType:
       value: 1

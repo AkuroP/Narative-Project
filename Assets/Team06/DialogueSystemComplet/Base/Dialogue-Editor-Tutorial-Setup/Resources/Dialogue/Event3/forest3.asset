@@ -55,7 +55,11 @@ MonoBehaviour:
           for\xEAt toujours aussi belle, la lumi\xE8re traversant les arbres, les
           animaux que l\u2019on peut observer\u2026"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: 'It is always pleasant to walk here.
+
+          The
+          forest always so beautiful, the light crossing the trees, the animals that
+          we can observe...'
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -71,9 +75,9 @@ MonoBehaviour:
         value: f3b54aa8-b9f5-4847-98f9-a4a623a95189
       text:
       - languageType: 1
-        languageGenericType: On est bien ici pas vrai ?
+        languageGenericType: "C'est agr\xE9able ici pas vrai ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: It's a nice place here, right?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -92,7 +96,8 @@ MonoBehaviour:
         languageGenericType: "Ouais enfin agr\xE9able, agr\xE9able\u2026 Si tu veux
           ! Mais laisse-moi un peu douter lorsque l\u2019on est en hiver."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Yeah well nice, nice... If you want! But let me doubt
+          a little when it's winter.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -111,7 +116,7 @@ MonoBehaviour:
         languageGenericType: "Tu peux essayer de te concentrer un peu plus sur le
           positif s\u2019il-te-pla\xEEt ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Can you please try to focus a little more on the positive?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -127,9 +132,9 @@ MonoBehaviour:
         value: 0ddd5871-52f0-4006-8ac8-a5de79a9f6ff
       text:
       - languageType: 1
-        languageGenericType: Oui pardon ! Pardon ! Je vais essayer.
+        languageGenericType: Oui pardon ! Pardon ! Je vais essayer ahah !
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Yes, sorry! Sorry! I will try ahah!
       - languageType: 3
         languageGenericType: 
       audioClips:

@@ -23,10 +23,10 @@ MonoBehaviour:
     targetPortName: Input
   startDatas:
   - nodeGuid: ce001e06-ad5b-405f-b95c-a962781696b5
-    position: {x: 199.2, y: 2.7999992}
+    position: {x: 199, y: 3}
   dialogueDatas:
   - nodeGuid: c841d8ee-d80d-4f2b-915d-0cb3163cac24
-    position: {x: 276, y: 2.7999992}
+    position: {x: 276, y: 3}
     dialogueDataNames:
     - id:
         value: 0
@@ -50,7 +50,7 @@ MonoBehaviour:
         languageGenericType: "Dis moi maman, tu as v\xE9cu comment le d\xE9part de
           Cl\xE9mence toi ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: "Tell me mom, how did you live the departure of Cl\xE9mence?"
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -70,7 +70,8 @@ MonoBehaviour:
           mal de monde mais tu ne m\u2019as jamais donn\xE9 ton point de vue sur
           la chose."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I know it was pretty hard for a lot of people but you
+          never gave me your perspective on it.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -87,10 +88,14 @@ MonoBehaviour:
       text:
       - languageType: 1
         languageGenericType: "Moi ? Je t\u2019admets que personnellement son d\xE9part
-          ne me fait pas grand chose.\nElle est partie vivre la vie qu\u2019elle
+          ne m'a fait pas grand chose.\nElle est partie vivre la vie qu\u2019elle
           souhaite c\u2019est tout.\n"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: 'Me? I''ll admit that personally her departure didn''t
+          do much for me.
+
+          She''s gone to live the life she wants, that''s
+          all.'
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -109,7 +114,8 @@ MonoBehaviour:
         languageGenericType: "Mais effectivement, lorsque je regarde autour de moi,
           je vois que son d\xE9part ne nous est pas le plus favorable.\n"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: But indeed, when I look around, I see that her departure
+          is not the most favorable for us.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -131,7 +137,11 @@ MonoBehaviour:
           quelqu\u2019un pour reprendre leur travail apr\xE8s eux et d\u2019autres
           encore sont touch\xE9s mais je pense surtout \xE0 toi Ambre."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: "Our old mayor recently got sick and without Cl\xE9mence
+          around we had to wait a good half week for someone to come and take care
+          of him.\r\nHer parents have to look for someone to take over their work
+          after them and of course others are affected but I think especially of
+          you Ambre."
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -152,7 +162,10 @@ MonoBehaviour:
           avec Cl\xE9mence, mais j\u2019ai l\u2019impression que son d\xE9part a
           tout fait changer.\r"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: "\rI can see how you are living her departure and how
+          difficult it is for you.\r\nBefore, you were the one leading the dance
+          with Cl\xE9mence, but I have the impression that her leaving has changed
+          everything."
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -170,7 +183,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: Oui... Je... Je vois ce que tu veux dire.
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: "\rYes... I... I know what you mean."
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -187,6 +200,6 @@ MonoBehaviour:
   choiceDatas: []
   endDatas:
   - nodeGuid: 28047d94-910e-4769-9714-3e384366cf4c
-    position: {x: 553.6, y: 2.7999992}
+    position: {x: 554, y: 3}
     endNodeType:
       value: 1
