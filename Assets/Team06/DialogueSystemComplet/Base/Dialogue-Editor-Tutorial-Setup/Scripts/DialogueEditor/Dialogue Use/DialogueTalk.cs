@@ -24,6 +24,8 @@ namespace Team06
         public TimelineSwitcher timelineSwitcher;
         public Team06.TeamSixPlayer player;
 
+        public GameObject movementGO;
+
         private void Awake()
         {
             _dialogueController = FindObjectOfType<DialogueController>();
@@ -36,6 +38,7 @@ namespace Team06
             timelineSwitcher.canSwitch = false;
             player.PlayerStopMoving();
             player.CanMove = false;
+            movementGO.SetActive(false);
             CheckNodeType(GetNextNode(dialogueContainer.startDatas[0]));
         }
 
@@ -114,6 +117,9 @@ namespace Team06
             {
                 case EndNodeType.End:
                     _dialogueController.ShowDialogueUI(false);
+                    player.CanMove = true;
+                    timelineSwitcher.canSwitch = true;
+                    movementGO.SetActive(true);
                     break;
                 case EndNodeType.Repeat:
                     CheckNodeType(GetNodeByGuid(_currentDialogueNodeData.nodeGuid));

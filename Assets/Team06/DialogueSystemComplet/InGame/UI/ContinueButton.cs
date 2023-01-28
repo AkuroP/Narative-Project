@@ -15,8 +15,14 @@ namespace Team06
         {
             if (Input.GetKeyDown(continueKey01) && continueButton.gameObject.activeSelf)
             {
-                continueButton.onClick.Invoke();
+                Continue();
             }
+        }
+
+
+        public void Continue()
+        {
+            continueButton.onClick.Invoke();
         }
     }
 }
