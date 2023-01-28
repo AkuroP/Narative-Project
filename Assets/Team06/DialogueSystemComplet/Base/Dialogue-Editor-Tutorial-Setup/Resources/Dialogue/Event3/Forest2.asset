@@ -23,7 +23,7 @@ MonoBehaviour:
     targetPortName: Input
   startDatas:
   - nodeGuid: a84ee6f9-b6a0-42cb-9415-0c4e34e44de4
-    position: {x: 199.2, y: 98}
+    position: {x: 199, y: 98}
   dialogueDatas:
   - nodeGuid: 64022eec-0ec9-40cd-9398-3c5acc316c35
     position: {x: 276, y: 98}
@@ -50,7 +50,7 @@ MonoBehaviour:
         languageGenericType: "Tu as pr\xE9vu de faire quoi les prochaines semaines
           ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: What are your plans for the next few weeks?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -70,7 +70,8 @@ MonoBehaviour:
           m\xE9tier de vendeuse aupr\xE8s de mes parents donc je ne vais pas \xEAtre
           tr\xE8s libre."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: For the moment I'm still learning the sales profession
+          from my parents so I won't be very free.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -89,7 +90,8 @@ MonoBehaviour:
         languageGenericType: "J\u2019aurai un peu plus de temps apr\xE8s mais on
           se verra quand m\xEAme un peu moins je crois."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I'll have a bit more time afterwards but we'll still
+          see each other a little less I think.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -109,7 +111,11 @@ MonoBehaviour:
           r\xE9fl\xE9chisse aussi \xE0 mon futur maintenant !\nMais j\u2019ai jamais
           \xE9t\xE9 aussi dou\xE9 que toi pour envisager mon avenir."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: 'It''s okay, I understand. I need to think about my
+          future now too!
+
+          But I''ve never been as good as you at thinking
+          about it.'
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -126,6 +132,6 @@ MonoBehaviour:
   choiceDatas: []
   endDatas:
   - nodeGuid: c3ed1ed7-2dfd-4943-9850-3c6c737d2aaa
-    position: {x: 553.6, y: 98}
+    position: {x: 554, y: 98}
     endNodeType:
       value: 1

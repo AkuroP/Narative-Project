@@ -23,10 +23,10 @@ MonoBehaviour:
     targetPortName: Input
   startDatas:
   - nodeGuid: ae134ed4-65b1-495d-abea-457d7c278216
-    position: {x: 116, y: 128.8}
+    position: {x: 116, y: 129}
   dialogueDatas:
   - nodeGuid: 472d1a40-7bea-4e8a-ba1e-fa81f458963a
-    position: {x: 263.2, y: 166}
+    position: {x: 263, y: 166}
     dialogueDataNames:
     - id:
         value: 0
@@ -50,7 +50,7 @@ MonoBehaviour:
         languageGenericType: "Bon il reste encore une bonne trotte devant nous. Tu
           te sens pr\xEAte ?\r"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Well, there's still a long way to go. Do you feel ready?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -68,7 +68,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Est-ce que j\u2019ai vraiment le choix ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Do I really have a choice?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -87,7 +87,7 @@ MonoBehaviour:
         languageGenericType: "Et non ! Tu te plaindras une fois qu\u2019on sera arriv\xE9es
           !\r"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Nop! You'll complain once we get there!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -104,6 +104,6 @@ MonoBehaviour:
   choiceDatas: []
   endDatas:
   - nodeGuid: e69d3638-505e-4564-ac9d-fbd3463358f7
-    position: {x: 630, y: 240.8}
+    position: {x: 630, y: 241}
     endNodeType:
       value: 1

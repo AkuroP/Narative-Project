@@ -23,10 +23,10 @@ MonoBehaviour:
     targetPortName: Input
   startDatas:
   - nodeGuid: 76aac100-7abd-4537-9ea6-a448c955ed68
-    position: {x: 136, y: 140.8}
+    position: {x: 136, y: 141}
   dialogueDatas:
   - nodeGuid: 3873985e-c65e-4243-901f-6d15a824f38b
-    position: {x: 361.2, y: 206}
+    position: {x: 361, y: 206}
     dialogueDataNames:
     - id:
         value: 0
@@ -42,7 +42,8 @@ MonoBehaviour:
         languageGenericType: "J\u2019ai toujours appr\xE9ci\xE9 les sorties en for\xEAt.
           \xC7a me d\xE9tend, lorsque j\u2019ai des soucis."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I have always enjoyed going out in the woods. It relaxes
+          me when I have worries.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -61,7 +62,8 @@ MonoBehaviour:
         languageGenericType: "Pourtant, apr\xE8s le d\xE9part de Cl\xE9mence je n\u2019y
           allais plus vraiment. J\u2019ai du mal \xE0 vraiment comprendre pourquoi\u2026"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: "However, after Cl\xE9mence's departure I didn't really
+          go there anymore. I don't really have any explanation..."
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -78,6 +80,6 @@ MonoBehaviour:
   choiceDatas: []
   endDatas:
   - nodeGuid: 2a0ecdfb-c42e-42f0-8de0-eb4cf7868a45
-    position: {x: 759.2, y: 246.00002}
+    position: {x: 759, y: 246}
     endNodeType:
       value: 1
