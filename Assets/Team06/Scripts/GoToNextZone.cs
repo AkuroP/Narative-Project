@@ -46,6 +46,7 @@ namespace Team06
             
             player.transform.position = tpPoint.position;
             yield return new WaitForSeconds(.45f);
+            if(player.transform.position != tpPoint.position)player.transform.position = tpPoint.position;
         }
 
     }
