@@ -42,11 +42,10 @@ namespace Team06
             vcam.m_Lens.FieldOfView = newFOV * 2;
             if(newPos != null)vcam.transform.position = newPos.position;
             player.CanMove = true;
-            player.StopAllCoroutines();
             
             player.transform.position = tpPoint.position;
             yield return new WaitForSeconds(.45f);
-            if(player.transform.position != tpPoint.position)player.transform.position = tpPoint.position;
+            player.StopAllCoroutines();
         }
 
     }
