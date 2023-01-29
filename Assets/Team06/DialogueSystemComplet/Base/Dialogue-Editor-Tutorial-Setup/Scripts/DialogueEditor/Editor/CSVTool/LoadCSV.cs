@@ -14,7 +14,7 @@ namespace Team06.Editor
 
     public class LoadCSV
     {
-        private string _csvDirectoryName = "Resources/CSV";
+        private string _csvDirectoryName = "Team06/Resources/CSV";
         private string _csvFileName = "DialogueCSV_Load.csv";
 
         public void Load()
