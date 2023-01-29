@@ -39,8 +39,8 @@ MonoBehaviour:
         value: 88250d0b-b75c-4f93-8646-9ac7683a1410
       text:
       - languageType: 1
-        languageGenericType: "Ca fait un sacr\xE9 chemin.\nQuelque chose me dit qu\u2019il
-          a \xE9t\xE9 encore plus long avec maman qu\u2019avec Cl\xE9mence."
+        languageGenericType: "Ca fait un sacr\xE9 chemin.\r\nQuelque chose me dit
+          qu\u2019il a \xE9t\xE9 encore plus long avec maman qu\u2019avec Cl\xE9mence."
       - languageType: 2
         languageGenericType: 'It''s been quite a walk.
 

@@ -55,7 +55,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "C\u2019est dingue, j\u2019aurais imaginer plus de changements
           dans ma chambre si Clem \xE9tait rest\xE9e. Elle est toujours l\xE0 ! Je
-          devrais sauter de joie et repeindre les murs pour f\xEAter \xE7a !\n"
+          devrais sauter de joie et repeindre les murs pour f\xEAter \xE7a !\r\n"
       - languageType: 2
         languageGenericType: It's crazy, I would have imagined more changes in my
           room if Clem stayed. She's still here! I should be jumping for joy and
@@ -78,7 +78,7 @@ MonoBehaviour:
         languageGenericType: "Attends, \xE7a fait aucun sens. La \u201Cmoi\u201D
           de ce monde n\u2019a jamais subi son absence. Faut quand m\xEAme v\xE9rifier
           s'il n\u2019y aurait pas un indice sur le pourquoi du comment Clem est
-          rest\xE9e ici.\n"
+          rest\xE9e ici.\r\n"
       - languageType: 2
         languageGenericType: Wait a second. The "me" from this world never suffered
           from her absence, it wouldn't make sense. I need to check for clues, why

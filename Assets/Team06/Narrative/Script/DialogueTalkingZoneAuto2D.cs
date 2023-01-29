@@ -11,12 +11,6 @@ namespace Team06
         public DialogueTalk dialogueTalk;
         private Collider2D thisCollider2D;
         
-        
-        [Header("Interactable")]
-        public bool interactable;
-        public GameObject speechBubble;
-        
-
         private void Awake()
         {
             thisCollider2D = GetComponent<Collider2D>();
@@ -27,19 +21,11 @@ namespace Team06
         {
             if (other.CompareTag("Player"))
             {
-                
-                    dialogueTalk.StartDialogue();
-                    thisCollider2D.enabled = false;
+                dialogueTalk.StartDialogue();
+                thisCollider2D.enabled = false;
             }
         }
-        
-        public void InteractDialogue()
-        {
-            print("ui");
-        }
     }
-        
-    
 }
     
     

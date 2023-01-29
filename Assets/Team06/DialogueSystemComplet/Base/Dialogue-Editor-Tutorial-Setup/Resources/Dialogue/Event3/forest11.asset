@@ -99,7 +99,7 @@ MonoBehaviour:
         value: 4608aae2-5c83-48e9-a145-8eafa6cda6bd
       text:
       - languageType: 1
-        languageGenericType: "Comment \xE7a ?\n"
+        languageGenericType: "Comment \xE7a ?\r\n"
       - languageType: 2
         languageGenericType: What do you mean?
       - languageType: 3
@@ -137,8 +137,8 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Je n'ai pas d'envie particuli\xE8re pour le futur,
           pas de business \xE0 reprendre et \xE7a va faire plus de 4 mois que je
-          ne fais rien. Je n'ai jamais trouv\xE9 mon truc \xE0 moi.\nDonc je me posais
-          la question."
+          ne fais rien. Je n'ai jamais trouv\xE9 mon truc \xE0 moi.\r\nDonc je me
+          posais la question."
       - languageType: 2
         languageGenericType: 'I don''t have any particular desire for the future,
           I don''t have any business to take over and I haven''t done anything for

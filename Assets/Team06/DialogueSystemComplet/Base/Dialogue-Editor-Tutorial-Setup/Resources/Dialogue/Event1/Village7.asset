@@ -172,7 +172,7 @@ MonoBehaviour:
         value: f3ae37ab-f531-44b4-bd6f-fdda34023ec6
       text:
       - languageType: 1
-        languageGenericType: "D\xE9sol\xE9, pas ce soir.\nJe suis fatigu\xE9e et
+        languageGenericType: "D\xE9sol\xE9, pas ce soir.\r\nJe suis fatigu\xE9e et
           me rappeler l\u2019universit\xE9 m\u2019a un peu d\xE9prim\xE9e."
       - languageType: 2
         languageGenericType: Well, I run the stall while my parents walk around...
@@ -229,7 +229,7 @@ MonoBehaviour:
         value: dd0dbaed-e6e3-42d5-86c7-07d13f9195fe
       text:
       - languageType: 1
-        languageGenericType: "Pas grave, on se fait \xE7a une prochaine fois !\nOn
+        languageGenericType: "Pas grave, on se fait \xE7a une prochaine fois !\r\nOn
           a tout notre temps apr\xE8s tout !"
       - languageType: 2
         languageGenericType: Rejection? What do you mean... you've been rejected?
@@ -309,7 +309,7 @@ MonoBehaviour:
         value: f5a7dd98-4963-4239-966a-2e6662b07e79
       text:
       - languageType: 1
-        languageGenericType: "Qu\u2019est-ce que tu me racontes encore ?\nTu sais
+        languageGenericType: "Qu\u2019est-ce que tu me racontes encore ?\r\nTu sais
           je ne t\u2019obliges pas \xE0 venir me tenir compagnie au march\xE9, tu
           peux repartir te coucher si tu es si fatigu\xE9e."
       - languageType: 2

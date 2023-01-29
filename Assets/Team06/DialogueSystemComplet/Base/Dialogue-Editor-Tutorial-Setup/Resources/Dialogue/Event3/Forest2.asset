@@ -108,7 +108,7 @@ MonoBehaviour:
       text:
       - languageType: 1
         languageGenericType: "C\u2019est pas grave, je comprends. Il faut que je
-          r\xE9fl\xE9chisse aussi \xE0 mon futur maintenant !\nMais j\u2019ai jamais
+          r\xE9fl\xE9chisse aussi \xE0 mon futur maintenant !\r\nMais j\u2019ai jamais
           \xE9t\xE9 aussi dou\xE9 que toi pour envisager mon avenir."
       - languageType: 2
         languageGenericType: 'It''s okay, I understand. I need to think about my

@@ -62,7 +62,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Tout le monde fait comme d\u2019habitude et ne semble
           pas choqu\xE9. C'est quand m\xEAme pas le village tout entier qui me fait
-          une blague ?!\n"
+          une blague ?!\r\n"
       - languageType: 2
         languageGenericType: I wonder when she became assertive enough to leave the
           village, becoming all "independant" and living on her own!
@@ -81,7 +81,7 @@ MonoBehaviour:
         value: bc5aec44-c268-40cb-8364-d08cb51aae17
       text:
       - languageType: 1
-        languageGenericType: "J'devrai mener ma petite enqu\xEAte.\n"
+        languageGenericType: "J'devrai mener ma petite enqu\xEAte.\r\n"
       - languageType: 2
         languageGenericType: She can be proud, she managed to surprise me!
       - languageType: 3

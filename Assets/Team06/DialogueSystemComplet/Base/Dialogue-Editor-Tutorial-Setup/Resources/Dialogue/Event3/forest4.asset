@@ -43,8 +43,8 @@ MonoBehaviour:
         value: 90d4f628-33b3-435e-bd5e-c355fa6e5d1a
       text:
       - languageType: 1
-        languageGenericType: "Bon qu\u2019est-ce que tu fais ma ch\xE9rie ?\nNe reste
-          pas plant\xE9e l\xE0 !"
+        languageGenericType: "Bon qu\u2019est-ce que tu fais ma ch\xE9rie ?\r\nNe
+          reste pas plant\xE9e l\xE0 !"
       - languageType: 2
         languageGenericType: 'What are you doing dear?
 

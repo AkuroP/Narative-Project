@@ -205,7 +205,6 @@ namespace Team06
                 }
                 else
                 {
-                    print("1");
                     UnityAction unityAction = null;
                     unityAction += () => CheckNodeType(GetNextNode(_currentDialogueNodeData));
                     _dialogueController.SetContinue(unityAction);
@@ -222,12 +221,11 @@ namespace Team06
                 {
                     ChoiceCheck(port.inputGuid, dialogueButtonContainers);
                 }
-                print("2");
+                
                 _dialogueController.SetButtons(dialogueButtonContainers);
             }
             else
             {
-                print("3"); 
                 if (this.autoDialogue)
                 {
                     StartCoroutine(NextDialogue());

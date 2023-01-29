@@ -88,8 +88,8 @@ MonoBehaviour:
       text:
       - languageType: 1
         languageGenericType: "Moi ? Je t\u2019admets que personnellement son d\xE9part
-          ne m'a fait pas grand chose.\nElle est partie vivre la vie qu\u2019elle
-          souhaite c\u2019est tout.\n"
+          ne m'a fait pas grand chose.\r\nElle est partie vivre la vie qu\u2019elle
+          souhaite c\u2019est tout.\r\n"
       - languageType: 2
         languageGenericType: 'Me? I''ll admit that personally her departure didn''t
           do much for me.
@@ -112,7 +112,7 @@ MonoBehaviour:
       text:
       - languageType: 1
         languageGenericType: "Mais effectivement, lorsque je regarde autour de moi,
-          je vois que son d\xE9part ne nous est pas le plus favorable.\n"
+          je vois que son d\xE9part ne nous est pas le plus favorable.\r\n"
       - languageType: 2
         languageGenericType: But indeed, when I look around, I see that her departure
           is not the most favorable for us.
@@ -133,14 +133,15 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Notre vieux maire est r\xE9cemment tomb\xE9 malade
           et sans Cl\xE9mence aux alentours il nous a fallu attendre une bonne demi-semaine
-          pour que quelqu\u2019un puisse venir le soigner.\nSes parents doivent chercher
-          quelqu\u2019un pour reprendre leur travail apr\xE8s eux et d\u2019autres
+          pour que quelqu\u2019un puisse venir le soigner.\r\nSes parents doivent
+          chercher quelqu\u2019un pour reprendre leur travail apr\xE8s eux et d\u2019autres
           encore sont touch\xE9s mais je pense surtout \xE0 toi Ambre."
       - languageType: 2
         languageGenericType: "Our old mayor recently got sick and without Cl\xE9mence
           around we had to wait a good half week for someone to come and take care
-          of him.\nHer parents have to look for someone to take over their work after
-          them and of course others are affected but I think especially of you Ambre."
+          of him.\r\nHer parents have to look for someone to take over their work
+          after them and of course others are affected but I think especially of
+          you Ambre."
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -156,14 +157,15 @@ MonoBehaviour:
         value: 57e73941-5b62-415c-8a85-dc086a6c527a
       text:
       - languageType: 1
-        languageGenericType: "\nJe vois bien comment tu vis son d\xE9part et combien
-          c\u2019est difficile pour toi.\nAvant c\u2019est toi qui menait la danse
+        languageGenericType: "\r\nJe vois bien comment tu vis son d\xE9part et combien
+          c\u2019est difficile pour toi.\r\nAvant c\u2019est toi qui menait la danse
           avec Cl\xE9mence, mais j\u2019ai l\u2019impression que son d\xE9part a
-          tout fait changer.\n"
+          tout fait changer.\r\n"
       - languageType: 2
-        languageGenericType: "\nI can see how you are living her departure and how
-          difficult it is for you.\nBefore, you were the one leading the dance with
-          Cl\xE9mence, but I have the impression that her leaving has changed everything."
+        languageGenericType: "\r\nI can see how you are living her departure and
+          how difficult it is for you.\r\nBefore, you were the one leading the dance
+          with Cl\xE9mence, but I have the impression that her leaving has changed
+          everything."
       - languageType: 3
         languageGenericType: 
       audioClips:

@@ -773,9 +773,9 @@ MonoBehaviour:
         value: 464692a6-7ca5-4e38-9936-ded496136979
       text:
       - languageType: 1
-        languageGenericType: "... \nC'est \xE7a qui te choque ?"
+        languageGenericType: "... \r\nC'est \xE7a qui te choque ?"
       - languageType: 2
-        languageGenericType: "... \nIs this what shocks you?"
+        languageGenericType: "... \r\nIs this what shocks you?"
       - languageType: 3
         languageGenericType: 
       audioClips:
