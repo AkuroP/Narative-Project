@@ -16,7 +16,7 @@ namespace Team06
         public Vector3 newSize = new Vector3(.3f, .3f, .3f);
         public float newFOV = 25f;
 
-        public float yPlusValue = 0.025f;
+        public Transform newPos;
         
 
         private void OnTriggerEnter2D(Collider2D collider)
@@ -41,8 +41,9 @@ namespace Team06
             player.transform.localScale = newSize;
             Cinemachine.CinemachineVirtualCamera vcam = player.confiner.GetComponent<Cinemachine.CinemachineVirtualCamera>();
             vcam.m_Lens.FieldOfView = newFOV * 2;
-            //vcam.GetCinemachineComponent<Cinemachine.CinemachineVirtualCamera>() .m_TrackedObjectOffset.y = yPlusValue; //Set(vcam.GetCinemachineComponent<Cinemachine.CinemachineTransposer>().m_FollowOffset.x, yPlusValue,vcam.GetCinemachineComponent<Cinemachine.CinemachineTransposer>().m_FollowOffset.z);
+            if(newPos != null)vcam.transform.position = newPos.position;
             player.CanMove = true;
+            if(player.moveCoroutine != null)StopCoroutine(player.moveCoroutine);
             yield return new WaitForSeconds(.45f);
         }
 

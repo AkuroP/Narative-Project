@@ -120,6 +120,7 @@ namespace Team06
                     player.CanMove = true;
                     timelineSwitcher.canSwitch = true;
                     movementGO.SetActive(true);
+                    if(player.moveCoroutine != null)StopCoroutine(player.moveCoroutine);
                     break;
                 case EndNodeType.Repeat:
                     CheckNodeType(GetNodeByGuid(_currentDialogueNodeData.nodeGuid));
