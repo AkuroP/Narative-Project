@@ -44,13 +44,15 @@ Shader "Unlit/Grayscale"
                 return o;
             }
 
-            fixed4 frag (v2f i) : SV_Target
+            fixed4 frag(v2f i) : SV_Target
             {
                 // sample the texture
                 fixed4 col = tex2D(_MainTex, i.uv);
-                // apply fog
-                UNITY_APPLY_FOG(i.fogCoord, col);
-                return col;
+                float intensity = col.x * 0.299 + col.y * 0.587 + col.z * 0.144;
+                fixed4 bandw = fixed4(intensity, intensity, intensity, col.w);
+                //// apply fog
+                //UNITY_APPLY_FOG(i.fogCoord, col);
+                return bandw;
             }
             ENDCG
         }
