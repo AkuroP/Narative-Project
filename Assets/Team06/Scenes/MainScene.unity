@@ -241,8 +241,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -780, y: -294}
-  m_SizeDelta: {x: 360, y: 584.80005}
+  m_AnchoredPosition: {x: -780, y: -195.14996}
+  m_SizeDelta: {x: 360, y: 387.1}
   m_Pivot: {x: 0.5, y: 0.49999994}
 --- !u!1 &17119289
 GameObject:
@@ -783,7 +783,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 70094642}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.75, y: 1.25, z: 0}
+  m_LocalPosition: {x: 29.75, y: 0.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10846,7 +10846,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.5294118, g: 0.36078432, b: 0.22352943, a: 1}
+  m_Color: {r: 0.26962438, g: 0.6886792, b: 0.2923836, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -13157,7 +13157,7 @@ MonoBehaviour:
   nextConfiner: {fileID: 2000485398}
   tpPoint: {fileID: 70094643}
   player: {fileID: 196077874}
-  newSize: {x: 0.6, y: 0.3, z: 0.6}
+  newSize: {x: 0.3, y: 0.3, z: 0.3}
   newFOV: 35
   newPos: {fileID: 0}
 --- !u!1 &1576198071
@@ -18718,7 +18718,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 297.252, y: 74.31299}
+  m_SizeDelta: {x: 694.6968, y: 74.313}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1247131148144021787
 GameObject:
