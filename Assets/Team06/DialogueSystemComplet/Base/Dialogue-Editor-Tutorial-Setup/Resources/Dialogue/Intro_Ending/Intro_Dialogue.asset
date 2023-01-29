@@ -810,8 +810,8 @@ MonoBehaviour:
         languageGenericType: "Ouais t\u2019inqui\xE8tes, j\u2019ai fait le calcul
           ! Ton futur est le plus important !"
       - languageType: 2
-        languageGenericType: Yeah don't worry, I did the math! Your future is the
-          most important!
+        languageGenericType: Yeah don't worry, I did the math! Your future is more
+          important!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -846,7 +846,7 @@ MonoBehaviour:
         languageGenericType: "\xC7a me rassure. Je ne savais pas comment tu allais
           prendre la nouvelle."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I'm relieved. I didn't know how you'd take the news.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -881,7 +881,8 @@ MonoBehaviour:
         languageGenericType: "Haha. Tu me connais vraiment bien\u2026 mais j\u2019t\u2019assures,
           du moment que t\u2019es heureuse \xE7a me va !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Haha. You know me very well... but I assure you, as
+          long as you're happy I'm ok with it!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -915,7 +916,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Merci, les derni\xE8res semaines sont assez stressantes."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Thanks, the last few weeks have been exhausting.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -949,7 +950,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Tu m\u2019appelleras, hein ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: You'll call me, huh?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -984,7 +985,8 @@ MonoBehaviour:
         languageGenericType: "De quoi tu t\u2019inqui\xE8tes ? Bien s\xFBr que je
           t\u2019appellerai, tous les jours !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: What are you worrying about? Of course I'll call you,
+          everyday!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -1018,7 +1020,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: Cool.
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Cool.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -1053,7 +1055,8 @@ MonoBehaviour:
         languageGenericType: "Quand est-ce que tu re\xE7ois la r\xE9ponse ? \xE7a
           m'\xE9tonnerait que tu sois pas prise."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: When will you receive the answer? I don't think they
+          wouldn't take you.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -1088,7 +1091,8 @@ MonoBehaviour:
         languageGenericType: "Dans la semaine, esp\xE9rons que la Poste trouve le
           village, haha !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: This week, I hope the post office will find the village,
+          haha!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -1122,7 +1126,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Esp\xE9rons..."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I hope so...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -1159,7 +1163,9 @@ MonoBehaviour:
           un jour\u2026 Est-ce qu\u2019elle va penser \xE0 moi quand elle sera l\xE0-bas
           ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: "Cl\xE9mence is gonna leave the village, it feels weird
+          to even think about it. I never would have imagine it could happen... will
+          she think of me when she'll be there?"
       - languageType: 3
         languageGenericType: 
       audioClips:

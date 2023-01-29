@@ -49,7 +49,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Elle n\u2019aurait jamais d\xFB partir !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: ...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -68,7 +68,8 @@ MonoBehaviour:
         languageGenericType: "Je ne peux pas croire qu\u2019elle m\u2019ai fait \xE7a
           ! Elle est tellement\u2026tellement \xE9go\xEFste !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Alright, we'll see another time! We have all the time
+          in the world!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -117,7 +118,7 @@ MonoBehaviour:
         languageGenericType: "Clem ?! Mais\u2026 Mais qu\u2019est-ce que tu fais
           l\xE0 ?!"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Yeah... (sigh) All the time in world...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -136,7 +137,7 @@ MonoBehaviour:
         languageGenericType: "Bah je tiens l\u2019\xE9tale pendant que mes parents
           font leur tour du march\xE9\u2026"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: But... where did Clem go?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -155,7 +156,8 @@ MonoBehaviour:
         languageGenericType: "Nan mais quand est-ce que t'es revenue ?! Et tes cours
           de m\xE9decine ?!"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: "Wow, did you just woke up, Ambre ?! It's been four
+          months since Cl\xE9mence went away !"
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -175,7 +177,9 @@ MonoBehaviour:
           \xE7a dr\xF4le ?! C\u2019est pas parce que \xE7a fait 4 mois que je dig\xE8re
           mieux leur refus !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I know it's a bit hard for you and she doesn't call
+          often, byt you know you're important to her. Don't worry, she will come
+          back to the village from time to time, probably on holidays.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -195,7 +199,7 @@ MonoBehaviour:
           \xE9t\xE9 refus\xE9e ? Mais t'es partie o\xF9 ces 4 derniers mois alors
           ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Anyway, you want to buy something?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -215,7 +219,7 @@ MonoBehaviour:
           ! Il faut arr\xEAter de dormir jusqu\u2019\xE0 midi, tu te r\xE9veille
           toujours dans un \xE9tat pas possible\u2026"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Do you want to buy something?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -235,7 +239,11 @@ MonoBehaviour:
           je suis encore plus \xE9nerv\xE9e ! Nan mais je te jure\u2026Ils m\u2019ont
           carr\xE9ment ignor\xE9 ! Jamais un mot, rien !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: 'What''s happening? One moment Clem back and actually
+          never left, and suddenly she''s still over there for her studies.
+
+          I
+          don''t understand... is this a prank?'
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -265,7 +273,11 @@ MonoBehaviour:
           l\xE0, elle n\u2019a jamais \xE9t\xE9 accept\xE9e dans son \xE9cole et
           personne ne trouve \xE7a bizarre ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: 'Everything is where it''s supposed to be, but Clem
+          isn''t here !
+
+          She didn''t left my field of view ! Again with
+          this strange feeling...'
       - languageType: 3
         languageGenericType: 
       audioClips:

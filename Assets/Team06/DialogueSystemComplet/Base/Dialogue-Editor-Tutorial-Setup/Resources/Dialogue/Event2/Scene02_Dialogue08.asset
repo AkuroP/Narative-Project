@@ -38,7 +38,7 @@ MonoBehaviour:
         languageGenericType: "Ironiquement, je ressens encore moins la pr\xE9sence
           de Clem ici."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Ironically, it feels even less like Clem is here.
       - languageType: 3
         languageGenericType: 
       audioClips:

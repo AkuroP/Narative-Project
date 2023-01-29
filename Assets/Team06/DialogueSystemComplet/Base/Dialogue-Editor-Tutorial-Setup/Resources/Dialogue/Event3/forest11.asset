@@ -79,7 +79,9 @@ MonoBehaviour:
         value: 31a3e3fb-1ff1-496d-83ac-37e41a2d3059
       text:
       - languageType: 1
-        languageGenericType: "Dis moi, selon toi il faudrait que je fasse quoi ?\r"
+        languageGenericType: 'Dis moi, selon toi il faudrait que je fasse quoi ?
+
+'
       - languageType: 2
         languageGenericType: Tell me, what do you think I should do?
       - languageType: 3
@@ -97,7 +99,7 @@ MonoBehaviour:
         value: 4608aae2-5c83-48e9-a145-8eafa6cda6bd
       text:
       - languageType: 1
-        languageGenericType: "Comment \xE7a ?\r"
+        languageGenericType: "Comment \xE7a ?\n"
       - languageType: 2
         languageGenericType: What do you mean?
       - languageType: 3

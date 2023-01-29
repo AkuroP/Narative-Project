@@ -43,11 +43,9 @@ MonoBehaviour:
         value: 01ce90b6-d051-4b98-9fd6-e0fe499d6bd2
       text:
       - languageType: 1
-        languageGenericType: "L\xE0 voil\xE0 ! Je savais bien que j\u2019avais bosser
-          chez ce bon vieux Ren\xE9 ! Mais \xE7a fait aucun sens, pourquoi j\u2019aurais
-          perdu la lettre dans l\u2019autre monde ?"
+        languageGenericType: Allo ?
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Hi?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -84,7 +82,9 @@ MonoBehaviour:
           banale c\u2019est normal, mais si c\u2019\xE9tait pour un autre boulot,
           plus incriminant\u2026"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: No, I wouldn't lose an important paper like that...
+          but I could have got rid of it. For a normal slip it would whatever, but
+          for another, more incriminating job...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -105,7 +105,9 @@ MonoBehaviour:
           seule fa\xE7on de prouver que j\u2019\xE9tais l\xE0-bas, ma m\xE8re aurait
           pu cracher le morceau."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: No! What am I thinking about?! A criminal that's trying
+          to destroy proofs? Nonsense! And it's not the only way to prove I was there,
+          my mom could have spilled the beans.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -125,7 +127,8 @@ MonoBehaviour:
           que \u201Cc\u2019est embarrassant\u201D ? Elle le ferait, et apr\xE8s j\u2019aurais
           juste \xE0 garder la lettre\u2026 et la garder ? Pourquoi ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Unless I asked her to keep the secret because it's embarrassing?
+          She would, and then I would just need to keep the letter... why keep it?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -144,7 +147,8 @@ MonoBehaviour:
         languageGenericType: "Peut-\xEAtre pour falsifier d\u2019autres lettres dans
           le futur ? \xC7a serait facile avec l\u2019\xE9quipement de la Poste\u2026"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Maybe to fake future letters. It would be easy with
+          the machines at the post office...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -164,7 +168,8 @@ MonoBehaviour:
           coup ?! Les id\xE9es me viennent si naturellement\u2026 c\u2019est moi
           qui a fait \xE7a\u2026 j\u2019ai vraiment fait un truc horrible\u2026"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: No! NO! Why are all those ideas popping in my head?!
+          They are coming so naturally... I did that, I did something awful...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -198,7 +203,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: AH !
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: AH!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -217,7 +222,7 @@ MonoBehaviour:
         languageGenericType: "S\xE9rieux, avoir peur d\u2019un t\xE9l\xE9phone \xE0
           mon \xE2ge\u2026"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Seriously, don't be scared of a phone...
       - languageType: 3
         languageGenericType: 
       audioClips:

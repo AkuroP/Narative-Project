@@ -35,10 +35,9 @@ MonoBehaviour:
         value: 01ce90b6-d051-4b98-9fd6-e0fe499d6bd2
       text:
       - languageType: 1
-        languageGenericType: "Je devrais v\xE9rifier dans mon monde, je suis quasi
-          s\xFBr que j\u2019ai gard\xE9 ma fiche de paie."
+        languageGenericType: Allo ?
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Hi?
       - languageType: 3
         languageGenericType: 
       audioClips:
