@@ -5253,7 +5253,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 674864669}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -5998,8 +5998,8 @@ Transform:
   m_Children:
   - {fileID: 1328149645}
   - {fileID: 1569492565}
-  m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_Father: {fileID: 1323711886}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &750301790
 BoxCollider2D:
@@ -6044,7 +6044,7 @@ MonoBehaviour:
   nextConfiner: {fileID: 1648218826}
   tpPoint: {fileID: 1328149645}
   player: {fileID: 196077874}
-  newSize: {x: 0.3, y: 0.3, z: 0.3}
+  newSize: {x: 0.6, y: 0.6, z: 0.6}
   newFOV: 25
   newPos: {fileID: 0}
 --- !u!1001 &764301638
@@ -11206,6 +11206,7 @@ Transform:
   - {fileID: 1079602059}
   - {fileID: 697036550}
   - {fileID: 1574465610}
+  - {fileID: 750301789}
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13671,7 +13672,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1646719076}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
