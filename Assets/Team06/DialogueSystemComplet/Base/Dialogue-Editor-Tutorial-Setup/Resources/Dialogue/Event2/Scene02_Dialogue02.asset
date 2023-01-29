@@ -35,10 +35,7 @@ MonoBehaviour:
         value: 01ce90b6-d051-4b98-9fd6-e0fe499d6bd2
       text:
       - languageType: 1
-        languageGenericType: "Ma m\xE8re n\u2019arr\xEAte pas de me demander ce que
-          je vais faire de ma vie maintenant que le lyc\xE9e est fini, mais j\u2019en
-          sais vraiment rien. Au moins j\u2019sais qu\u2019ici aussi c\u2019est le
-          cas."
+        languageGenericType: Allo ?
       - languageType: 2
         languageGenericType: 
       - languageType: 3

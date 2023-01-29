@@ -48,7 +48,7 @@ MonoBehaviour:
       text:
       - languageType: 1
         languageGenericType: "Bon il reste encore une bonne trotte devant nous. Tu
-          te sens pr\xEAte ?\r"
+          te sens pr\xEAte ?\n"
       - languageType: 2
         languageGenericType: Well, there's still a long way to go. Do you feel ready?
       - languageType: 3
@@ -85,7 +85,7 @@ MonoBehaviour:
       text:
       - languageType: 1
         languageGenericType: "Et non ! Tu te plaindras une fois qu\u2019on sera arriv\xE9es
-          !\r"
+          !\n"
       - languageType: 2
         languageGenericType: Nop! You'll complain once we get there!
       - languageType: 3

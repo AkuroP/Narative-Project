@@ -35,9 +35,7 @@ MonoBehaviour:
         value: 01ce90b6-d051-4b98-9fd6-e0fe499d6bd2
       text:
       - languageType: 1
-        languageGenericType: "Impossible de passer chez Clem pour l\u2019instant,
-          je me demande ce qu\u2019elle fait maintenant qu\u2019elle n\u2019est plus
-          dans cette \xE9cole \xE0 Paris."
+        languageGenericType: Allo ?
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -57,7 +55,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "C\u2019est dingue, j\u2019aurais imaginer plus de changements
           dans ma chambre si Clem \xE9tait rest\xE9e. Elle est toujours l\xE0 ! Je
-          devrais sauter de joie et repeindre les murs pour f\xEAter \xE7a !\r"
+          devrais sauter de joie et repeindre les murs pour f\xEAter \xE7a !\n"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -78,7 +76,7 @@ MonoBehaviour:
         languageGenericType: "Attends, \xE7a fait aucun sens. La \u201Cmoi\u201D
           de ce monde n\u2019a jamais subi son absence. Faut quand m\xEAme v\xE9rifier
           s'il n\u2019y aurait pas un indice sur le pourquoi du comment Clem est
-          rest\xE9e ici.\r"
+          rest\xE9e ici.\n"
       - languageType: 2
         languageGenericType: 
       - languageType: 3

@@ -61,7 +61,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Tout le monde fait comme d\u2019habitude et ne semble
           pas choqu\xE9. C'est quand m\xEAme pas le village tout entier qui me fait
-          une blague ?!\r"
+          une blague ?!\n"
       - languageType: 2
         languageGenericType: 
       - languageType: 3
@@ -79,7 +79,7 @@ MonoBehaviour:
         value: bc5aec44-c268-40cb-8364-d08cb51aae17
       text:
       - languageType: 1
-        languageGenericType: "J'devrai mener ma petite enqu\xEAte.\r"
+        languageGenericType: "J'devrai mener ma petite enqu\xEAte.\n"
       - languageType: 2
         languageGenericType: 
       - languageType: 3

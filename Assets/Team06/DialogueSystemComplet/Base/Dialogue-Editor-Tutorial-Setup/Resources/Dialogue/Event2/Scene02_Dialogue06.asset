@@ -43,9 +43,7 @@ MonoBehaviour:
         value: 01ce90b6-d051-4b98-9fd6-e0fe499d6bd2
       text:
       - languageType: 1
-        languageGenericType: "L\xE0 voil\xE0 ! Je savais bien que j\u2019avais bosser
-          chez ce bon vieux Ren\xE9 ! Mais \xE7a fait aucun sens, pourquoi j\u2019aurais
-          perdu la lettre dans l\u2019autre monde ?"
+        languageGenericType: Allo ?
       - languageType: 2
         languageGenericType: 
       - languageType: 3

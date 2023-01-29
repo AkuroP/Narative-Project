@@ -139,9 +139,8 @@ MonoBehaviour:
       - languageType: 2
         languageGenericType: "Our old mayor recently got sick and without Cl\xE9mence
           around we had to wait a good half week for someone to come and take care
-          of him.\r\nHer parents have to look for someone to take over their work
-          after them and of course others are affected but I think especially of
-          you Ambre."
+          of him.\nHer parents have to look for someone to take over their work after
+          them and of course others are affected but I think especially of you Ambre."
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -157,15 +156,14 @@ MonoBehaviour:
         value: 57e73941-5b62-415c-8a85-dc086a6c527a
       text:
       - languageType: 1
-        languageGenericType: "\rJe vois bien comment tu vis son d\xE9part et combien
+        languageGenericType: "\nJe vois bien comment tu vis son d\xE9part et combien
           c\u2019est difficile pour toi.\nAvant c\u2019est toi qui menait la danse
           avec Cl\xE9mence, mais j\u2019ai l\u2019impression que son d\xE9part a
-          tout fait changer.\r"
+          tout fait changer.\n"
       - languageType: 2
-        languageGenericType: "\rI can see how you are living her departure and how
-          difficult it is for you.\r\nBefore, you were the one leading the dance
-          with Cl\xE9mence, but I have the impression that her leaving has changed
-          everything."
+        languageGenericType: "\nI can see how you are living her departure and how
+          difficult it is for you.\nBefore, you were the one leading the dance with
+          Cl\xE9mence, but I have the impression that her leaving has changed everything."
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -183,7 +181,9 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: Oui... Je... Je vois ce que tu veux dire.
       - languageType: 2
-        languageGenericType: "\rYes... I... I know what you mean."
+        languageGenericType: '
+
+          Yes... I... I know what you mean.'
       - languageType: 3
         languageGenericType: 
       audioClips:

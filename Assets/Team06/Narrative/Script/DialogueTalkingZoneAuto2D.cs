@@ -12,6 +12,10 @@ namespace Team06
         private Collider2D thisCollider2D;
         
         
+        [Header("Interactable")]
+        public bool interactable;
+        public GameObject speechBubble;
+        
 
         private void Awake()
         {
