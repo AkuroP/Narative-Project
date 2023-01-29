@@ -35,7 +35,6 @@ namespace Team06
                 if (touch.phase == TouchPhase.Ended) {
                     Vector3 direction = ((Vector3)touch.position - _startPosition).normalized;
 
-                    if(player.moveCoroutine != null)StopCoroutine(player.moveCoroutine);
                     if (direction.y >= 0 && direction.y >= Vector3.up.y - offset) {
                         //Debug.Log("UUUPPPP");
 
@@ -60,6 +59,7 @@ namespace Team06
                             _timelines[_timelineIndex == 0 ? 1 : 0].SetActive(false);
                         }
                     }
+                    player.StopAllCoroutines();
                 }
             }
 

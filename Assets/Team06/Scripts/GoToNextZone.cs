@@ -36,14 +36,15 @@ namespace Team06
             player.PlayerStopMoving();
             player.CanMove = false;
             yield return new WaitForSeconds(.45f);
-            player.transform.position = tpPoint.position;
             confiner.m_BoundingShape2D = nextConfiner;
             player.transform.localScale = newSize;
             Cinemachine.CinemachineVirtualCamera vcam = player.confiner.GetComponent<Cinemachine.CinemachineVirtualCamera>();
             vcam.m_Lens.FieldOfView = newFOV * 2;
             if(newPos != null)vcam.transform.position = newPos.position;
             player.CanMove = true;
-            if(player.moveCoroutine != null)StopCoroutine(player.moveCoroutine);
+            player.StopAllCoroutines();
+            
+            player.transform.position = tpPoint.position;
             yield return new WaitForSeconds(.45f);
         }
 
