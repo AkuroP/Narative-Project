@@ -74,11 +74,7 @@ namespace Team06
         {
             if (currentIndex >= movingSettings.Length - 1)
             {
-                startMoving = false;
-                teamSixPlayer.PlayerStopMoving();
-                teamSixPlayer.playerAnim.SetBool("IsMoving", false);
-                teamSixPlayer.CanMove = true;
-                timelineSwitcher.canSwitch = true;
+                StopIt();
                 Destroy(this.gameObject);
             }
             else
@@ -103,6 +99,18 @@ namespace Team06
                 teamSixPlayer.PlayerIsMoving = false;
                 teamSixPlayer.FlipPlayer(movingSettings[currentIndex].movingDir.x);
             }
+        }
+
+        public void StopIt()
+        {
+            startMoving = false;
+            teamSixPlayer.PlayerStopMoving();
+            teamSixPlayer.playerAnim.SetBool("IsMoving", false);
+            teamSixPlayer.CanMove = true;
+
+            timelineSwitcher.canSwitch = true;
+            teamSixPlayer.StopAllCoroutines();
+            
         }
     }
 }

@@ -25,6 +25,7 @@ namespace Team06
         public Team06.TeamSixPlayer player;
 
         public GameObject movementGO;
+        public TeamSixAutoMovement autoMovement;
 
         private void Awake()
         {
@@ -120,7 +121,8 @@ namespace Team06
                     player.CanMove = true;
                     timelineSwitcher.canSwitch = true;
                     movementGO.SetActive(true);
-                    if(player.moveCoroutine != null)StopCoroutine(player.moveCoroutine);
+                    if(autoMovement != null)autoMovement.StopIt();
+                    player.StopAllCoroutines();
                     break;
                 case EndNodeType.Repeat:
                     CheckNodeType(GetNodeByGuid(_currentDialogueNodeData.nodeGuid));
