@@ -13,6 +13,7 @@ namespace Team06
         private Vector3 _startPosition;
         private GameObject[] _timelines;
         private int _timelineIndex;
+        public PostProcess grayScale;
 
         [Range(0, 1)] public float offset;
 
@@ -61,6 +62,15 @@ namespace Team06
                     }
                     player.StopAllCoroutines();
                 }
+            }
+
+            if (_timelineIndex == 0)
+            {
+                grayScale.enabled = false;
+            }
+            else if(_timelineIndex == 1)
+            {
+                grayScale.enabled = true;
             }
 
         }

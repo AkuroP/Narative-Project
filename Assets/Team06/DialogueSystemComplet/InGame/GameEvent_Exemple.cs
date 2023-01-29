@@ -11,9 +11,7 @@ namespace Team06
         private bool thought;
         private bool talkedAngelier;
         private bool talkedToClemence;
-        public LevelLoad levelLoad;
-        public Image textPanel;
-        public Sprite modifyTextPanel;
+        
 
         public bool Thought { get => thought; set => thought = value; }
 
@@ -37,8 +35,7 @@ namespace Team06
                     return useStringEventCondition.ConditionBoolCheck(talkedAngelier, stringEventConditionType);
                 case "TalkedToClemence":
                     return useStringEventCondition.ConditionBoolCheck(talkedToClemence, stringEventConditionType);
-                case "Ending":
-                    return useStringEventCondition.ConditionBoolCheck(levelLoad.isEnding, stringEventConditionType);
+                
                 default:
                     Debug.LogWarning("No String Event was found");
                     return false;
@@ -75,25 +72,11 @@ namespace Team06
                     talkedToClemence = (stringEventModifierType == StringEventModifierType.SetTrue ? true : false);
                     talkedToClemence = useStringEventModifier.ModifierBoolCheck(stringEventModifierType);
                     break;
-                case "Ending":
-                    levelLoad.isEnding = (stringEventModifierType == StringEventModifierType.SetTrue ? true : false);
-                    levelLoad.isEnding = useStringEventModifier.ModifierBoolCheck(stringEventModifierType);
-                    break;
+               
                 default:
                     break;
             }
         }
-
-        public void Update()
-        {
-            if (thought)
-            {
-                textPanel.sprite = modifyTextPanel;
-            }
-            else
-            {
-                var tmpSprite = textPanel.sprite;
-            }
-        }
+        
     }
 }

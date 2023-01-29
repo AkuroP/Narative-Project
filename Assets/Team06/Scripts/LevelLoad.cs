@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,15 +10,10 @@ namespace Team06
 
     public class LevelLoad : MonoBehaviour
     {
-        [HideInInspector] public bool isEnding;
-
-
-        void Update()
+        public string name;
+        public void OnTriggerEnter2D(Collider2D other)
         {
-            if (isEnding)
-            {
-                SceneManager.LoadScene("MainScene");
-            }
+            SceneManager.LoadScene(name);
         }
     }
 }

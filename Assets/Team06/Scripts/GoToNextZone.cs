@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,17 +19,30 @@ namespace Team06
 
         public Transform newPos;
         
+        [Header("Ending")]
+        public bool goEnding;
+        public GameObject introTalk;
+        public GameObject endTalk;
+        
 
         private void OnTriggerEnter2D(Collider2D collider)
         {
             if(collider.CompareTag("Player"))
             {
+                if (goEnding)
+                {
+                    introTalk.SetActive(false);
+                    endTalk.SetActive(true);
+                }
                 if(transition.isPlaying)transition.Stop();
                 transition.gameObject.SetActive(true);
                 transition.Play();
                 StartCoroutine(ToNextPoint());
+
+               
             }
         }
+        
 
         private IEnumerator ToNextPoint()
         {

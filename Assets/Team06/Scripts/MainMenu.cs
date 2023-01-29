@@ -7,69 +7,74 @@ using UnityEngine.Audio;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class MainMenu : MonoBehaviour
+namespace Team06
 {
-    public GameObject volumeBtn;
-    public AudioMixer audioMixer;
-    private bool _optionMenuActived;
-    public GameObject optionMenuGO;
 
-    private void Update()
+    public class MainMenu : MonoBehaviour
     {
-        if(volumeBtn != null)
+        public GameObject volumeBtn;
+        public AudioMixer audioMixer;
+        private bool _optionMenuActived;
+        public GameObject optionMenuGO;
+
+        private void Update()
         {
-            if (EventSystem.current.currentSelectedGameObject == GameObject.FindGameObjectWithTag("SliderVolume"))
+            if (volumeBtn != null)
             {
-                volumeBtn.SetActive(true);
+                if (EventSystem.current.currentSelectedGameObject == GameObject.FindGameObjectWithTag("SliderVolume"))
+                {
+                    volumeBtn.SetActive(true);
+                }
+                else
+                {
+                    volumeBtn.SetActive(false);
+                }
+            }
+        }
+
+        public void StartSceneByIndex(int p_index)
+        {
+            SceneManager.LoadScene(p_index);
+        }
+
+        public void StartSceneByName(string p_name)
+        {
+            SceneManager.LoadScene(p_name);
+        }
+
+        public void OptionUI()
+        {
+            if (!_optionMenuActived)
+            {
+                optionMenuGO.SetActive(true);
+                _optionMenuActived = true;
             }
             else
             {
-                volumeBtn.SetActive(false);
+                optionMenuGO.SetActive(false);
+                _optionMenuActived = false;
             }
         }
-    }
 
-    public void StartSceneByIndex(int p_index)
-    {
-        SceneManager.LoadScene(p_index);
-    }
-
-    public void StartSceneByName(string p_name)
-    {
-        SceneManager.LoadScene(p_name);
-    }
-
-    public void OptionUI()
-    {
-        if (!_optionMenuActived)
+        public void SetFrench()
         {
-            optionMenuGO.SetActive(true);
-            _optionMenuActived = true;
+            LanguageController.Instance.LanguageType = LanguageType.French;
         }
-        else
+
+        public void SetEnglish()
         {
-            optionMenuGO.SetActive(false);
-            _optionMenuActived = false;
+            LanguageController.Instance.LanguageType = LanguageType.English;
         }
-    }
 
-    public void SetFrench()
-    {
-        LanguageController.Instance.LanguageType = LanguageType.French;
-    }
-    public void SetEnglish()
-    {
-        LanguageController.Instance.LanguageType = LanguageType.English;
-    }
+        public void SetVolume(float volume)
+        {
+            audioMixer.SetFloat("volume", volume);
+            Debug.Log(volume);
+        }
 
-    public void SetVolume(float volume)
-    {
-        audioMixer.SetFloat("volume", volume);
-        Debug.Log(volume);
-    }
-
-    public void QuitGame()
-    {
-        Application.Quit();
+        public void QuitGame()
+        {
+            Application.Quit();
+        }
     }
 }
