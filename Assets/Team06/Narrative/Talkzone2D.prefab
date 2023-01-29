@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5839147295527615160}
   - component: {fileID: 1396218729959629717}
-  - component: {fileID: 7874294724264304296}
   - component: {fileID: 1611814276279581846}
+  - component: {fileID: 7874294724264304296}
   - component: {fileID: 1167762683524971950}
   m_Layer: 0
   m_Name: Talkzone2D
@@ -52,6 +52,20 @@ MonoBehaviour:
   timeBetweenSentence: 3
   timelineSwitcher: {fileID: 0}
   player: {fileID: 0}
+  movementGO: {fileID: 0}
+--- !u!114 &1611814276279581846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5839147295527614791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65b6ebb35b2dd7b46a2282e4785e21b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueTalk: {fileID: 1396218729959629717}
 --- !u!82 &7874294724264304296
 AudioSource:
   m_ObjectHideFlags: 0
@@ -148,19 +162,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1611814276279581846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5839147295527614791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65b6ebb35b2dd7b46a2282e4785e21b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueTalk: {fileID: 1396218729959629717}
 --- !u!58 &1167762683524971950
 CircleCollider2D:
   m_ObjectHideFlags: 0

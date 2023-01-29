@@ -4,28 +4,22 @@ using UnityEngine;
 
 namespace Team06
 {
-    public class TeamSixObjectInteract : MonoBehaviour
+    public class ObjectInteract : MonoBehaviour
     {
         public GameObject interactPopup;
-        public SpriteRenderer renderer;
-
-        public Sprite switchSprite;
-        public Sprite baseSprite;
-        public Sprite actualSprite;
+        [SerializeField]private DialogueTalk dialogueTalk;
 
 
         private void Start()
         {
-            actualSprite = baseSprite;
+            this.GetComponent<DialogueTalk>();
         }
 
         private void OnTriggerEnter2D(Collider2D collider)
         {
-            if (collider.CompareTag("Player"))
+            if(collider.CompareTag("Player"))
             {
                 interactPopup.SetActive(true);
-
-                renderer.sprite = baseSprite;
             }
         }
 
@@ -41,17 +35,8 @@ namespace Team06
         public void Interact()
         {
             Debug.Log(("INTERACTION"));
-
-            //switch sprite (placeholder)
-            SwitchSprite();
-
-        }
-
-        private void SwitchSprite()
-        {
-            SpriteRenderer playerSr = interactPopup.GetComponent<SpriteRenderer>();
-            renderer.sprite = playerSr.sprite;
-            playerSr.sprite = switchSprite;
+            dialogueTalk.StartDialogue();
+            this.gameObject.SetActive(false);
         }
     }
 }

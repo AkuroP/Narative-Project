@@ -71,7 +71,13 @@ namespace Team06
         public void FlipPlayer(float dir)
         {
             if (dir > 0) this.transform.localScale = new Vector3(Mathf.Abs(this.transform.localScale.x), this.transform.localScale.y, this.transform.localScale.z);
-            else if (dir < 0) this.transform.localScale = new Vector3(-this.transform.localScale.x, this.transform.localScale.y, this.transform.localScale.z);
+            else if (dir < 0)
+            {
+                float scaleX = this.transform.localScale.x;
+                if(scaleX > 0) scaleX = -scaleX;
+                this.transform.localScale = new Vector3(scaleX, this.transform.localScale.y, this.transform.localScale.z);
+            }
+
         }
 
         //Stop Moving player
