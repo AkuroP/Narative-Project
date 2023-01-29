@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Team06;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
@@ -10,6 +11,8 @@ public class MainMenu : MonoBehaviour
 {
     public GameObject volumeBtn;
     public AudioMixer audioMixer;
+    private bool _optionMenuActived;
+    public GameObject optionMenuGO;
 
     private void Update()
     {
@@ -34,6 +37,29 @@ public class MainMenu : MonoBehaviour
     public void StartSceneByName(string p_name)
     {
         SceneManager.LoadScene(p_name);
+    }
+
+    public void OptionUI()
+    {
+        if (!_optionMenuActived)
+        {
+            optionMenuGO.SetActive(true);
+            _optionMenuActived = true;
+        }
+        else
+        {
+            optionMenuGO.SetActive(false);
+            _optionMenuActived = false;
+        }
+    }
+
+    public void SetFrench()
+    {
+        LanguageController.Instance.LanguageType = LanguageType.French;
+    }
+    public void SetEnglish()
+    {
+        LanguageController.Instance.LanguageType = LanguageType.English;
     }
 
     public void SetVolume(float volume)
