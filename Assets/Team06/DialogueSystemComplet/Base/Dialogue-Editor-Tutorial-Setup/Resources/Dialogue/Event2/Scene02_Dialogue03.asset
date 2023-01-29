@@ -53,7 +53,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: Allo ?
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Hi?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -89,7 +89,9 @@ MonoBehaviour:
           de vous annoncer que vous avez pass\xE9 les phases pr\xE9liminaires. Vous
           \xEAtes convoqu\xE9 pour un entretien le\u2026"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: "Ms. Cl\xE9mence L'Angelier, we have the pleasure to
+          announce that you passed the preliminary stages. You're summoned for an
+          interview..."
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -125,7 +127,9 @@ MonoBehaviour:
           mal Clem me donner une lettre de son \xE9cole, et encore moins la garder
           pour elle dans un coin poussi\xE9reux."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: What is doing under my bed? I have troubles imagining
+          Clem would give me a letter from her school, and even more troubles thinking
+          about stuffing it in this dusty place.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -159,7 +163,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Je lui ai vol\xE9 la lettre ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Did I steal the letter?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -180,7 +184,9 @@ MonoBehaviour:
           une de refus. C\u2019est la premi\xE8re id\xE9e qui m\u2019est venu en
           lisant cette phrase\u2026"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: It's crazy, but not impossible... If Clem didn't receive
+          it, the next letter would be refusal. That's the first idea that came to
+          my mind...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -200,7 +206,8 @@ MonoBehaviour:
           il y a quatre mois. Mais \xE7a veut dire qu\u2019elle n\u2019a jamais vu
           la lettre ? Comment \xE7a se fait ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I probably got the same idea four months ago. But does
+          it mean she never saw the letter? How is it possible?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -236,7 +243,8 @@ MonoBehaviour:
           devrait \xEAtre facile, surtout que l\u2019enveloppe est reconnaissable.
           J\u2019en serais capable\u2026"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: My mom's job! Intercepting the letter should be easy,
+          especially one that has an envelope like that. I could be capable of it...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -256,7 +264,9 @@ MonoBehaviour:
           ! J\u2019ai pr\xE9f\xE9r\xE9 cueillir du raisin dans le champ du vieux
           Ren\xE9 plut\xF4t que de laisser ma m\xE8re voir ma tronche de d\xE9prim\xE9."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: "No! I didn't work there this summer! I preferred working
+          in the vineyard of the old Ren\xE9, better gather grapes than letting my
+          mom see my depressed face."
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -276,7 +286,8 @@ MonoBehaviour:
           ? Il y a une fa\xE7on de v\xE9rifier \xE7a, je range mes fiches de paie
           dans la biblio du couloir."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: But what if I took my mother's offer? I have a way of
+          checking that, the payslips in the bookcase of the corridor.
       - languageType: 3
         languageGenericType: 
       audioClips:

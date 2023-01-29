@@ -37,7 +37,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: Allo ?
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Hi?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -57,7 +57,9 @@ MonoBehaviour:
           dans ma chambre si Clem \xE9tait rest\xE9e. Elle est toujours l\xE0 ! Je
           devrais sauter de joie et repeindre les murs pour f\xEAter \xE7a !\n"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: It's crazy, I would have imagined more changes in my
+          room if Clem stayed. She's still here! I should be jumping for joy and
+          paint the walls to celebrate!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -78,7 +80,9 @@ MonoBehaviour:
           s'il n\u2019y aurait pas un indice sur le pourquoi du comment Clem est
           rest\xE9e ici.\n"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Wait a second. The "me" from this world never suffered
+          from her absence, it wouldn't make sense. I need to check for clues, why
+          did Clem stayed here?
       - languageType: 3
         languageGenericType: 
       audioClips:

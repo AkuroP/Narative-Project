@@ -50,7 +50,7 @@ MonoBehaviour:
         languageGenericType: "Je n\u2019arrive pas \xE0 croire que \xE7a fait quatre
           mois que Clem est partie."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: 'And now you''re back! '
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -69,7 +69,10 @@ MonoBehaviour:
         languageGenericType: "Tout \xE9tait si facile quand elle \xE9tait encore
           l\xE0\u2026 Et qu\u2019est-ce qu\u2019on s\u2019amusait !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: 'What are you talking about ?
+
+          I am not forcing
+          to keep me company, you can go back to sleep if you''re tired.'
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -90,7 +93,7 @@ MonoBehaviour:
           Tout le monde a cru que la c\xE9r\xE9monie avait dur\xE9 trop longtemps
           ! Ils commen\xE7aient \xE0 s\u2019affoler ! Aaah..."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I don't understand any of this...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -120,7 +123,7 @@ MonoBehaviour:
           qu\u2019on n\u2019arriverait \xE0 rien plus tard mais il n\u2019a plus
           su quoi dire quand on lui a montr\xE9 nos notes du lyc\xE9e !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: So do I...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -138,7 +141,8 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Ah ! Lui qui ne l\u2019avait jamais fini !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I still have troubles believing it but I think I can
+          see two different worlds !
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -156,7 +160,8 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: .......
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: The one I know, and this one, where it looks like Clem
+          stayed for whatever reason.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -176,7 +181,7 @@ MonoBehaviour:
           de nous deux... Elle l'a bien prouv\xE9 en comprenant qu\u2019il n\u2019y
           avait rien pour elle dans ce village...  Et aux alentours."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: But then...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -206,7 +211,8 @@ MonoBehaviour:
           d\u2019assurance et est devenue si ind\xE9pendante au point de partir,
           d\u2019aller vivre seule !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: It's awesome! I can be together with Clem once again!
+          Everything is fine!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -225,7 +231,7 @@ MonoBehaviour:
         languageGenericType: "Au moins elle pourra se vanter de m\u2019avoir surprise
           !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: It feels so good! We need to have a party ASAP. Tonight!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -245,7 +251,10 @@ MonoBehaviour:
           On dirait presque qu\u2019elle s\u2019est enfuie \xE0 cause de moi\u2026
           Qu\u2019est-ce que je suis suppos\xE9e faire maintenant ?!"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: 'Sorry, not tonight.
+
+          I''m so tired and reminding
+          me of college just bummed me out.'
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -264,7 +273,7 @@ MonoBehaviour:
         languageGenericType: "Je voudrais tellement qu\u2019elle soit encore l\xE0
           ! Pourquoi il a fallu qu\u2019elle s\u2019en aille !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Another time?
       - languageType: 3
         languageGenericType: 
       audioClips:

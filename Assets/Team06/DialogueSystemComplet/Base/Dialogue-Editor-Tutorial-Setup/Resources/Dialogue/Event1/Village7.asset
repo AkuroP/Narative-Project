@@ -58,7 +58,8 @@ MonoBehaviour:
         languageGenericType: "J\u2019ai encore du mal \xE0 y croire mais je crois
           que je peux voir deux mondes diff\xE9rents !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Did she really took my opinion into account? It looks
+          like she ran away because of me... what am I supposed to do now?!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -77,7 +78,7 @@ MonoBehaviour:
         languageGenericType: "Celui que je connais et celui-ci, o\xF9 j\u2019ai l\u2019impression
           que Clem est rest\xE9e et ce pour je ne sais quelle raison."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I wish she was still here! Why did she had to go?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -95,7 +96,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: Mais alors...
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: She shouldn't have left!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -114,7 +115,7 @@ MonoBehaviour:
         languageGenericType: "C\u2019est g\xE9nial ! Je peux \xE0 nouveau vivre avec
           Clem ! Tout va mieux !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I can't believe she did this to me! She's so... so selfish!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -155,7 +156,7 @@ MonoBehaviour:
         languageGenericType: "Oh je suis de si bonne humeur ! Il faut qu\u2019on
           se fasse une soir\xE9e entre nous de toute urgence ! Cette nuit !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Clem?! What... what are you doing here?!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -174,7 +175,7 @@ MonoBehaviour:
         languageGenericType: "D\xE9sol\xE9, pas ce soir.\nJe suis fatigu\xE9e et
           me rappeler l\u2019universit\xE9 m\u2019a un peu d\xE9prim\xE9e."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Well, I run the stall while my parents walk around...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -192,7 +193,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "On se fait \xE7a une prochaine fois ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: But when did you came back?! And your med classes?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -210,7 +211,9 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: ...
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: What... are you serious?! You think this is funny?!
+          It's not because it's been four months that the rejection is easier to
+          swallow.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -229,7 +232,8 @@ MonoBehaviour:
         languageGenericType: "Pas grave, on se fait \xE7a une prochaine fois !\nOn
           a tout notre temps apr\xE8s tout !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Rejection? What do you mean... you've been rejected?
+          Then where did you go for the last four months?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -247,7 +251,8 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Oui\u2026 (soupir) Tout le temps qu\u2019il faut\u2026"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Did you hurt your head? I never moved! You need to stop
+          sleeping until noon, it really makes you say weird stuff...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -287,7 +292,8 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Et l\xE0 t'es de retour !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Oh why did you had to remind me! Now I'm even more pissed
+          off! I swear... they outright ignored me! Not a word!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -307,7 +313,8 @@ MonoBehaviour:
           je ne t\u2019obliges pas \xE0 venir me tenir compagnie au march\xE9, tu
           peux repartir te coucher si tu es si fatigu\xE9e."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: But... it makes no sense! Clem is still here, she wasn't
+          accepted in that school and nobody is reacting?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -325,7 +332,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "J\u2019y comprends rien\u2026"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Did I dream all of this?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -343,7 +350,8 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Et moi donc\u2026"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: "What?! But... What is going on? Where did Cl\xE9mence
+          went?!"
       - languageType: 3
         languageGenericType: 
       audioClips:

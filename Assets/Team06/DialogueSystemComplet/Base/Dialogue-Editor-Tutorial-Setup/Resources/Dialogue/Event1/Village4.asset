@@ -61,7 +61,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: Tu veux m'acheter quelque chose ?
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I should investigate.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -93,7 +93,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Mais\u2026 Elle est pass\xE9e o\xF9 Clem ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I can't believe it's been four months since Clem left.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -112,7 +112,7 @@ MonoBehaviour:
         languageGenericType: "Oulah tu viens de te r\xE9veiller Ambre ?! \xC7a fait
           quatre mois qu'elle est partie Cl\xE9mence !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: 'Everything was easy when she was here... '
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -133,7 +133,9 @@ MonoBehaviour:
           tr\xE8s important pour elle. Ne t\u2019inqui\xE8tes pas, elle reviendra
           de temps en temps au village, probablement pour les vacances."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I remember when we toyed with the clock of the city
+          hall the day of the wedding of Paul and Emma... Everyone thought that the
+          ceremony went on for too long! They all started freaking out! Aaah...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -151,7 +153,8 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Bon sinon tu comptes m\u2019acheter quelque chose ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: "M. Lef\xE8vre berated us and tought we wouldn't get
+          anywhere. He wasn't so proud when we showed him our grades !"
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -182,7 +185,7 @@ MonoBehaviour:
           toujours en train de faire ses \xE9tudes.\nJe comprends pas ce qu'y se
           passe\u2026 Ils me font tous une blague ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Ah! He didn't even finished high school!
       - languageType: 3
         languageGenericType: 
       audioClips:

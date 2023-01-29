@@ -97,7 +97,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: Allo ?
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Hi?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -131,7 +131,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Pr\xE9cieuse ! Comment \xE7a va ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Precious! How are you?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -165,7 +165,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Clem ! Bah\u2026 \xE7a va, et toi ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Clem! Uh... I'm fine, and you?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -199,7 +199,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "\xC7a va super !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: It's going alright!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -234,7 +234,7 @@ MonoBehaviour:
         languageGenericType: "Attends\u2026 \xE7a fait des semaines que t\u2019avais
           pas appel\xE9, non ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Wait... it's been weeks since you called, no?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -268,7 +268,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "J\u2019allais presque oublier la Clem de mon monde\u2026"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I was almost forgetting the Clem from my world...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -303,7 +303,7 @@ MonoBehaviour:
         languageGenericType: "J\u2019imagine ? D\xE9sol\xE9, je suis pas mal occup\xE9
           depuis que je suis arriv\xE9."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I guess? Sorry, I was pretty busy since I'm arrived.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -338,7 +338,8 @@ MonoBehaviour:
         languageGenericType: "C\u2019est pas grave ! J\u2019esp\xE8re juste que \xE7a
           se passe bien."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: It's fine! I just hope everything is alright on your
+          side.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -375,7 +376,9 @@ MonoBehaviour:
           de la fac, je suis d\xE9j\xE0 assez occup\xE9 l\xE0 bas donc j\u2019ai
           pas le temps d\u2019en rencontrer en dehors."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Yeah! It's going very well. I'm used to the city life
+          now, and people are really nice here. Well, people from college, I'm already
+          busy enough as it is so I can't meet people outside of there.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -410,7 +413,7 @@ MonoBehaviour:
         languageGenericType: "Je m\u2019attendais pas \xE0 \xE7a, notre ch\xE8re
           Clem deviendrait sociable ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I didn't expect that, our dear Clem is becoming social?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -446,7 +449,9 @@ MonoBehaviour:
           plus d\u2019occasions de parler de ce que j\u2019aime avec les gens de
           cette fac que ceux qu\u2019on voyait au lyc\xE9e."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Don't go overboard! It's just we like the same stuff
+          so it's easier to talk between each others, unlike the people we knew in
+          highschool.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -481,7 +486,8 @@ MonoBehaviour:
         languageGenericType: "J\u2019tavoue que je vois pas trop \xE0 quoi ressemblent
           les \xE9l\xE8ves de ce genre d\u2019\xE9coles\u2026\u201D"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I have to admit, I don't know what students are in that
+          kind of school...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -516,7 +522,7 @@ MonoBehaviour:
         languageGenericType: "Rien \xE0 voir avec ceux que tu connais, \xE7a c\u2019est
           s\xFBr ! "
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: 'Nothing like the ones you know, that''s for sure! '
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -534,7 +540,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: Hein ?
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Huh?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -553,7 +559,7 @@ MonoBehaviour:
         languageGenericType: "Oh, il faut que je parte ! Je te parlerais d\u2019eux
           une autre fois !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Oh, I have to go! Talk to you later!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -587,7 +593,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "D\xE9j\xE0 ? D\u2019accord, \xE0 la prochaine.\u201D"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Already? Alright, see ya.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -621,7 +627,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Bisou, \xE0 la prochaine !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: See ya!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -655,7 +661,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: ...
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: ...
       - languageType: 3
         languageGenericType: 
       audioClips:

@@ -43,7 +43,8 @@ MonoBehaviour:
           est maintenant en train de faire la queue pour acheter des fruits ! Il
           se passe quoi l\xE0 ?!"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Clem was always the smartest of our duo... it's no surprise
+          she understood there was nothing for her in this village... or around it.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -63,7 +64,8 @@ MonoBehaviour:
           pas choqu\xE9. C'est quand m\xEAme pas le village tout entier qui me fait
           une blague ?!\n"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I wonder when she became assertive enough to leave the
+          village, becoming all "independant" and living on her own!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -81,7 +83,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "J'devrai mener ma petite enqu\xEAte.\n"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: She can be proud, she managed to surprise me!
       - languageType: 3
         languageGenericType: 
       audioClips:

@@ -146,7 +146,7 @@ MonoBehaviour:
         languageGenericType: "Je ne t\u2019ai jamais vu autant r\xE9fl\xE9chir \xE0
           quelque chose."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I never saw you think so much.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -180,7 +180,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Hmm\u2026 ?!"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Huh...?!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -214,7 +214,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Pr\xE9cieuse ! Oh h\xE9 !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Precious? Hey!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -248,7 +248,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Ha\u2026 \xE7a se voit tant que \xE7a ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Oh... that much, huh?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -283,7 +283,8 @@ MonoBehaviour:
         languageGenericType: "Houl\xE0 ! J\u2019ai quitt\xE9 le monde des vivants
           pour combien de temps ? Faudrait pas que Clem s\u2019inqui\xE8te."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Wow! I need to get back to the world of the living!
+          I should avoid to make her worry.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -319,7 +320,8 @@ MonoBehaviour:
           Est-ce que\u2026 tu peux me dire ce que tu penses vraiment de mon d\xE9part
           ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Sorry, but the silence is deafening. Are you... can
+          you tell me what you really think about me departure?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -354,7 +356,8 @@ MonoBehaviour:
         languageGenericType: "Mince, j\u2019peux vraiment rien lui cacher. Mais m\xEAme,
           qu\u2019est ce que je veux vraiment ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Darn, I can't hide anything from her. But even then,
+          what do I really want?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -394,7 +397,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Et bien\u2026"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Well...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -432,7 +435,10 @@ MonoBehaviour:
           que\u2026 ton bonheur est plus important. Je ne serais pas une bonne amie
           si je te faisais culpabiliser, hein ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: To be honest, I don't like it. I want to us to be together
+          forever, I know it's childish but I can't help it! However... your happiness
+          is more important. I wouldn't be a good friend if I made you feel guilty,
+          right?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -468,7 +474,8 @@ MonoBehaviour:
           ce n\u2019est pas d\xE9cid\xE9 ! On en reparlera s\u2019ils t'acceptent,
           ok ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: ... I assure you, it's alright. And anyway, it's not
+          decided yet! We'll think about that later, ok?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -503,7 +510,8 @@ MonoBehaviour:
         languageGenericType: "Et t\u2019as pas int\xE9r\xEAt \xE0 te faire une nouvelle
           meilleure amie quand tu seras l\xE0-bas !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: And you better not find another new best friend when
+          you'll be there!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -537,7 +545,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Ambre\u2026"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Ambre...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -572,7 +580,7 @@ MonoBehaviour:
         languageGenericType: "Hehe\u2026 hahaha ! Comment pourrais-je quand tu me
           fais une si grosse crise de jalousie ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Hehe... hahaha! How could I when it gets you this way?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -606,7 +614,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: Moque toi quand tu seras plus loin, steuplait.
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Make fun of me when you'll be away, please.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -641,7 +649,8 @@ MonoBehaviour:
         languageGenericType: "Non non, je suis encore l\xE0 donc je compte bien en
           profiter ! Et puis, ce n\u2019est pas s\xFBr qu'ils m'acceptent."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: No no, I'm still here so I plan on enjoying it! And
+          it's not sure they'll accept me.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -676,7 +685,7 @@ MonoBehaviour:
         languageGenericType: "Parle pas de malheur ! Ils t\u2019accepteront, j\u2019en
           suis s\xFBr."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Don't say that! They'll take you, it's certain.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -711,7 +720,7 @@ MonoBehaviour:
         languageGenericType: "Si tu le dis c\u2019est que \xE7a doit \xEAtre vrai.
           Merci, Ambre."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: If you say so, it must be true. Thank you, Ambre.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -745,7 +754,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "De rien, Cl\xE9mence."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: "You're welcome, Cl\xE9mence."
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -780,7 +789,7 @@ MonoBehaviour:
         languageGenericType: "Tu as raison, \xE7a ne sert \xE0 rien de s\u2019inqui\xE9ter
           de \xE7a maintenant."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Youre right, it's useless to worry now.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -816,7 +825,9 @@ MonoBehaviour:
           le village d\u2019une autre fa\xE7on, nan ? On se sent plus attach\xE9
           \xE0 nos terres, on voit ce qui est important pour nous."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: That kind of event, it makes you see the village in
+          another light, isn't it? We become aware of the importance of our lands,
+          we see what truly matters to us.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -851,7 +862,8 @@ MonoBehaviour:
         languageGenericType: "C\u2019est plut\xF4t profond de ta part, est-ce que
           mes le\xE7ons commencent enfin \xE0 rentrer ? Haha."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: That's pretty deep coming from you... are my lessons
+          finally getting through your head? Haha.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -885,7 +897,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Dit tout de suite que j\u2019suis idiote !"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Did you just call me an idiot?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -919,7 +931,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: Hahaha !
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Hahaha!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -953,7 +965,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: Et du coup pour le festival ? Tu viendras, hein ?
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: And for the festival? You'll come, right?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -988,7 +1000,8 @@ MonoBehaviour:
         languageGenericType: "Quelle girouette tu fais ! \xC7a non plus ce n\u2019est
           pas s\xFBr."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Geez, listen to yourself! That's not certain to happen
+          either.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -1022,7 +1035,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: Je ferai tout pour que ce soit possible !
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I do everything to make it possible!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -1051,7 +1064,7 @@ MonoBehaviour:
     - languageType: 1
       languageGenericType: "Cl\xE9mence doit partir"
     - languageType: 2
-      languageGenericType: 
+      languageGenericType: "Cl\xE9mence has to leave."
     - languageType: 3
       languageGenericType: 
     audioClips:
@@ -1070,7 +1083,7 @@ MonoBehaviour:
     - languageType: 1
       languageGenericType: "Cl\xE9mence doit rester"
     - languageType: 2
-      languageGenericType: 
+      languageGenericType: "Cl\xE9mence has to stay."
     - languageType: 3
       languageGenericType: 
     audioClips:
