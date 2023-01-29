@@ -41,7 +41,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Il fait d\xE9j\xE0 noir, tant pis pour la vue."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: It is already dark, too bad for the view.
       - languageType: 3
         languageGenericType: 
       audioClips:

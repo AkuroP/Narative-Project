@@ -23,7 +23,7 @@ MonoBehaviour:
     targetPortName: Input
   startDatas:
   - nodeGuid: e4fa1815-ba73-433c-8af4-ddba2189d7bc
-    position: {x: 241.2, y: 222}
+    position: {x: 241, y: 222}
   dialogueDatas:
   - nodeGuid: 3441bac2-0afc-4c1b-895b-3f958eadaa2a
     position: {x: 448, y: 294}
@@ -43,7 +43,8 @@ MonoBehaviour:
           que dans l\u2019autre temporalit\xE9 et pourtant ici elle semble si silencieuse,
           si calme."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Funny, the forest is exactly the same as in the other
+          temporality and yet here it seems more quiet, more calm.
       - languageType: 3
         languageGenericType: 
       audioClips:

@@ -42,7 +42,8 @@ MonoBehaviour:
         languageGenericType: "Tiens, j'ai l'impression qu'on a d\xE9pass\xE9 l\xE0
           o\xF9 j'en suis avec Cl\xE9mence ! En m\xEAme temps avec tout son blabla..."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Well, I feel like we're past where I am with Clemence!
+          Not so surprise with all her chitchat...
       - languageType: 3
         languageGenericType: 
       audioClips:

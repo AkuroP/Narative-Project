@@ -43,7 +43,9 @@ MonoBehaviour:
           y a une clairi\xE8re un peu plus loin, ce serait bien que je puisse aller
           y voir le coucher de soleil avec Cl\xE9mence, \xE7a fait un moment."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: "Night will soon arrive. It seems to me that there is
+          a clearing a little further, it would be nice if I could go there to see
+          the sunset with Cl\xE9mence, it has been a while."
       - languageType: 3
         languageGenericType: 
       audioClips:

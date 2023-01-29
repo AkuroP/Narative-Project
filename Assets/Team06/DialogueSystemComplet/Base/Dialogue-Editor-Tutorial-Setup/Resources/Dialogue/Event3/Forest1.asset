@@ -27,10 +27,10 @@ MonoBehaviour:
     targetPortName: Input
   startDatas:
   - nodeGuid: dd64bff3-6f50-4995-b818-e78a22061d39
-    position: {x: 98.8, y: 104}
+    position: {x: 99, y: 104}
   dialogueDatas:
   - nodeGuid: 600d7019-9bcf-4bbe-becc-a1d6378e11f5
-    position: {x: 175.6, y: 104}
+    position: {x: 176, y: 104}
     dialogueDataNames:
     - id:
         value: 0
@@ -59,7 +59,10 @@ MonoBehaviour:
           l'universit\xE9 que tu voulais tant ne t\u2019as pas pris mais il n\u2019y
           avait pas qu'elle ! Si ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: 'So why didn''t you leave?
+
+          Ok, the university
+          you wanted so much didn''t take you, but it wasn''t the only one! Was it?'
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -79,7 +82,10 @@ MonoBehaviour:
           de leur part, \xE7a m\u2019a d\xE9motiv\xE9.\nJe n\u2019arrivais plus \xE0
           avoir la foi de continuer\u2026"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: 'It may seem simplistic to you, but not receiving anything
+          from them demotivated me.
+
+          I couldn''t have the faith to continue...'
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -98,7 +104,8 @@ MonoBehaviour:
         languageGenericType: "Quand les r\xE9sultats des autres universit\xE9s sont
           arriv\xE9s, j\u2019ai \xE9t\xE9 refus\xE9e pour toutes. Sans surprise."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: So when the results from the other universities came
+          in, I was rejected for all of them. No surprise.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -117,7 +124,7 @@ MonoBehaviour:
         languageGenericType: "Oh je suis d\xE9sol\xE9\u2026 Je ne pensais pas que
           \xE7a s\u2019\xE9tait pass\xE9 ainsi\u2026"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Oh I'm sorry... I didn't think it happened like that...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -137,7 +144,11 @@ MonoBehaviour:
           je ne suis pas non plus malheureuse, j\u2019aurai un travail, je suis entour\xE9e
           de personnes que j\u2019aime et je suis en bonne sant\xE9."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: 'Don''t apologize, it''s not your fault.
+
+          And
+          I''m not unhappy either, I have a job, I''m surrounded by people I love
+          and I''m healthy.'
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -156,7 +167,8 @@ MonoBehaviour:
         languageGenericType: "Alors oui ce n\u2019est pas ce que j\u2019esp\xE9rais
           mais ce n\u2019est pas si mal."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: So yeah it's not what I was hoping for but it's not
+          too bad.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -169,7 +181,7 @@ MonoBehaviour:
     dialogueDataImages: []
     dialogueDataPorts: []
   - nodeGuid: 712080da-47af-4145-9897-59caff292c67
-    position: {x: 453.2, y: 104}
+    position: {x: 453, y: 104}
     dialogueDataNames:
     - id:
         value: 0
@@ -185,7 +197,8 @@ MonoBehaviour:
         languageGenericType: "Ca me laisse quand m\xEAme perplexe\u2026 \xC9tait-ce
           finalement une bonne chose pour elle de la faire rester ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: It still leaves me wondering... Was it ultimately a
+          good thing for her to make her stay?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -204,7 +217,8 @@ MonoBehaviour:
         languageGenericType: "Je devrais aller v\xE9rifier ce qu\u2019il se passe
           dans l\u2019autre temporalit\xE9 au cas-o\xF9."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: I should go check what's going on in the other timeline
+          just in case.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -221,6 +235,6 @@ MonoBehaviour:
   choiceDatas: []
   endDatas:
   - nodeGuid: 01f5aad2-b7a9-4da3-a656-4304ed48cf8b
-    position: {x: 730.8, y: 104}
+    position: {x: 731, y: 104}
     endNodeType:
       value: 1

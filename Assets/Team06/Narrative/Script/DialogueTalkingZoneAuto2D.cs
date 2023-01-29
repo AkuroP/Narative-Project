@@ -16,9 +16,9 @@ namespace Team06
         private void Awake()
         {
             thisCollider2D = GetComponent<Collider2D>();
-            
         }
         
+
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.CompareTag("Player"))
@@ -26,10 +26,16 @@ namespace Team06
                 
                     dialogueTalk.StartDialogue();
                     thisCollider2D.enabled = false;
-
-
             }
         }
         
+        public void InteractDialogue()
+        {
+            print("ui");
+        }
     }
+        
+    
 }
+    
+    

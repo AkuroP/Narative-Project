@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.UIElements;
 using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor.UIElements;
 using UnityEngine.UIElements;
+#endif
 
 namespace Team06
 {

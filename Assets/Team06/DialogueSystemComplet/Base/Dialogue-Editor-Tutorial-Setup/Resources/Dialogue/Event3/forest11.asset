@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: forest11
   m_EditorClassIdentifier: 
   nodeLinkDatas:
-  - baseNodeGuid: 462c6ffd-64de-400b-a33d-35cb89a4f50b
-    basePortName: Continue
-    targetNodeGuid: 8d31cd81-a9c2-4864-99ad-ea41acd58291
+  - baseNodeGuid: c50b81bc-c26f-409b-8c79-026798fe3f33
+    basePortName: Output
+    targetNodeGuid: e78e3fb6-9f9d-49cc-b082-810c7d417987
     targetPortName: Input
   - baseNodeGuid: e78e3fb6-9f9d-49cc-b082-810c7d417987
     basePortName: False
     targetNodeGuid: 462c6ffd-64de-400b-a33d-35cb89a4f50b
     targetPortName: Input
-  - baseNodeGuid: c50b81bc-c26f-409b-8c79-026798fe3f33
-    basePortName: Output
-    targetNodeGuid: e78e3fb6-9f9d-49cc-b082-810c7d417987
+  - baseNodeGuid: 462c6ffd-64de-400b-a33d-35cb89a4f50b
+    basePortName: Continue
+    targetNodeGuid: 8d31cd81-a9c2-4864-99ad-ea41acd58291
     targetPortName: Input
   startDatas:
   - nodeGuid: c50b81bc-c26f-409b-8c79-026798fe3f33
@@ -81,7 +81,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Dis moi, selon toi il faudrait que je fasse quoi ?\r"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Tell me, what do you think I should do?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -99,7 +99,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Comment \xE7a ?\r"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: What do you mean?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -117,7 +117,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: Plus tard, dans la vie active.
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Later on, in working life.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -138,7 +138,11 @@ MonoBehaviour:
           ne fais rien. Je n'ai jamais trouv\xE9 mon truc \xE0 moi.\nDonc je me posais
           la question."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: 'I don''t have any particular desire for the future,
+          I don''t have any business to take over and I haven''t done anything for
+          over 4 months. I never found my own thing.
+
+          So I was wondering.'
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -156,7 +160,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: Effectivement, on n'a jamais eu cette discussion ensemble.
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Indeed, we never had this discussion together.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -174,7 +178,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: ...
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: ...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -191,9 +195,10 @@ MonoBehaviour:
       text:
       - languageType: 1
         languageGenericType: Pourquoi tu n'essaies pas de continuer dans ton sport
-          ?
+          ? Pour devenir professionnelle.
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Why don't you try to continue your sport? To become
+          a professionnal.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -213,7 +218,9 @@ MonoBehaviour:
           \xE7a. J'en fais pour le plaisir, je veux bien dire que c'est une petite
           passion pour moi mais de l\xE0 \xE0 en faire ma vie. Bof."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Honestly, I'm not that interested. I do it for fun,
+          That it is a little passion for me but from there to make it my profession.
+          I don't know.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -231,7 +238,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: Ouais je vois ce que tu veux dire.
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Yeah, I see what you mean.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -250,7 +257,8 @@ MonoBehaviour:
         languageGenericType: "Bon faisons une liste ! M\xE9tiers manuels d\xE9j\xE0
           c'est non ! Tu te mettrais en danger plus qu'autre chose."
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Let's make a list! Manual jobs are already a no-no!
+          You would be putting yourself in danger more than anything else.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -268,7 +276,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: Eh !
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Eh!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -286,7 +294,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: Ose me dire que j'ai tort !
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Dare to tell me I'm wrong!
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -304,7 +312,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: ...
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: ...
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -322,7 +330,7 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: C'est bien ce qu'il me semblait.
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: That's what I thought.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -351,7 +359,8 @@ MonoBehaviour:
         languageGenericType: "Bon alors, \xE7a ce n'est pas ton truc, \xE7a non plus...
           Humm... Tu ne veux pas me donner un coup de main ?"
       - languageType: 2
-        languageGenericType: 
+        languageGenericType: Well, that's not your thing, either... Hmmm... Don't
+          you want to give me a hand?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -373,6 +382,6 @@ MonoBehaviour:
   choiceDatas: []
   endDatas:
   - nodeGuid: 8d31cd81-a9c2-4864-99ad-ea41acd58291
-    position: {x: 576, y: -566}
+    position: {x: 554, y: -521}
     endNodeType:
       value: 1
