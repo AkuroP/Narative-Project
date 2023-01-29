@@ -17,6 +17,10 @@ MonoBehaviour:
     basePortName: Output
     targetNodeGuid: 2f376aea-2520-4ebe-8707-43cba1c34c80
     targetPortName: Input
+  - baseNodeGuid: 2f376aea-2520-4ebe-8707-43cba1c34c80
+    basePortName: Continue
+    targetNodeGuid: f7a6c58f-7e31-40bc-b8d2-d3377ef02f9f
+    targetPortName: Input
   startDatas:
   - nodeGuid: 25b637a3-92f0-433e-9427-4aa23cd0d525
     position: {x: 400, y: 300.80002}
@@ -59,4 +63,8 @@ MonoBehaviour:
   eventDatas: []
   branchDatas: []
   choiceDatas: []
-  endDatas: []
+  endDatas:
+  - nodeGuid: f7a6c58f-7e31-40bc-b8d2-d3377ef02f9f
+    position: {x: 902.4, y: 300.80002}
+    endNodeType:
+      value: 1

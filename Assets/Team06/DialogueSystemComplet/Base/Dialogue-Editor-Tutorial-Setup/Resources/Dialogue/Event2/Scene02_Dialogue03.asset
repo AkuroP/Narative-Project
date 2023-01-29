@@ -33,6 +33,10 @@ MonoBehaviour:
     basePortName: Continue
     targetNodeGuid: e6cc34b0-51f6-411e-8e6c-bec18b9ced98
     targetPortName: Input
+  - baseNodeGuid: e6cc34b0-51f6-411e-8e6c-bec18b9ced98
+    basePortName: Continue
+    targetNodeGuid: f618fd8d-f729-448c-8843-f0b44581b314
+    targetPortName: Input
   startDatas:
   - nodeGuid: 58ce9a10-83b3-4428-8f17-0200b08f1d28
     position: {x: 300, y: 201.59999}
@@ -51,9 +55,11 @@ MonoBehaviour:
         value: 01ce90b6-d051-4b98-9fd6-e0fe499d6bd2
       text:
       - languageType: 1
-        languageGenericType: Allo ?
+        languageGenericType: J'ai rarement eu autant de papiers sur mon bureau, je
+          suis devenu super active ou... pourquoi il y a une enveloppe ici ?
       - languageType: 2
-        languageGenericType: Hi?
+        languageGenericType: I rarely had this much paper on my desk. Am I finally
+          making my mother proud or... what's this envelope?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -284,10 +290,10 @@ MonoBehaviour:
       - languageType: 1
         languageGenericType: "Mais si j\u2019avais pris l\u2019offre de ma m\xE8re
           ? Il y a une fa\xE7on de v\xE9rifier \xE7a, je range mes fiches de paie
-          dans la biblio du couloir."
+          dans la commode du couloir."
       - languageType: 2
         languageGenericType: But what if I took my mother's offer? I have a way of
-          checking that, the payslips in the bookcase of the corridor.
+          checking that, the payslips in a drawer in the corridor.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -308,4 +314,8 @@ MonoBehaviour:
   eventDatas: []
   branchDatas: []
   choiceDatas: []
-  endDatas: []
+  endDatas:
+  - nodeGuid: f618fd8d-f729-448c-8843-f0b44581b314
+    position: {x: 2001.6, y: 201.59999}
+    endNodeType:
+      value: 1
