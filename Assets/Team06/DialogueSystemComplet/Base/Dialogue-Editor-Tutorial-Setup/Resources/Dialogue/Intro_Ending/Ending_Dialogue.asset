@@ -125,13 +125,17 @@ MonoBehaviour:
     basePortName: Continue
     targetNodeGuid: e10e8a5a-5687-45ee-b38d-174ab9c8adf4
     targetPortName: Input
+  - baseNodeGuid: cd1777a5-781a-4814-a123-165c56189392
+    basePortName: Output
+    targetNodeGuid: 29dd9587-c633-4b72-92a4-1af1b177fa58
+    targetPortName: Input
   - baseNodeGuid: d06c0b53-5f15-4f6a-be87-db29fe2f9219
     basePortName: Continue
-    targetNodeGuid: 4f8b81df-ba63-4d45-ad42-1d297b80e737
+    targetNodeGuid: cd1777a5-781a-4814-a123-165c56189392
     targetPortName: Input
   - baseNodeGuid: e10e8a5a-5687-45ee-b38d-174ab9c8adf4
     basePortName: Continue
-    targetNodeGuid: 4f8b81df-ba63-4d45-ad42-1d297b80e737
+    targetNodeGuid: cd1777a5-781a-4814-a123-165c56189392
     targetPortName: Input
   startDatas:
   - nodeGuid: 6d760e7a-63a6-4632-840d-c75e27ba8b5a
@@ -1061,7 +1065,17 @@ MonoBehaviour:
       spriteRight:
         value: {fileID: 0}
     dialogueDataPorts: []
-  eventDatas: []
+  eventDatas:
+  - nodeGuid: cd1777a5-781a-4814-a123-165c56189392
+    position: {x: 5926.4, y: 376.80002}
+    stringModifiers:
+    - stringEventText:
+        value: Ending
+      number:
+        value: 0
+      stringEventModifierType:
+        value: 1
+    dialogueEventSos: []
   branchDatas: []
   choiceDatas:
   - nodeGuid: c0694b86-6c9c-4320-890e-e0d753082dfc
@@ -1103,7 +1117,7 @@ MonoBehaviour:
       languageGenericType: {fileID: 0}
     stringConditions: []
   endDatas:
-  - nodeGuid: 4f8b81df-ba63-4d45-ad42-1d297b80e737
-    position: {x: 5952, y: 360.80002}
+  - nodeGuid: 29dd9587-c633-4b72-92a4-1af1b177fa58
+    position: {x: 6352.8, y: 376.80002}
     endNodeType:
       value: 1
