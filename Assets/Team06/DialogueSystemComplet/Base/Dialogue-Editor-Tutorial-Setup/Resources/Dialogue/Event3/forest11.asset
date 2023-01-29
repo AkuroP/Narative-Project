@@ -13,17 +13,13 @@ MonoBehaviour:
   m_Name: forest11
   m_EditorClassIdentifier: 
   nodeLinkDatas:
-  - baseNodeGuid: c50b81bc-c26f-409b-8c79-026798fe3f33
-    basePortName: Output
-    targetNodeGuid: e78e3fb6-9f9d-49cc-b082-810c7d417987
-    targetPortName: Input
-  - baseNodeGuid: e78e3fb6-9f9d-49cc-b082-810c7d417987
-    basePortName: False
-    targetNodeGuid: 462c6ffd-64de-400b-a33d-35cb89a4f50b
-    targetPortName: Input
   - baseNodeGuid: 462c6ffd-64de-400b-a33d-35cb89a4f50b
     basePortName: Continue
     targetNodeGuid: 8d31cd81-a9c2-4864-99ad-ea41acd58291
+    targetPortName: Input
+  - baseNodeGuid: c50b81bc-c26f-409b-8c79-026798fe3f33
+    basePortName: Output
+    targetNodeGuid: 462c6ffd-64de-400b-a33d-35cb89a4f50b
     targetPortName: Input
   startDatas:
   - nodeGuid: c50b81bc-c26f-409b-8c79-026798fe3f33
@@ -375,12 +371,7 @@ MonoBehaviour:
     dialogueDataImages: []
     dialogueDataPorts: []
   eventDatas: []
-  branchDatas:
-  - nodeGuid: e78e3fb6-9f9d-49cc-b082-810c7d417987
-    position: {x: -162, y: -527}
-    trueGuidNode: 
-    falseGuidNode: 462c6ffd-64de-400b-a33d-35cb89a4f50b
-    stringConditions: []
+  branchDatas: []
   choiceDatas: []
   endDatas:
   - nodeGuid: 8d31cd81-a9c2-4864-99ad-ea41acd58291

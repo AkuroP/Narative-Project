@@ -17,6 +17,10 @@ MonoBehaviour:
     basePortName: Output
     targetNodeGuid: e5517730-a715-4157-8d3e-42392d184b0b
     targetPortName: Input
+  - baseNodeGuid: e5517730-a715-4157-8d3e-42392d184b0b
+    basePortName: Continue
+    targetNodeGuid: dfbdbdc5-a6f7-4199-b997-531d06bf89b2
+    targetPortName: Input
   startDatas:
   - nodeGuid: 58ce9a10-83b3-4428-8f17-0200b08f1d28
     position: {x: 300, y: 201.59999}
@@ -35,9 +39,12 @@ MonoBehaviour:
         value: 01ce90b6-d051-4b98-9fd6-e0fe499d6bd2
       text:
       - languageType: 1
-        languageGenericType: Allo ?
+        languageGenericType: "Impossible de passer chez Clem pour l\u2019instant,
+          je me demande ce qu\u2019elle fait maintenant qu\u2019elle n\u2019est plus
+          dans cette \xE9cole \xE0 Paris."
       - languageType: 2
-        languageGenericType: Hi?
+        languageGenericType: Now isn't the time to pass by Clem's house, I wonder
+          what she's doing now that she isn't attending that school in Paris.
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -103,4 +110,8 @@ MonoBehaviour:
   eventDatas: []
   branchDatas: []
   choiceDatas: []
-  endDatas: []
+  endDatas:
+  - nodeGuid: dfbdbdc5-a6f7-4199-b997-531d06bf89b2
+    position: {x: 798.4, y: 201.59999}
+    endNodeType:
+      value: 1

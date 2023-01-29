@@ -25,6 +25,10 @@ MonoBehaviour:
     basePortName: Continue
     targetNodeGuid: 8869da22-650c-4799-a183-2c911c8630a9
     targetPortName: Input
+  - baseNodeGuid: 8869da22-650c-4799-a183-2c911c8630a9
+    basePortName: Continue
+    targetNodeGuid: 8d8a538e-e076-4c3e-b6ba-81012b9a81b6
+    targetPortName: Input
   startDatas:
   - nodeGuid: 58ce9a10-83b3-4428-8f17-0200b08f1d28
     position: {x: 300, y: 201.59999}
@@ -43,9 +47,12 @@ MonoBehaviour:
         value: 01ce90b6-d051-4b98-9fd6-e0fe499d6bd2
       text:
       - languageType: 1
-        languageGenericType: Allo ?
+        languageGenericType: "L\xE0 voil\xE0 ! Je savais bien que j\u2019avais bosser
+          chez ce bon vieux Ren\xE9 ! Mais \xE7a fait aucun sens, pourquoi j\u2019aurais
+          perdu la lettre dans l\u2019autre monde ?"
       - languageType: 2
-        languageGenericType: Hi?
+        languageGenericType: "Here it is! I knew I worked for that good ol' Ren\xE9!
+          But what's happening then? Did I lose the letter in the other world?"
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -243,4 +250,8 @@ MonoBehaviour:
   eventDatas: []
   branchDatas: []
   choiceDatas: []
-  endDatas: []
+  endDatas:
+  - nodeGuid: 8d8a538e-e076-4c3e-b6ba-81012b9a81b6
+    position: {x: 1399.2, y: 202.4}
+    endNodeType:
+      value: 1

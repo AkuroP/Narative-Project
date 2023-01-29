@@ -17,6 +17,10 @@ MonoBehaviour:
     basePortName: Output
     targetNodeGuid: e5517730-a715-4157-8d3e-42392d184b0b
     targetPortName: Input
+  - baseNodeGuid: e5517730-a715-4157-8d3e-42392d184b0b
+    basePortName: Continue
+    targetNodeGuid: ebbd948d-7168-4dee-a0a2-119a4e82b298
+    targetPortName: Input
   startDatas:
   - nodeGuid: 58ce9a10-83b3-4428-8f17-0200b08f1d28
     position: {x: 300, y: 201.59999}
@@ -35,9 +39,11 @@ MonoBehaviour:
         value: 01ce90b6-d051-4b98-9fd6-e0fe499d6bd2
       text:
       - languageType: 1
-        languageGenericType: Allo ?
+        languageGenericType: "Mince, j\u2019\xE9tais s\xFBr que j\u2019l\u2019avais
+          rang\xE9 l\xE0 ! C\u2019\xE9tait pas ce classeur l\xE0 dans mon monde ?"
       - languageType: 2
-        languageGenericType: Hi?
+        languageGenericType: Darn, I was sure it was here! It wasn't in that binder
+          in my world?
       - languageType: 3
         languageGenericType: 
       audioClips:
@@ -58,4 +64,8 @@ MonoBehaviour:
   eventDatas: []
   branchDatas: []
   choiceDatas: []
-  endDatas: []
+  endDatas:
+  - nodeGuid: ebbd948d-7168-4dee-a0a2-119a4e82b298
+    position: {x: 801.6, y: 201.59999}
+    endNodeType:
+      value: 1
